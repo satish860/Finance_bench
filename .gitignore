@@ -11,3 +11,9 @@ wheels/
 
 # Data folder with PDFs
 data/
+
+# Environment variables and API keys
+.env
+
+# Cache directories
+.finance/
