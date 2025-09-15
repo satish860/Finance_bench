@@ -1,5 +1,5 @@
 """
-Finance PDF to Markdown converter using Mistral OCR.
+PDF to Markdown converter using Mistral OCR.
 Converts FinanceBench PDFs to markdown format using Mistral's OCR API.
 """
 
@@ -15,15 +15,16 @@ import json
 load_dotenv()
 
 try:
-    from .finance_pdf_downloader import FinancePDFDownloader
+    from ..download.pdf_downloader import PDFDownloader
 except ImportError:
-    from finance_pdf_downloader import FinancePDFDownloader
+    from src.ingestion.download.pdf_downloader import PDFDownloader
 
 
-class FinancePDFToMarkdown:
+class PDFToMarkdown:
     def __init__(self):
         """Initialize the PDF to markdown converter using Mistral OCR."""
-        self.base_dir = Path(__file__).parent
+        # Go up to project root from src/ingestion/ocr/
+        self.base_dir = Path(__file__).parent.parent.parent.parent
         self.cache_dir = self.base_dir / ".finance"
         self.markdown_dir = self.cache_dir / "markdown"
         self.images_dir = self.cache_dir / "images"
@@ -31,7 +32,7 @@ class FinancePDFToMarkdown:
         self.images_dir.mkdir(parents=True, exist_ok=True)
 
         # Initialize PDF downloader
-        self.pdf_downloader = FinancePDFDownloader()
+        self.pdf_downloader = PDFDownloader()
 
         # Initialize Mistral OCR client
         self._setup_mistral_client()
@@ -300,7 +301,7 @@ class FinancePDFToMarkdown:
 
 def main():
     """Demo usage of the PDF to markdown converter."""
-    converter = FinancePDFToMarkdown()
+    converter = PDFToMarkdown()
 
     # Example: Convert 3M 2018 10-K
     doc_name = "3M_2018_10K"

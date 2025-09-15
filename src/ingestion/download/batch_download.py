@@ -34,9 +34,10 @@ def download_pdf(pdf_name: str, base_url: str, data_folder: Path) -> Tuple[str, 
         return pdf_name, False, f"Unexpected error: {str(e)}"
 
 def main():
-    # Configuration
-    jsonl_file = "financebench_document_information.jsonl"
-    data_folder = Path("data")
+    # Configuration - paths relative to project root
+    project_root = Path(__file__).parent.parent.parent.parent
+    jsonl_file = project_root / "financebench_document_information.jsonl"
+    data_folder = project_root / "data"
     base_url = "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/"
     max_workers = 10  # Number of parallel downloads
 

@@ -11,10 +11,13 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import threading
 
-from finance_document_segmenter import FinanceDocumentSegmenter, DocumentSegmentation
+try:
+    from .document_segmenter import DocumentSegmenter, DocumentSegmentation
+except ImportError:
+    from src.ingestion.segmentation.document_segmenter import DocumentSegmenter, DocumentSegmentation
 
 
-class BatchSegmentationProcessor:
+class BatchSegment:
     def __init__(self, max_workers: int = 3, max_retries: int = 3):
         """
         Initialize batch segmentation processor.
@@ -25,7 +28,7 @@ class BatchSegmentationProcessor:
         """
         self.max_workers = max_workers
         self.max_retries = max_retries
-        self.segmenter = FinanceDocumentSegmenter(max_workers=5, chunk_size=60, overlap=0)
+        self.segmenter = DocumentSegmenter(max_workers=5, chunk_size=60, overlap=0)
 
         # Thread-safe statistics
         self.lock = threading.Lock()
@@ -266,7 +269,7 @@ class BatchSegmentationProcessor:
 
 def main():
     """Main function to run batch segmentation."""
-    processor = BatchSegmentationProcessor(max_workers=3, max_retries=3)
+    processor = BatchSegment(max_workers=3, max_retries=3)
 
     print("FinanceBench Batch Document Segmentation")
     print("=" * 60)

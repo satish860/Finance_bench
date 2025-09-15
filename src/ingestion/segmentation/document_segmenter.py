@@ -40,7 +40,7 @@ class DocumentSegmentation(BaseModel):
     segments: List[Segment]
 
 
-class FinanceDocumentSegmenter:
+class DocumentSegmenter:
     def __init__(self, max_workers: int = 10, chunk_size: int = 60, overlap: int = 0):
         """
         Initialize the document segmenter.
@@ -54,8 +54,8 @@ class FinanceDocumentSegmenter:
         self.chunk_size = chunk_size
         self.overlap = overlap
 
-        # Set up directories
-        self.base_dir = Path(__file__).parent
+        # Set up directories - go up to project root from src/ingestion/segmentation/
+        self.base_dir = Path(__file__).parent.parent.parent.parent
         self.markdown_dir = self.base_dir / ".finance" / "markdown"
         self.segments_dir = self.base_dir / ".finance" / "segments"
         self.segments_dir.mkdir(parents=True, exist_ok=True)
@@ -536,7 +536,7 @@ class FinanceDocumentSegmenter:
 
 def main():
     """Test the document segmentation system."""
-    segmenter = FinanceDocumentSegmenter(max_workers=5, chunk_size=60, overlap=0)
+    segmenter = DocumentSegmenter(max_workers=5, chunk_size=60, overlap=0)
 
     # Get available documents
     available_docs = segmenter.get_available_documents()

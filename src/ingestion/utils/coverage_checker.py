@@ -82,10 +82,32 @@ def analyze_page_coverage(segments_file: str):
         print("[OK] No overlaps found")
 
 
-if __name__ == "__main__":
-    segments_file = ".finance/segments/3M_2015_10K_segments.json"
+def main():
+    """Main function to check coverage for example document."""
+    # Go up to project root from src/ingestion/utils/
+    project_root = Path(__file__).parent.parent.parent.parent
+    segments_file = project_root / ".finance" / "segments" / "3M_2015_10K_segments.json"
 
-    if Path(segments_file).exists():
-        analyze_page_coverage(segments_file)
+    if segments_file.exists():
+        analyze_page_coverage(str(segments_file))
     else:
         print(f"Segments file not found: {segments_file}")
+
+        # List available segment files
+        segments_dir = project_root / ".finance" / "segments"
+        if segments_dir.exists():
+            segment_files = list(segments_dir.glob("*_segments.json"))
+            if segment_files:
+                print(f"\nAvailable segment files ({len(segment_files)}):")
+                for f in sorted(segment_files)[:5]:  # Show first 5
+                    print(f"  {f.name}")
+                if len(segment_files) > 5:
+                    print(f"  ... and {len(segment_files) - 5} more")
+            else:
+                print("\nNo segment files found in .finance/segments/")
+        else:
+            print("\nSegments directory does not exist")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,5 +1,5 @@
 """
-Finance PDF downloader for FinanceBench dataset.
+PDF downloader for FinanceBench dataset.
 Downloads and manages PDF files from the FinanceBench repository.
 """
 
@@ -8,10 +8,11 @@ from pathlib import Path
 from typing import Optional, Dict, Any, List
 
 
-class FinancePDFDownloader:
+class PDFDownloader:
     def __init__(self):
         """Initialize the PDF downloader."""
-        self.base_dir = Path(__file__).parent
+        # Go up to project root from src/ingestion/download/
+        self.base_dir = Path(__file__).parent.parent.parent.parent
         self.data_dir = self.base_dir / "data"
         self.jsonl_file = self.base_dir / "financebench_document_information.jsonl"
 
@@ -113,7 +114,7 @@ class FinancePDFDownloader:
 
 def main():
     """Demo usage of the PDF downloader."""
-    downloader = FinancePDFDownloader()
+    downloader = PDFDownloader()
 
     # Show stats
     stats = downloader.get_pdf_stats()

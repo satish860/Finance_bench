@@ -1,0 +1,3619 @@
+{
+  "results": [
+    {
+      "document": "3M_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 23,
+      "processing_time": 0.013417243957519531,
+      "error": null
+    },
+    {
+      "document": "3M_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.0037713050842285156,
+      "error": null
+    },
+    {
+      "document": "3M_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.009645938873291016,
+      "error": null
+    },
+    {
+      "document": "3M_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.01548457145690918,
+      "error": null
+    },
+    {
+      "document": "3M_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.01712512969970703,
+      "error": null
+    },
+    {
+      "document": "3M_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.031122207641601562,
+      "error": null
+    },
+    {
+      "document": "3M_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.01154470443725586,
+      "error": null
+    },
+    {
+      "document": "3M_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.011556863784790039,
+      "error": null
+    },
+    {
+      "document": "3M_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.009795665740966797,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 35,
+      "processing_time": 0.009996652603149414,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 22,
+      "processing_time": 0.013554096221923828,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.01520681381225586,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 62,
+      "processing_time": 0.012544631958007812,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2019_10K",
+      "success": true,
+      "coverage": 134.84848484848484,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 258,
+      "processing_time": 0.016130447387695312,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 31,
+      "processing_time": 0.0244290828704834,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 41,
+      "processing_time": 0.025731801986694336,
+      "error": null
+    },
+    {
+      "document": "ACTIVSIONBLIZZARD_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.019902467727661133,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 36,
+      "processing_time": 0.02820110321044922,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.029862165451049805,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.021768569946289062,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.010725259780883789,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.03249382972717285,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.010725259780883789,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 9,
+      "processing_time": 0.014384746551513672,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.014384746551513672,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.014384746551513672,
+      "error": null
+    },
+    {
+      "document": "AES_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 44,
+      "processing_time": 0.012725114822387695,
+      "error": null
+    },
+    {
+      "document": "AES_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 32,
+      "processing_time": 0.012725114822387695,
+      "error": null
+    },
+    {
+      "document": "AES_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 109,
+      "processing_time": 0.019685745239257812,
+      "error": null
+    },
+    {
+      "document": "AES_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 39,
+      "processing_time": 0.012266397476196289,
+      "error": null
+    },
+    {
+      "document": "AES_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.0182192325592041,
+      "error": null
+    },
+    {
+      "document": "AES_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 53,
+      "processing_time": 0.015360593795776367,
+      "error": null
+    },
+    {
+      "document": "AES_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 39,
+      "processing_time": 0.015464544296264648,
+      "error": null
+    },
+    {
+      "document": "AES_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 39,
+      "processing_time": 0.014328479766845703,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.014265060424804688,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.012765884399414062,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.01362752914428711,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.013206958770751953,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.012439966201782227,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.014506816864013672,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.012405157089233398,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.01092076301574707,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.011762857437133789,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 43,
+      "processing_time": 0.010246515274047852,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.013763427734375,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2022_8K_dated-2022-04-26",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.014055013656616211,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.014055013656616211,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2022_8K_dated-2022-07-01",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.012789487838745117,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2023Q4_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 2,
+      "processing_time": 0.009659528732299805,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.009659528732299805,
+      "error": null
+    },
+    {
+      "document": "AMCOR_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 30,
+      "processing_time": 0.012164831161499023,
+      "error": null
+    },
+    {
+      "document": "AMD_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.013839006423950195,
+      "error": null
+    },
+    {
+      "document": "AMD_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 23,
+      "processing_time": 0.013839006423950195,
+      "error": null
+    },
+    {
+      "document": "AMD_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 43,
+      "processing_time": 0.013633489608764648,
+      "error": null
+    },
+    {
+      "document": "AMD_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 11,
+      "processing_time": 0.012473106384277344,
+      "error": null
+    },
+    {
+      "document": "AMD_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.012473106384277344,
+      "error": null
+    },
+    {
+      "document": "AMD_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 32,
+      "processing_time": 0.015347003936767578,
+      "error": null
+    },
+    {
+      "document": "AMD_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.01012730598449707,
+      "error": null
+    },
+    {
+      "document": "AMD_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.01012730598449707,
+      "error": null
+    },
+    {
+      "document": "AMERICANEXPRESS_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 37,
+      "processing_time": 0.011067867279052734,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.011067867279052734,
+      "error": null
+    },
+    {
+      "document": "AMD_2022_annualreport",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.014753580093383789,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 29,
+      "processing_time": 0.018799781799316406,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 13,
+      "processing_time": 0.018799781799316406,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 29,
+      "processing_time": 0.01992487907409668,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.016282081604003906,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.012514352798461914,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.022112607955932617,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.01832103729248047,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 53,
+      "processing_time": 0.01832103729248047,
+      "error": null
+    },
+    {
+      "document": "APPLE_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.02169966697692871,
+      "error": null
+    },
+    {
+      "document": "APPLE_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.014204263687133789,
+      "error": null
+    },
+    {
+      "document": "APPLE_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.01524972915649414,
+      "error": null
+    },
+    {
+      "document": "APPLE_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 23,
+      "processing_time": 0.015389442443847656,
+      "error": null
+    },
+    {
+      "document": "APPLE_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.015099287033081055,
+      "error": null
+    },
+    {
+      "document": "APPLE_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.014576196670532227,
+      "error": null
+    },
+    {
+      "document": "APPLE_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.01503443717956543,
+      "error": null
+    },
+    {
+      "document": "APPLE_2023Q3_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.013617753982543945,
+      "error": null
+    },
+    {
+      "document": "APPLE_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 23,
+      "processing_time": 0.014140129089355469,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 40,
+      "processing_time": 0.013244152069091797,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.009433507919311523,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2017_10K",
+      "success": true,
+      "coverage": 213.76146788990823,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 303,
+      "processing_time": 0.017981529235839844,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2019_10K",
+      "success": true,
+      "coverage": 130.8411214953271,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 2,
+      "processing_time": 0.018740177154541016,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2018_10K",
+      "success": true,
+      "coverage": 203.66972477064218,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 388,
+      "processing_time": 0.02236318588256836,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.013815164566040039,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.014130592346191406,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.01775360107421875,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2023Q4_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.014130592346191406,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2023_8K_dated-2023-04-24",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.01368260383605957,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.015718698501586914,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2023_8K_dated-2023-04-12",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.015718698501586914,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2024Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.010056257247924805,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.010056257247924805,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2024Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.014130592346191406,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 30,
+      "processing_time": 0.012340307235717773,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 37,
+      "processing_time": 0.012340307235717773,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.015513896942138672,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 34,
+      "processing_time": 0.010293006896972656,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.010293006896972656,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 36,
+      "processing_time": 0.009157657623291016,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 29,
+      "processing_time": 0.013142108917236328,
+      "error": null
+    },
+    {
+      "document": "BOEING_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.013142108917236328,
+      "error": null
+    },
+    {
+      "document": "BOEING_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 32,
+      "processing_time": 0.013142108917236328,
+      "error": null
+    },
+    {
+      "document": "BOEING_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.013988256454467773,
+      "error": null
+    },
+    {
+      "document": "BOEING_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.013988256454467773,
+      "error": null
+    },
+    {
+      "document": "BOEING_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 35,
+      "processing_time": 0.013988256454467773,
+      "error": null
+    },
+    {
+      "document": "BOEING_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 32,
+      "processing_time": 0.015035390853881836,
+      "error": null
+    },
+    {
+      "document": "BOEING_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 38,
+      "processing_time": 0.015035390853881836,
+      "error": null
+    },
+    {
+      "document": "BOEING_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 28,
+      "processing_time": 0.017188072204589844,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.01499629020690918,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 32,
+      "processing_time": 0.016127824783325195,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.014994144439697266,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 22,
+      "processing_time": 0.01564764976501465,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.014516115188598633,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 28,
+      "processing_time": 0.016762256622314453,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.014822244644165039,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.014822244644165039,
+      "error": null
+    },
+    {
+      "document": "CORNING_2015_10K",
+      "success": true,
+      "coverage": 350.9157509157509,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1889,
+      "processing_time": 0.03899359703063965,
+      "error": null
+    },
+    {
+      "document": "CORNING_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.027860641479492188,
+      "error": null
+    },
+    {
+      "document": "CORNING_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 31,
+      "processing_time": 0.027860641479492188,
+      "error": null
+    },
+    {
+      "document": "CORNING_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.01014256477355957,
+      "error": null
+    },
+    {
+      "document": "CORNING_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.01014256477355957,
+      "error": null
+    },
+    {
+      "document": "CORNING_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.014819622039794922,
+      "error": null
+    },
+    {
+      "document": "CORNING_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 13,
+      "processing_time": 0.009940624237060547,
+      "error": null
+    },
+    {
+      "document": "CORNING_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 9,
+      "processing_time": 0.005263566970825195,
+      "error": null
+    },
+    {
+      "document": "CORNING_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.009940624237060547,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.01015329360961914,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.01015329360961914,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.012933731079101562,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.011418581008911133,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.008638143539428711,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.011418581008911133,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.008287906646728516,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.008287906646728516,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.008287906646728516,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2023_8K_dated-2023-01-19",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 2,
+      "processing_time": 0.008453130722045898,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2023Q3_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.010111331939697266,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2023_8K_dated-2023-08-09",
+      "success": true,
+      "coverage": 220.58823529411765,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 117,
+      "processing_time": 0.010111331939697266,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2023_8K_dated-2023-08-16",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.011422872543334961,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 22,
+      "processing_time": 0.009764671325683594,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 34,
+      "processing_time": 0.009764671325683594,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.010623693466186523,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 32,
+      "processing_time": 0.010623693466186523,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 44,
+      "processing_time": 0.010623693466186523,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.009340286254882812,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.009340286254882812,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.009340286254882812,
+      "error": null
+    },
+    {
+      "document": "EBAY_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 43,
+      "processing_time": 0.010408878326416016,
+      "error": null
+    },
+    {
+      "document": "EBAY_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.010408878326416016,
+      "error": null
+    },
+    {
+      "document": "EBAY_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.010408878326416016,
+      "error": null
+    },
+    {
+      "document": "EBAY_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 34,
+      "processing_time": 0.008439302444458008,
+      "error": null
+    },
+    {
+      "document": "EBAY_2018_10K",
+      "success": true,
+      "coverage": 141.1764705882353,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 239,
+      "processing_time": 0.009546041488647461,
+      "error": null
+    },
+    {
+      "document": "EBAY_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 32,
+      "processing_time": 0.009546041488647461,
+      "error": null
+    },
+    {
+      "document": "EBAY_2023Q1_8K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.010286569595336914,
+      "error": null
+    },
+    {
+      "document": "EBAY_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 31,
+      "processing_time": 0.011393308639526367,
+      "error": null
+    },
+    {
+      "document": "EBAY_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 45,
+      "processing_time": 0.010286569595336914,
+      "error": null
+    },
+    {
+      "document": "EBAY_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.0065822601318359375,
+      "error": null
+    },
+    {
+      "document": "EBAY_2023Q2_8K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.0065822601318359375,
+      "error": null
+    },
+    {
+      "document": "EBAY_2023Q2_10Q",
+      "success": true,
+      "coverage": 103.72340425531914,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 40,
+      "processing_time": 0.009899377822875977,
+      "error": null
+    },
+    {
+      "document": "EBAY_2023Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.00793766975402832,
+      "error": null
+    },
+    {
+      "document": "FEDEX_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 28,
+      "processing_time": 0.011623144149780273,
+      "error": null
+    },
+    {
+      "document": "FEDEX_2023_annualreport",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.008306026458740234,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.011325359344482422,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2022_8K_dated_2022-08-19",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.009716987609863281,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2022_8K_dated-2022-05-20",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.009716987609863281,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2023Q3_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.004815816879272461,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2022_8K_dated_2023-02-21",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.0068929195404052734,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 11,
+      "processing_time": 0.009552955627441406,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2023_annualreport",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.011135339736938477,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 22,
+      "processing_time": 0.006398200988769531,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.006975889205932617,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 32,
+      "processing_time": 0.01156306266784668,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 22,
+      "processing_time": 0.01156306266784668,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.0128326416015625,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.009509086608886719,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.008239507675170898,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.009509086608886719,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2023_annualreport",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.010627508163452148,
+      "error": null
+    },
+    {
+      "document": "INTEL_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.010627508163452148,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.010627508163452148,
+      "error": null
+    },
+    {
+      "document": "INTEL_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 46,
+      "processing_time": 0.011615276336669922,
+      "error": null
+    },
+    {
+      "document": "INTEL_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.011615276336669922,
+      "error": null
+    },
+    {
+      "document": "INTEL_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 46,
+      "processing_time": 0.011615276336669922,
+      "error": null
+    },
+    {
+      "document": "INTEL_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.010192155838012695,
+      "error": null
+    },
+    {
+      "document": "INTEL_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 62,
+      "processing_time": 0.010192155838012695,
+      "error": null
+    },
+    {
+      "document": "INTEL_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.010192155838012695,
+      "error": null
+    },
+    {
+      "document": "INTEL_2022_10K",
+      "success": true,
+      "coverage": 186.56716417910448,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 334,
+      "processing_time": 0.01261281967163086,
+      "error": null
+    },
+    {
+      "document": "INTEL_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.01261281967163086,
+      "error": null
+    },
+    {
+      "document": "INTEL_2022Q4_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.01261281967163086,
+      "error": null
+    },
+    {
+      "document": "INTEL_2023_8K_dated-2022-11-22",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 2,
+      "processing_time": 0.009524345397949219,
+      "error": null
+    },
+    {
+      "document": "INTEL_2023_8K_dated-2023-08-16",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.010182380676269531,
+      "error": null
+    },
+    {
+      "document": "INTEL_2023_8K_dated-2023-02-10",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 28,
+      "processing_time": 0.010704755783081055,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.010841608047485352,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 30,
+      "processing_time": 0.012022018432617188,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2016_10K",
+      "success": true,
+      "coverage": 152.72727272727275,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 278,
+      "processing_time": 0.011363983154296875,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.012708663940429688,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.014351606369018555,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.014904975891113281,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2022Q4_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.013077020645141602,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.015758991241455078,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.012144327163696289,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 2,
+      "processing_time": 0.010989904403686523,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2023Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.01166534423828125,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-23",
+      "success": true,
+      "coverage": 266.66666666666663,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.011770486831665039,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.010350465774536133,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2021Q1_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.008635997772216797,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2021Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 43,
+      "processing_time": 0.01852703094482422,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2021Q3_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 29,
+      "processing_time": 0.016451358795166016,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 70,
+      "processing_time": 0.020292997360229492,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2022Q1_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 51,
+      "processing_time": 0.015757322311401367,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2022Q3_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.012287378311157227,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2022Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.019368886947631836,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 60,
+      "processing_time": 0.016356706619262695,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2023Q1_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 48,
+      "processing_time": 0.020816802978515625,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 69,
+      "processing_time": 0.02150726318359375,
+      "error": null
+    },
+    {
+      "document": "KRAFTHEINZ_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 22,
+      "processing_time": 0.01936626434326172,
+      "error": null
+    },
+    {
+      "document": "KRAFTHEINZ_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 11,
+      "processing_time": 0.010196924209594727,
+      "error": null
+    },
+    {
+      "document": "KRAFTHEINZ_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 29,
+      "processing_time": 0.016882658004760742,
+      "error": null
+    },
+    {
+      "document": "KRAFTHEINZ_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.02064061164855957,
+      "error": null
+    },
+    {
+      "document": "KRAFTHEINZ_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 51,
+      "processing_time": 0.024613380432128906,
+      "error": null
+    },
+    {
+      "document": "KRAFTHEINZ_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.01711440086364746,
+      "error": null
+    },
+    {
+      "document": "KRAFTHEINZ_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.015611648559570312,
+      "error": null
+    },
+    {
+      "document": "KRAFTHEINZ_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.01958441734313965,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.01765584945678711,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.013376951217651367,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 33,
+      "processing_time": 0.01620197296142578,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 42,
+      "processing_time": 0.01593637466430664,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 13,
+      "processing_time": 0.011312484741210938,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 39,
+      "processing_time": 0.016152143478393555,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.014410257339477539,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.014043807983398438,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2022Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.014043807983398438,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2023Q1_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.014284849166870117,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2023_8K_dated-2023-05-25",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.011909723281860352,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2023Q2_10Q",
+      "success": true,
+      "coverage": 300.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 71,
+      "processing_time": 0.011909723281860352,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2023_8K_dated-2023-08-24",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.012831687927246094,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.010228157043457031,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_2022Q4_EARNINGS",
+      "success": true,
+      "coverage": 200.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 28,
+      "processing_time": 0.010228157043457031,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.013255119323730469,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_2023Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.018807649612426758,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_8K_dated-2023-01-06",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.018807649612426758,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_8K_dated-2023-02-13",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.017266273498535156,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_8K_dated-2023-08-14",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.017711400985717773,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 40,
+      "processing_time": 0.018869400024414062,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 51,
+      "processing_time": 0.02269744873046875,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 37,
+      "processing_time": 0.012455463409423828,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 33,
+      "processing_time": 0.018941164016723633,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.012221574783325195,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 38,
+      "processing_time": 0.01373744010925293,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2022Q4_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.010503530502319336,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 34,
+      "processing_time": 0.023160457611083984,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 49,
+      "processing_time": 0.016269922256469727,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 11,
+      "processing_time": 0.015268564224243164,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2023_8K_dated-2023-09-12",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.014028787612915039,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2023_8K_dated-2023-03-01",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.015547990798950195,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.011974811553955078,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.011425256729125977,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.012646675109863281,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 40,
+      "processing_time": 0.012762069702148438,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.014639616012573242,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.013418197631835938,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.014289140701293945,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 31,
+      "processing_time": 0.011774063110351562,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.013535499572753906,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.012798547744750977,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.01043391227722168,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.012195348739624023,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.014808893203735352,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.015820980072021484,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.015820980072021484,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2021_10K",
+      "success": true,
+      "coverage": 163.04347826086956,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 164,
+      "processing_time": 0.014793872833251953,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.014835357666015625,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.014835357666015625,
+      "error": null
+    },
+    {
+      "document": "NIKE_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.011301517486572266,
+      "error": null
+    },
+    {
+      "document": "NIKE_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.012964963912963867,
+      "error": null
+    },
+    {
+      "document": "NIKE_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 29,
+      "processing_time": 0.01622176170349121,
+      "error": null
+    },
+    {
+      "document": "NIKE_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 13,
+      "processing_time": 0.012239456176757812,
+      "error": null
+    },
+    {
+      "document": "NIKE_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 33,
+      "processing_time": 0.012239456176757812,
+      "error": null
+    },
+    {
+      "document": "NIKE_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.012239456176757812,
+      "error": null
+    },
+    {
+      "document": "NIKE_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.014890193939208984,
+      "error": null
+    },
+    {
+      "document": "NIKE_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.014890193939208984,
+      "error": null
+    },
+    {
+      "document": "NIKE_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.014890193939208984,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.015096902847290039,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.011962890625,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 13,
+      "processing_time": 0.01680278778076172,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2020_10K",
+      "success": true,
+      "coverage": 100.7751937984496,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.012475728988647461,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.01418161392211914,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.01418161392211914,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2021_10K",
+      "success": true,
+      "coverage": 230.0813008130081,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 396,
+      "processing_time": 0.01579427719116211,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.01579427719116211,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.01579427719116211,
+      "error": null
+    },
+    {
+      "document": "PAYPAL_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.011837959289550781,
+      "error": null
+    },
+    {
+      "document": "PAYPAL_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 9,
+      "processing_time": 0.011837959289550781,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 34,
+      "processing_time": 0.011837959289550781,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 67,
+      "processing_time": 0.013360738754272461,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 67,
+      "processing_time": 0.013360738754272461,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 59,
+      "processing_time": 0.013360738754272461,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 63,
+      "processing_time": 0.009526252746582031,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 132,
+      "processing_time": 0.009526252746582031,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 86,
+      "processing_time": 0.011381149291992188,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2022Q4_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.009345054626464844,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.0074901580810546875,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 70,
+      "processing_time": 0.010488271713256836,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2023Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.009465217590332031,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2023_8K_dated-2023-05-05",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.010080814361572266,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2023_8K_dated-2023-05-30",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.008937597274780273,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 45,
+      "processing_time": 0.008160591125488281,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.008160591125488281,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2015_10K",
+      "success": true,
+      "coverage": 141.07142857142858,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 238,
+      "processing_time": 0.011549234390258789,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2018_10K",
+      "success": true,
+      "coverage": 132.0879120879121,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 465,
+      "processing_time": 0.00753331184387207,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 42,
+      "processing_time": 0.010088205337524414,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 36,
+      "processing_time": 0.012861251831054688,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.005877971649169922,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2023Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.009031295776367188,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.014359235763549805,
+      "error": null
+    },
+    {
+      "document": "PG_E_2015_10K",
+      "success": true,
+      "coverage": 107.32758620689656,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 221,
+      "processing_time": 0.013183355331420898,
+      "error": null
+    },
+    {
+      "document": "PG_E_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.010030031204223633,
+      "error": null
+    },
+    {
+      "document": "PG_E_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 42,
+      "processing_time": 0.010466814041137695,
+      "error": null
+    },
+    {
+      "document": "PG_E_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 29,
+      "processing_time": 0.008493185043334961,
+      "error": null
+    },
+    {
+      "document": "PG_E_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 269,
+      "processing_time": 0.009599685668945312,
+      "error": null
+    },
+    {
+      "document": "PG_E_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 37,
+      "processing_time": 0.011889219284057617,
+      "error": null
+    },
+    {
+      "document": "PG_E_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 72,
+      "processing_time": 0.009492874145507812,
+      "error": null
+    },
+    {
+      "document": "PG_E_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 58,
+      "processing_time": 0.012363433837890625,
+      "error": null
+    },
+    {
+      "document": "PG_E_2023Q3_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 41,
+      "processing_time": 0.009637117385864258,
+      "error": null
+    },
+    {
+      "document": "PG_E_2023_EARNINGS-dated-2023-06-01",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.007881879806518555,
+      "error": null
+    },
+    {
+      "document": "PG_E_2023_EARNINGS_dated-2023-05-04",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.0039048194885253906,
+      "error": null
+    },
+    {
+      "document": "PG_E_2023_EARNINGS-dated-2023-07-27",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.008809328079223633,
+      "error": null
+    },
+    {
+      "document": "PG_E_2023_EARNINGS_dated-2023-05-31",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.009697198867797852,
+      "error": null
+    },
+    {
+      "document": "Pfizer_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.013862371444702148,
+      "error": null
+    },
+    {
+      "document": "SALESFORCE_2021_8K_dated-2021-07-21",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.010105609893798828,
+      "error": null
+    },
+    {
+      "document": "SALESFORCE_2021_8K_dated-2023-01-04",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.010446310043334961,
+      "error": null
+    },
+    {
+      "document": "SALESFORCE_2023Q3_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.006281137466430664,
+      "error": null
+    },
+    {
+      "document": "SALESFORCE_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 28,
+      "processing_time": 0.008296012878417969,
+      "error": null
+    },
+    {
+      "document": "SALESFORCE_2024Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 11,
+      "processing_time": 0.011518716812133789,
+      "error": null
+    },
+    {
+      "document": "ULTABEAUTY_2023Q4_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.008356094360351562,
+      "error": null
+    },
+    {
+      "document": "SALESFORCE_2024Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 9,
+      "processing_time": 0.014041662216186523,
+      "error": null
+    },
+    {
+      "document": "ULTABEAUTY_2023_8K_dated-2023-09-18",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.01001882553100586,
+      "error": null
+    },
+    {
+      "document": "ULTABEAUTY_2023_8K_dated-2023-06-07",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.013086318969726562,
+      "error": null
+    },
+    {
+      "document": "ULTABEAUTY_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.013086318969726562,
+      "error": null
+    },
+    {
+      "document": "ULTABEAUTY_2024Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.005502462387084961,
+      "error": null
+    },
+    {
+      "document": "ULTABEAUTY_2024Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.01150965690612793,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 9,
+      "processing_time": 0.012749195098876953,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.013877391815185547,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.012663125991821289,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 28,
+      "processing_time": 0.01246333122253418,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 35,
+      "processing_time": 0.011117935180664062,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.010209321975708008,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.011249065399169922,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.012817621231079102,
+      "error": null
+    },
+    {
+      "document": "WALMART_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.011306524276733398,
+      "error": null
+    },
+    {
+      "document": "WALMART_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 18,
+      "processing_time": 0.01618647575378418,
+      "error": null
+    },
+    {
+      "document": "WALMART_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 36,
+      "processing_time": 0.016031265258789062,
+      "error": null
+    },
+    {
+      "document": "WALMART_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 38,
+      "processing_time": 0.014630556106567383,
+      "error": null
+    },
+    {
+      "document": "WALMART_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.01084446907043457,
+      "error": null
+    },
+    {
+      "document": "WALMART_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 284,
+      "processing_time": 0.013383150100708008,
+      "error": null
+    },
+    {
+      "document": "WALMART_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.012972831726074219,
+      "error": null
+    },
+    {
+      "document": "WALMART_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 31,
+      "processing_time": 0.012476205825805664,
+      "error": null
+    },
+    {
+      "document": "WALMART_2023_annualreport",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 9,
+      "processing_time": 0.010942935943603516,
+      "error": null
+    },
+    {
+      "document": "WALMART_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.012544870376586914,
+      "error": null
+    },
+    {
+      "document": "WALMART_2024Q1_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.014293670654296875,
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_documents": 360,
+    "successful": 360,
+    "failed": 0,
+    "success_rate": 100.0,
+    "needed_retries": 0,
+    "retry_rate": 0.0,
+    "perfect_coverage": 360,
+    "perfect_coverage_rate": 100.0,
+    "total_processing_time": 4.757634162902832,
+    "average_processing_time": 0.013215650452507867,
+    "total_segments": 13515,
+    "failed_documents": [],
+    "retry_documents": []
+  }
+}

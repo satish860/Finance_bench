@@ -8,10 +8,14 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import List, Tuple, Optional
 import threading
-from finance_pdf_to_markdown import FinancePDFToMarkdown
+
+try:
+    from .pdf_to_markdown import PDFToMarkdown
+except ImportError:
+    from src.ingestion.ocr.pdf_to_markdown import PDFToMarkdown
 
 
-class BatchPDFToMarkdown:
+class BatchOCR:
     def __init__(self, max_workers: int = 5):
         """
         Initialize batch converter with parallel processing.
@@ -20,7 +24,7 @@ class BatchPDFToMarkdown:
             max_workers: Number of concurrent API calls (be mindful of rate limits)
         """
         self.max_workers = max_workers
-        self.converter = FinancePDFToMarkdown()
+        self.converter = PDFToMarkdown()
         self.lock = threading.Lock()
 
         # Stats tracking
@@ -251,7 +255,7 @@ def main():
 
     # Initialize batch converter with 5 parallel workers
     # Note: Adjust max_workers based on API rate limits and system capabilities
-    batch_converter = BatchPDFToMarkdown(max_workers=5)
+    batch_converter = BatchOCR(max_workers=5)
 
     # Show current status
     status = batch_converter.get_conversion_status()
