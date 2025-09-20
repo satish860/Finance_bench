@@ -1,73 +1,13 @@
 {
   "results": [
     {
-      "document": "3M_2016_10K",
+      "document": "ACTIVISIONBLIZZARD_2017_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 23,
-      "processing_time": 0.013417243957519531,
-      "error": null
-    },
-    {
-      "document": "3M_2015_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 21,
-      "processing_time": 0.0037713050842285156,
-      "error": null
-    },
-    {
-      "document": "3M_2018_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.009645938873291016,
-      "error": null
-    },
-    {
-      "document": "3M_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.01548457145690918,
-      "error": null
-    },
-    {
-      "document": "3M_2020_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.01712512969970703,
-      "error": null
-    },
-    {
-      "document": "3M_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 5,
-      "processing_time": 0.031122207641601562,
-      "error": null
-    },
-    {
-      "document": "3M_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 5,
-      "processing_time": 0.01154470443725586,
+      "segments_count": 22,
+      "processing_time": 0.012273073196411133,
       "error": null
     },
     {
@@ -77,37 +17,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 26,
-      "processing_time": 0.011556863784790039,
+      "processing_time": 0.02222609519958496,
       "error": null
     },
     {
-      "document": "3M_2023Q2_10Q",
+      "document": "3M_2020_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 20,
-      "processing_time": 0.009795665740966797,
-      "error": null
-    },
-    {
-      "document": "ACTIVISIONBLIZZARD_2016_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 35,
-      "processing_time": 0.009996652603149414,
-      "error": null
-    },
-    {
-      "document": "ACTIVISIONBLIZZARD_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 22,
-      "processing_time": 0.013554096221923828,
+      "segments_count": 10,
+      "processing_time": 0.01362156867980957,
       "error": null
     },
     {
@@ -117,27 +37,87 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 25,
-      "processing_time": 0.01520681381225586,
+      "processing_time": 0.015703916549682617,
       "error": null
     },
     {
-      "document": "ACTIVISIONBLIZZARD_2018_10K",
+      "document": "3M_2023Q2_10Q",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 62,
-      "processing_time": 0.012544631958007812,
+      "segments_count": 20,
+      "processing_time": 0.02398967742919922,
       "error": null
     },
     {
-      "document": "ACTIVISIONBLIZZARD_2019_10K",
+      "document": "3M_2016_10K",
       "success": true,
-      "coverage": 134.84848484848484,
+      "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 258,
-      "processing_time": 0.016130447387695312,
+      "segments_count": 23,
+      "processing_time": 0.005206108093261719,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 35,
+      "processing_time": 0.013354063034057617,
+      "error": null
+    },
+    {
+      "document": "3M_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.013838052749633789,
+      "error": null
+    },
+    {
+      "document": "3M_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.004923343658447266,
+      "error": null
+    },
+    {
+      "document": "3M_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.01230478286743164,
+      "error": null
+    },
+    {
+      "document": "3M_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.022099971771240234,
+      "error": null
+    },
+    {
+      "document": "3M_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.018260478973388672,
       "error": null
     },
     {
@@ -147,17 +127,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 31,
-      "processing_time": 0.0244290828704834,
+      "processing_time": 0.014062166213989258,
       "error": null
     },
     {
-      "document": "ACTIVISIONBLIZZARD_2021_10K",
+      "document": "ACTIVISIONBLIZZARD_2019_10K",
+      "success": true,
+      "coverage": 134.84848484848484,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 258,
+      "processing_time": 0.015618562698364258,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2018_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 41,
-      "processing_time": 0.025731801986694336,
+      "segments_count": 62,
+      "processing_time": 0.02258753776550293,
       "error": null
     },
     {
@@ -167,7 +157,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.019902467727661133,
+      "processing_time": 0.011968135833740234,
       "error": null
     },
     {
@@ -177,7 +167,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 36,
-      "processing_time": 0.02820110321044922,
+      "processing_time": 0.013884305953979492,
+      "error": null
+    },
+    {
+      "document": "ACTIVISIONBLIZZARD_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 41,
+      "processing_time": 0.01836228370666504,
       "error": null
     },
     {
@@ -187,27 +187,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.029862165451049805,
-      "error": null
-    },
-    {
-      "document": "ADOBE_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 12,
-      "processing_time": 0.021768569946289062,
-      "error": null
-    },
-    {
-      "document": "ADOBE_2018_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.010725259780883789,
+      "processing_time": 0.012158870697021484,
       "error": null
     },
     {
@@ -217,7 +197,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 15,
-      "processing_time": 0.03249382972717285,
+      "processing_time": 0.012057065963745117,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.012550592422485352,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.012670516967773438,
       "error": null
     },
     {
@@ -227,17 +227,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 12,
-      "processing_time": 0.010725259780883789,
-      "error": null
-    },
-    {
-      "document": "ADOBE_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 9,
-      "processing_time": 0.014384746551513672,
+      "processing_time": 0.012184619903564453,
       "error": null
     },
     {
@@ -247,7 +237,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 17,
-      "processing_time": 0.014384746551513672,
+      "processing_time": 0.012680768966674805,
+      "error": null
+    },
+    {
+      "document": "ADOBE_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 9,
+      "processing_time": 0.011630535125732422,
       "error": null
     },
     {
@@ -257,7 +257,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 4,
-      "processing_time": 0.014384746551513672,
+      "processing_time": 0.011613130569458008,
       "error": null
     },
     {
@@ -267,7 +267,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 44,
-      "processing_time": 0.012725114822387695,
+      "processing_time": 0.013227224349975586,
       "error": null
     },
     {
@@ -277,7 +277,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 32,
-      "processing_time": 0.012725114822387695,
+      "processing_time": 0.013099431991577148,
       "error": null
     },
     {
@@ -287,17 +287,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 109,
-      "processing_time": 0.019685745239257812,
-      "error": null
-    },
-    {
-      "document": "AES_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 39,
-      "processing_time": 0.012266397476196289,
+      "processing_time": 0.017265796661376953,
       "error": null
     },
     {
@@ -307,7 +297,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 20,
-      "processing_time": 0.0182192325592041,
+      "processing_time": 0.01644110679626465,
+      "error": null
+    },
+    {
+      "document": "AES_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 39,
+      "processing_time": 0.015772104263305664,
       "error": null
     },
     {
@@ -317,7 +317,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 53,
-      "processing_time": 0.015360593795776367,
+      "processing_time": 0.013851165771484375,
       "error": null
     },
     {
@@ -327,7 +327,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 39,
-      "processing_time": 0.015464544296264648,
+      "processing_time": 0.013557195663452148,
       "error": null
     },
     {
@@ -337,7 +337,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 39,
-      "processing_time": 0.014328479766845703,
+      "processing_time": 0.013534069061279297,
       "error": null
     },
     {
@@ -347,7 +347,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.014265060424804688,
+      "processing_time": 0.012589216232299805,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.012765884399414062,
+      "processing_time": 0.01181650161743164,
       "error": null
     },
     {
@@ -367,7 +367,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 24,
-      "processing_time": 0.01362752914428711,
+      "processing_time": 0.012742280960083008,
       "error": null
     },
     {
@@ -377,7 +377,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 25,
-      "processing_time": 0.013206958770751953,
+      "processing_time": 0.011801481246948242,
       "error": null
     },
     {
@@ -387,17 +387,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 24,
-      "processing_time": 0.012439966201782227,
-      "error": null
-    },
-    {
-      "document": "AMAZON_2020_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 25,
-      "processing_time": 0.014506816864013672,
+      "processing_time": 0.012130260467529297,
       "error": null
     },
     {
@@ -407,7 +397,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 21,
-      "processing_time": 0.012405157089233398,
+      "processing_time": 0.012273550033569336,
+      "error": null
+    },
+    {
+      "document": "AMAZON_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 25,
+      "processing_time": 0.013002395629882812,
       "error": null
     },
     {
@@ -417,7 +417,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.01092076301574707,
+      "processing_time": 0.012758970260620117,
       "error": null
     },
     {
@@ -427,7 +427,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.011762857437133789,
+      "processing_time": 0.01278543472290039,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 43,
-      "processing_time": 0.010246515274047852,
+      "processing_time": 0.01260066032409668,
       "error": null
     },
     {
@@ -447,7 +447,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 17,
-      "processing_time": 0.013763427734375,
+      "processing_time": 0.012440204620361328,
       "error": null
     },
     {
@@ -457,7 +457,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 17,
-      "processing_time": 0.014055013656616211,
+      "processing_time": 0.012164831161499023,
       "error": null
     },
     {
@@ -467,7 +467,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 21,
-      "processing_time": 0.014055013656616211,
+      "processing_time": 0.012751579284667969,
       "error": null
     },
     {
@@ -477,7 +477,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 5,
-      "processing_time": 0.012789487838745117,
+      "processing_time": 0.011685371398925781,
       "error": null
     },
     {
@@ -487,7 +487,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 2,
-      "processing_time": 0.009659528732299805,
+      "processing_time": 0.010347604751586914,
       "error": null
     },
     {
@@ -497,7 +497,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.009659528732299805,
+      "processing_time": 0.01180720329284668,
       "error": null
     },
     {
@@ -507,17 +507,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 30,
-      "processing_time": 0.012164831161499023,
-      "error": null
-    },
-    {
-      "document": "AMD_2015_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 20,
-      "processing_time": 0.013839006423950195,
+      "processing_time": 0.01225137710571289,
       "error": null
     },
     {
@@ -527,7 +517,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 23,
-      "processing_time": 0.013839006423950195,
+      "processing_time": 0.011236429214477539,
+      "error": null
+    },
+    {
+      "document": "AMD_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.012664794921875,
       "error": null
     },
     {
@@ -537,17 +537,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 43,
-      "processing_time": 0.013633489608764648,
-      "error": null
-    },
-    {
-      "document": "AMD_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 11,
-      "processing_time": 0.012473106384277344,
+      "processing_time": 0.012655973434448242,
       "error": null
     },
     {
@@ -557,7 +547,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 21,
-      "processing_time": 0.012473106384277344,
+      "processing_time": 0.011757850646972656,
+      "error": null
+    },
+    {
+      "document": "AMD_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 11,
+      "processing_time": 0.011780738830566406,
       "error": null
     },
     {
@@ -567,17 +567,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 32,
-      "processing_time": 0.015347003936767578,
-      "error": null
-    },
-    {
-      "document": "AMD_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 17,
-      "processing_time": 0.01012730598449707,
+      "processing_time": 0.013057470321655273,
       "error": null
     },
     {
@@ -587,27 +577,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 15,
-      "processing_time": 0.01012730598449707,
+      "processing_time": 0.012222528457641602,
       "error": null
     },
     {
-      "document": "AMERICANEXPRESS_2022_10K",
+      "document": "AMD_2021_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 37,
-      "processing_time": 0.011067867279052734,
-      "error": null
-    },
-    {
-      "document": "AMERICANWATERWORKS_2015_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.011067867279052734,
+      "segments_count": 17,
+      "processing_time": 0.015073060989379883,
       "error": null
     },
     {
@@ -617,7 +597,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 25,
-      "processing_time": 0.014753580093383789,
+      "processing_time": 0.012198925018310547,
+      "error": null
+    },
+    {
+      "document": "AMERICANEXPRESS_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 37,
+      "processing_time": 0.012584209442138672,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.012326240539550781,
       "error": null
     },
     {
@@ -627,7 +627,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 29,
-      "processing_time": 0.018799781799316406,
+      "processing_time": 0.012454986572265625,
       "error": null
     },
     {
@@ -637,7 +637,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 13,
-      "processing_time": 0.018799781799316406,
+      "processing_time": 0.012691736221313477,
       "error": null
     },
     {
@@ -647,27 +647,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 29,
-      "processing_time": 0.01992487907409668,
-      "error": null
-    },
-    {
-      "document": "AMERICANWATERWORKS_2020_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 12,
-      "processing_time": 0.016282081604003906,
-      "error": null
-    },
-    {
-      "document": "AMERICANWATERWORKS_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.012514352798461914,
+      "processing_time": 0.012613296508789062,
       "error": null
     },
     {
@@ -677,17 +657,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 24,
-      "processing_time": 0.022112607955932617,
+      "processing_time": 0.015772581100463867,
       "error": null
     },
     {
-      "document": "AMERICANWATERWORKS_2023Q2_10Q",
+      "document": "AMERICANWATERWORKS_2020_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.01832103729248047,
+      "segments_count": 12,
+      "processing_time": 0.011875391006469727,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.012816429138183594,
       "error": null
     },
     {
@@ -697,7 +687,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 53,
-      "processing_time": 0.01832103729248047,
+      "processing_time": 0.012732744216918945,
+      "error": null
+    },
+    {
+      "document": "AMERICANWATERWORKS_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.012120962142944336,
       "error": null
     },
     {
@@ -707,7 +707,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 14,
-      "processing_time": 0.02169966697692871,
+      "processing_time": 0.013507843017578125,
       "error": null
     },
     {
@@ -717,7 +717,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.014204263687133789,
+      "processing_time": 0.012055635452270508,
       "error": null
     },
     {
@@ -727,7 +727,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 24,
-      "processing_time": 0.01524972915649414,
+      "processing_time": 0.01390981674194336,
       "error": null
     },
     {
@@ -737,7 +737,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 23,
-      "processing_time": 0.015389442443847656,
+      "processing_time": 0.012360811233520508,
       "error": null
     },
     {
@@ -747,7 +747,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.015099287033081055,
+      "processing_time": 0.012764215469360352,
       "error": null
     },
     {
@@ -757,7 +757,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.014576196670532227,
+      "processing_time": 0.012760639190673828,
       "error": null
     },
     {
@@ -767,7 +767,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 26,
-      "processing_time": 0.01503443717956543,
+      "processing_time": 0.012403726577758789,
       "error": null
     },
     {
@@ -777,7 +777,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.013617753982543945,
+      "processing_time": 0.011529922485351562,
       "error": null
     },
     {
@@ -787,7 +787,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 23,
-      "processing_time": 0.014140129089355469,
+      "processing_time": 0.011948585510253906,
       "error": null
     },
     {
@@ -797,17 +797,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 40,
-      "processing_time": 0.013244152069091797,
-      "error": null
-    },
-    {
-      "document": "BESTBUY_2016_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.009433507919311523,
+      "processing_time": 0.013043880462646484,
       "error": null
     },
     {
@@ -817,17 +807,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 303,
-      "processing_time": 0.017981529235839844,
+      "processing_time": 0.013691425323486328,
       "error": null
     },
     {
-      "document": "BESTBUY_2019_10K",
+      "document": "BESTBUY_2016_10K",
       "success": true,
-      "coverage": 130.8411214953271,
+      "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 2,
-      "processing_time": 0.018740177154541016,
+      "segments_count": 10,
+      "processing_time": 0.014196395874023438,
       "error": null
     },
     {
@@ -837,7 +827,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 388,
-      "processing_time": 0.02236318588256836,
+      "processing_time": 0.017261505126953125,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2019_10K",
+      "success": true,
+      "coverage": 130.8411214953271,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 2,
+      "processing_time": 0.010892629623413086,
       "error": null
     },
     {
@@ -847,27 +847,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 5,
-      "processing_time": 0.013815164566040039,
-      "error": null
-    },
-    {
-      "document": "BESTBUY_2022_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 5,
-      "processing_time": 0.014130592346191406,
-      "error": null
-    },
-    {
-      "document": "BESTBUY_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 17,
-      "processing_time": 0.01775360107421875,
+      "processing_time": 0.011218547821044922,
       "error": null
     },
     {
@@ -877,17 +857,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.014130592346191406,
+      "processing_time": 0.01165461540222168,
       "error": null
     },
     {
-      "document": "BESTBUY_2023_8K_dated-2023-04-24",
+      "document": "BESTBUY_2022_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 1,
-      "processing_time": 0.01368260383605957,
+      "segments_count": 5,
+      "processing_time": 0.012371540069580078,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 17,
+      "processing_time": 0.02162647247314453,
       "error": null
     },
     {
@@ -897,7 +887,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 7,
-      "processing_time": 0.015718698501586914,
+      "processing_time": 0.011830806732177734,
       "error": null
     },
     {
@@ -907,7 +897,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.015718698501586914,
+      "processing_time": 0.01185154914855957,
+      "error": null
+    },
+    {
+      "document": "BESTBUY_2023_8K_dated-2023-04-24",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.011705875396728516,
       "error": null
     },
     {
@@ -917,17 +917,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 1,
-      "processing_time": 0.010056257247924805,
-      "error": null
-    },
-    {
-      "document": "BLOCK_2015_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 20,
-      "processing_time": 0.010056257247924805,
+      "processing_time": 0.010118246078491211,
       "error": null
     },
     {
@@ -937,27 +927,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 15,
-      "processing_time": 0.014130592346191406,
-      "error": null
-    },
-    {
-      "document": "BLOCK_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 30,
-      "processing_time": 0.012340307235717773,
-      "error": null
-    },
-    {
-      "document": "BLOCK_2018_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 37,
-      "processing_time": 0.012340307235717773,
+      "processing_time": 0.012139558792114258,
       "error": null
     },
     {
@@ -967,7 +937,37 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 14,
-      "processing_time": 0.015513896942138672,
+      "processing_time": 0.012945175170898438,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.015774011611938477,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 30,
+      "processing_time": 0.01402735710144043,
+      "error": null
+    },
+    {
+      "document": "BLOCK_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 37,
+      "processing_time": 0.013582468032836914,
       "error": null
     },
     {
@@ -977,7 +977,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 34,
-      "processing_time": 0.010293006896972656,
+      "processing_time": 0.013648748397827148,
       "error": null
     },
     {
@@ -987,7 +987,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.010293006896972656,
+      "processing_time": 0.01641249656677246,
       "error": null
     },
     {
@@ -997,7 +997,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 36,
-      "processing_time": 0.009157657623291016,
+      "processing_time": 0.012957096099853516,
       "error": null
     },
     {
@@ -1007,17 +1007,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 29,
-      "processing_time": 0.013142108917236328,
-      "error": null
-    },
-    {
-      "document": "BOEING_2016_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 25,
-      "processing_time": 0.013142108917236328,
+      "processing_time": 0.012967348098754883,
       "error": null
     },
     {
@@ -1027,27 +1017,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 32,
-      "processing_time": 0.013142108917236328,
+      "processing_time": 0.01604914665222168,
       "error": null
     },
     {
-      "document": "BOEING_2019_10K",
+      "document": "BOEING_2016_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 7,
-      "processing_time": 0.013988256454467773,
-      "error": null
-    },
-    {
-      "document": "BOEING_2018_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 6,
-      "processing_time": 0.013988256454467773,
+      "segments_count": 25,
+      "processing_time": 0.01307058334350586,
       "error": null
     },
     {
@@ -1057,7 +1037,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 35,
-      "processing_time": 0.013988256454467773,
+      "processing_time": 0.013104438781738281,
+      "error": null
+    },
+    {
+      "document": "BOEING_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.013791322708129883,
+      "error": null
+    },
+    {
+      "document": "BOEING_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.011745452880859375,
       "error": null
     },
     {
@@ -1067,17 +1067,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 32,
-      "processing_time": 0.015035390853881836,
-      "error": null
-    },
-    {
-      "document": "BOEING_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 38,
-      "processing_time": 0.015035390853881836,
+      "processing_time": 0.01225137710571289,
       "error": null
     },
     {
@@ -1087,17 +1077,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 28,
-      "processing_time": 0.017188072204589844,
-      "error": null
-    },
-    {
-      "document": "COCACOLA_2016_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 21,
-      "processing_time": 0.01499629020690918,
+      "processing_time": 0.012181997299194336,
       "error": null
     },
     {
@@ -1107,7 +1087,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 32,
-      "processing_time": 0.016127824783325195,
+      "processing_time": 0.011670827865600586,
+      "error": null
+    },
+    {
+      "document": "BOEING_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 38,
+      "processing_time": 0.01486968994140625,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.013680458068847656,
       "error": null
     },
     {
@@ -1117,7 +1117,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 16,
-      "processing_time": 0.014994144439697266,
+      "processing_time": 0.013700723648071289,
       "error": null
     },
     {
@@ -1127,17 +1127,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 22,
-      "processing_time": 0.01564764976501465,
-      "error": null
-    },
-    {
-      "document": "COCACOLA_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 25,
-      "processing_time": 0.014516115188598633,
+      "processing_time": 0.017772436141967773,
       "error": null
     },
     {
@@ -1147,17 +1137,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 28,
-      "processing_time": 0.016762256622314453,
+      "processing_time": 0.012699127197265625,
       "error": null
     },
     {
-      "document": "COCACOLA_2022_10K",
+      "document": "COCACOLA_2019_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 26,
-      "processing_time": 0.014822244644165039,
+      "segments_count": 25,
+      "processing_time": 0.013187408447265625,
       "error": null
     },
     {
@@ -1167,7 +1157,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 20,
-      "processing_time": 0.014822244644165039,
+      "processing_time": 0.012241125106811523,
+      "error": null
+    },
+    {
+      "document": "COCACOLA_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.011457681655883789,
       "error": null
     },
     {
@@ -1177,7 +1177,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 1889,
-      "processing_time": 0.03899359703063965,
+      "processing_time": 0.02791285514831543,
       "error": null
     },
     {
@@ -1187,7 +1187,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.027860641479492188,
+      "processing_time": 0.025267839431762695,
       "error": null
     },
     {
@@ -1197,7 +1197,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 31,
-      "processing_time": 0.027860641479492188,
+      "processing_time": 0.02041316032409668,
       "error": null
     },
     {
@@ -1207,7 +1207,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 26,
-      "processing_time": 0.01014256477355957,
+      "processing_time": 0.01565074920654297,
       "error": null
     },
     {
@@ -1217,7 +1217,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 26,
-      "processing_time": 0.01014256477355957,
+      "processing_time": 0.015743494033813477,
       "error": null
     },
     {
@@ -1227,27 +1227,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 27,
-      "processing_time": 0.014819622039794922,
-      "error": null
-    },
-    {
-      "document": "CORNING_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 13,
-      "processing_time": 0.009940624237060547,
-      "error": null
-    },
-    {
-      "document": "CORNING_2023Q2_10Q",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 9,
-      "processing_time": 0.005263566970825195,
+      "processing_time": 0.014277219772338867,
       "error": null
     },
     {
@@ -1257,17 +1237,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 20,
-      "processing_time": 0.009940624237060547,
+      "processing_time": 0.013499259948730469,
       "error": null
     },
     {
-      "document": "COSTCO_2015_10K",
+      "document": "CORNING_2023Q2_10Q",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 15,
-      "processing_time": 0.01015329360961914,
+      "segments_count": 9,
+      "processing_time": 0.012402534484863281,
+      "error": null
+    },
+    {
+      "document": "CORNING_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 13,
+      "processing_time": 0.014942407608032227,
       "error": null
     },
     {
@@ -1277,7 +1267,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.01015329360961914,
+      "processing_time": 0.009227752685546875,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.009705781936645508,
       "error": null
     },
     {
@@ -1287,27 +1287,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.012933731079101562,
-      "error": null
-    },
-    {
-      "document": "COSTCO_2018_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.011418581008911133,
-      "error": null
-    },
-    {
-      "document": "COSTCO_2020_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 7,
-      "processing_time": 0.008638143539428711,
+      "processing_time": 0.009280920028686523,
       "error": null
     },
     {
@@ -1317,17 +1297,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 16,
-      "processing_time": 0.011418581008911133,
+      "processing_time": 0.008485078811645508,
       "error": null
     },
     {
-      "document": "COSTCO_2023Q1_EARNINGS",
+      "document": "COSTCO_2020_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 1,
-      "processing_time": 0.008287906646728516,
+      "segments_count": 7,
+      "processing_time": 0.008388996124267578,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.009037017822265625,
       "error": null
     },
     {
@@ -1337,7 +1327,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 12,
-      "processing_time": 0.008287906646728516,
+      "processing_time": 0.008263349533081055,
       "error": null
     },
     {
@@ -1347,7 +1337,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.008287906646728516,
+      "processing_time": 0.008765697479248047,
+      "error": null
+    },
+    {
+      "document": "COSTCO_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.008611202239990234,
       "error": null
     },
     {
@@ -1357,7 +1357,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 2,
-      "processing_time": 0.008453130722045898,
+      "processing_time": 0.007477998733520508,
       "error": null
     },
     {
@@ -1367,7 +1367,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 3,
-      "processing_time": 0.010111331939697266,
+      "processing_time": 0.008035898208618164,
       "error": null
     },
     {
@@ -1377,7 +1377,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 117,
-      "processing_time": 0.010111331939697266,
+      "processing_time": 0.008107900619506836,
       "error": null
     },
     {
@@ -1387,7 +1387,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 3,
-      "processing_time": 0.011422872543334961,
+      "processing_time": 0.008369207382202148,
       "error": null
     },
     {
@@ -1397,7 +1397,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 22,
-      "processing_time": 0.009764671325683594,
+      "processing_time": 0.00856328010559082,
       "error": null
     },
     {
@@ -1407,27 +1407,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 34,
-      "processing_time": 0.009764671325683594,
-      "error": null
-    },
-    {
-      "document": "CVSHEALTH_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 27,
-      "processing_time": 0.010623693466186523,
-      "error": null
-    },
-    {
-      "document": "CVSHEALTH_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 32,
-      "processing_time": 0.010623693466186523,
+      "processing_time": 0.008283138275146484,
       "error": null
     },
     {
@@ -1437,27 +1417,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 44,
-      "processing_time": 0.010623693466186523,
+      "processing_time": 0.008865833282470703,
       "error": null
     },
     {
-      "document": "CVSHEALTH_2020_10K",
+      "document": "CVSHEALTH_2017_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
       "segments_count": 27,
-      "processing_time": 0.009340286254882812,
+      "processing_time": 0.009711503982543945,
       "error": null
     },
     {
-      "document": "CVSHEALTH_2021_10K",
+      "document": "CVSHEALTH_2019_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 25,
-      "processing_time": 0.009340286254882812,
+      "segments_count": 32,
+      "processing_time": 0.009150266647338867,
       "error": null
     },
     {
@@ -1467,17 +1447,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 16,
-      "processing_time": 0.009340286254882812,
+      "processing_time": 0.00841069221496582,
       "error": null
     },
     {
-      "document": "EBAY_2016_10K",
+      "document": "CVSHEALTH_2021_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 43,
-      "processing_time": 0.010408878326416016,
+      "segments_count": 25,
+      "processing_time": 0.008733749389648438,
+      "error": null
+    },
+    {
+      "document": "CVSHEALTH_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.009561300277709961,
       "error": null
     },
     {
@@ -1487,7 +1477,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 12,
-      "processing_time": 0.010408878326416016,
+      "processing_time": 0.009226799011230469,
+      "error": null
+    },
+    {
+      "document": "EBAY_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 43,
+      "processing_time": 0.009384393692016602,
       "error": null
     },
     {
@@ -1497,17 +1497,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.010408878326416016,
-      "error": null
-    },
-    {
-      "document": "EBAY_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 34,
-      "processing_time": 0.008439302444458008,
+      "processing_time": 0.009171724319458008,
       "error": null
     },
     {
@@ -1517,7 +1507,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 239,
-      "processing_time": 0.009546041488647461,
+      "processing_time": 0.009807109832763672,
+      "error": null
+    },
+    {
+      "document": "EBAY_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 34,
+      "processing_time": 0.0099334716796875,
       "error": null
     },
     {
@@ -1527,7 +1527,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 32,
-      "processing_time": 0.009546041488647461,
+      "processing_time": 0.00986790657043457,
       "error": null
     },
     {
@@ -1537,17 +1537,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 3,
-      "processing_time": 0.010286569595336914,
-      "error": null
-    },
-    {
-      "document": "EBAY_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 31,
-      "processing_time": 0.011393308639526367,
+      "processing_time": 0.00801992416381836,
       "error": null
     },
     {
@@ -1557,17 +1547,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 45,
-      "processing_time": 0.010286569595336914,
+      "processing_time": 0.008544921875,
       "error": null
     },
     {
-      "document": "EBAY_2023Q1_EARNINGS",
+      "document": "EBAY_2021_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 1,
-      "processing_time": 0.0065822601318359375,
+      "segments_count": 31,
+      "processing_time": 0.009255170822143555,
       "error": null
     },
     {
@@ -1577,7 +1567,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 3,
-      "processing_time": 0.0065822601318359375,
+      "processing_time": 0.0071904659271240234,
       "error": null
     },
     {
@@ -1587,7 +1577,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 40,
-      "processing_time": 0.009899377822875977,
+      "processing_time": 0.00811624526977539,
+      "error": null
+    },
+    {
+      "document": "EBAY_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 1,
+      "processing_time": 0.00861501693725586,
       "error": null
     },
     {
@@ -1597,17 +1597,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 1,
-      "processing_time": 0.00793766975402832,
-      "error": null
-    },
-    {
-      "document": "FEDEX_2023_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 28,
-      "processing_time": 0.011623144149780273,
+      "processing_time": 0.007337093353271484,
       "error": null
     },
     {
@@ -1617,27 +1607,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.008306026458740234,
+      "processing_time": 0.007773399353027344,
       "error": null
     },
     {
-      "document": "FOOTLOCKER_2022_10K",
+      "document": "FEDEX_2023_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 16,
-      "processing_time": 0.011325359344482422,
-      "error": null
-    },
-    {
-      "document": "FOOTLOCKER_2022_8K_dated_2022-08-19",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 6,
-      "processing_time": 0.009716987609863281,
+      "segments_count": 28,
+      "processing_time": 0.008028745651245117,
       "error": null
     },
     {
@@ -1647,7 +1627,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 4,
-      "processing_time": 0.009716987609863281,
+      "processing_time": 0.007888317108154297,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2022_8K_dated_2022-08-19",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.00792384147644043,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 16,
+      "processing_time": 0.009313821792602539,
       "error": null
     },
     {
@@ -1657,17 +1657,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 4,
-      "processing_time": 0.004815816879272461,
-      "error": null
-    },
-    {
-      "document": "FOOTLOCKER_2022_8K_dated_2023-02-21",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 3,
-      "processing_time": 0.0068929195404052734,
+      "processing_time": 0.007929563522338867,
       "error": null
     },
     {
@@ -1677,17 +1667,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 11,
-      "processing_time": 0.009552955627441406,
+      "processing_time": 0.007976770401000977,
       "error": null
     },
     {
-      "document": "FOOTLOCKER_2023_annualreport",
+      "document": "FOOTLOCKER_2022_8K_dated_2023-02-21",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 15,
-      "processing_time": 0.011135339736938477,
+      "segments_count": 3,
+      "processing_time": 0.008501052856445312,
       "error": null
     },
     {
@@ -1697,7 +1687,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 22,
-      "processing_time": 0.006398200988769531,
+      "processing_time": 0.00837087631225586,
+      "error": null
+    },
+    {
+      "document": "FOOTLOCKER_2023_annualreport",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.009067296981811523,
       "error": null
     },
     {
@@ -1707,17 +1707,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 26,
-      "processing_time": 0.006975889205932617,
-      "error": null
-    },
-    {
-      "document": "GENERALMILLS_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 32,
-      "processing_time": 0.01156306266784668,
+      "processing_time": 0.009071826934814453,
       "error": null
     },
     {
@@ -1727,7 +1717,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 22,
-      "processing_time": 0.01156306266784668,
+      "processing_time": 0.008658885955810547,
       "error": null
     },
     {
@@ -1737,27 +1727,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 16,
-      "processing_time": 0.0128326416015625,
+      "processing_time": 0.008665084838867188,
       "error": null
     },
     {
-      "document": "GENERALMILLS_2021_10K",
+      "document": "GENERALMILLS_2017_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.009509086608886719,
-      "error": null
-    },
-    {
-      "document": "GENERALMILLS_2022_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.008239507675170898,
+      "segments_count": 32,
+      "processing_time": 0.009415626525878906,
       "error": null
     },
     {
@@ -1767,27 +1747,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 26,
-      "processing_time": 0.009509086608886719,
+      "processing_time": 0.008992195129394531,
       "error": null
     },
     {
-      "document": "GENERALMILLS_2023_annualreport",
+      "document": "GENERALMILLS_2021_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 14,
-      "processing_time": 0.010627508163452148,
+      "segments_count": 19,
+      "processing_time": 0.009098052978515625,
       "error": null
     },
     {
-      "document": "INTEL_2015_10K",
+      "document": "GENERALMILLS_2022_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 17,
-      "processing_time": 0.010627508163452148,
+      "segments_count": 19,
+      "processing_time": 0.009028434753417969,
       "error": null
     },
     {
@@ -1797,17 +1777,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 21,
-      "processing_time": 0.010627508163452148,
+      "processing_time": 0.009013891220092773,
       "error": null
     },
     {
-      "document": "INTEL_2017_10K",
+      "document": "INTEL_2015_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 46,
-      "processing_time": 0.011615276336669922,
+      "segments_count": 17,
+      "processing_time": 0.008856534957885742,
+      "error": null
+    },
+    {
+      "document": "GENERALMILLS_2023_annualreport",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.009186744689941406,
       "error": null
     },
     {
@@ -1817,7 +1807,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 14,
-      "processing_time": 0.011615276336669922,
+      "processing_time": 0.008391141891479492,
+      "error": null
+    },
+    {
+      "document": "INTEL_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 46,
+      "processing_time": 0.00847172737121582,
       "error": null
     },
     {
@@ -1827,27 +1827,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 46,
-      "processing_time": 0.011615276336669922,
-      "error": null
-    },
-    {
-      "document": "INTEL_2020_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.010192155838012695,
-      "error": null
-    },
-    {
-      "document": "INTEL_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 62,
-      "processing_time": 0.010192155838012695,
+      "processing_time": 0.008680343627929688,
       "error": null
     },
     {
@@ -1857,27 +1837,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 20,
-      "processing_time": 0.010192155838012695,
+      "processing_time": 0.008095026016235352,
       "error": null
     },
     {
-      "document": "INTEL_2022_10K",
-      "success": true,
-      "coverage": 186.56716417910448,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 334,
-      "processing_time": 0.01261281967163086,
-      "error": null
-    },
-    {
-      "document": "INTEL_2023Q1_EARNINGS",
+      "document": "INTEL_2020_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 8,
-      "processing_time": 0.01261281967163086,
+      "segments_count": 10,
+      "processing_time": 0.008534908294677734,
+      "error": null
+    },
+    {
+      "document": "INTEL_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 62,
+      "processing_time": 0.009332418441772461,
       "error": null
     },
     {
@@ -1887,7 +1867,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.01261281967163086,
+      "processing_time": 0.00845193862915039,
+      "error": null
+    },
+    {
+      "document": "INTEL_2022_10K",
+      "success": true,
+      "coverage": 186.56716417910448,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 334,
+      "processing_time": 0.009544134140014648,
+      "error": null
+    },
+    {
+      "document": "INTEL_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 8,
+      "processing_time": 0.009345293045043945,
       "error": null
     },
     {
@@ -1897,7 +1897,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 2,
-      "processing_time": 0.009524345397949219,
+      "processing_time": 0.008154153823852539,
       "error": null
     },
     {
@@ -1907,7 +1907,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 5,
-      "processing_time": 0.010182380676269531,
+      "processing_time": 0.0068433284759521484,
       "error": null
     },
     {
@@ -1917,27 +1917,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 28,
-      "processing_time": 0.010704755783081055,
-      "error": null
-    },
-    {
-      "document": "JOHNSON_JOHNSON_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 15,
-      "processing_time": 0.010841608047485352,
-      "error": null
-    },
-    {
-      "document": "JOHNSON_JOHNSON_2015_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 30,
-      "processing_time": 0.012022018432617188,
+      "processing_time": 0.007463932037353516,
       "error": null
     },
     {
@@ -1947,27 +1927,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 278,
-      "processing_time": 0.011363983154296875,
+      "processing_time": 0.009526729583740234,
       "error": null
     },
     {
-      "document": "JOHNSON_JOHNSON_2019_10K",
+      "document": "JOHNSON_JOHNSON_2017_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 26,
-      "processing_time": 0.012708663940429688,
+      "segments_count": 15,
+      "processing_time": 0.00937795639038086,
       "error": null
     },
     {
-      "document": "JOHNSON_JOHNSON_2018_10K",
+      "document": "JOHNSON_JOHNSON_2015_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 24,
-      "processing_time": 0.014351606369018555,
+      "segments_count": 30,
+      "processing_time": 0.010093450546264648,
       "error": null
     },
     {
@@ -1977,7 +1957,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 27,
-      "processing_time": 0.014904975891113281,
+      "processing_time": 0.008880853652954102,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2018_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 24,
+      "processing_time": 0.009769916534423828,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.009683847427368164,
       "error": null
     },
     {
@@ -1987,7 +1987,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.013077020645141602,
+      "processing_time": 0.008254051208496094,
       "error": null
     },
     {
@@ -1997,7 +1997,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.015758991241455078,
+      "processing_time": 0.008878469467163086,
       "error": null
     },
     {
@@ -2007,7 +2007,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 16,
-      "processing_time": 0.012144327163696289,
+      "processing_time": 0.008686304092407227,
       "error": null
     },
     {
@@ -2017,17 +2017,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 2,
-      "processing_time": 0.010989904403686523,
-      "error": null
-    },
-    {
-      "document": "JOHNSON_JOHNSON_2023Q2_EARNINGS",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 8,
-      "processing_time": 0.01166534423828125,
+      "processing_time": 0.008950948715209961,
       "error": null
     },
     {
@@ -2037,17 +2027,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 14,
-      "processing_time": 0.011770486831665039,
+      "processing_time": 0.00896453857421875,
       "error": null
     },
     {
-      "document": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30",
+      "document": "JOHNSON_JOHNSON_2023Q2_EARNINGS",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.010350465774536133,
+      "segments_count": 8,
+      "processing_time": 0.009772062301635742,
       "error": null
     },
     {
@@ -2057,7 +2047,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 10,
-      "processing_time": 0.008635997772216797,
+      "processing_time": 0.008951425552368164,
+      "error": null
+    },
+    {
+      "document": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.009678125381469727,
       "error": null
     },
     {
@@ -2067,27 +2067,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 43,
-      "processing_time": 0.01852703094482422,
-      "error": null
-    },
-    {
-      "document": "JPMORGAN_2021Q3_10Q",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 29,
-      "processing_time": 0.016451358795166016,
-      "error": null
-    },
-    {
-      "document": "JPMORGAN_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 70,
-      "processing_time": 0.020292997360229492,
+      "processing_time": 0.008869647979736328,
       "error": null
     },
     {
@@ -2097,27 +2077,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 51,
-      "processing_time": 0.015757322311401367,
+      "processing_time": 0.00856924057006836,
       "error": null
     },
     {
-      "document": "JPMORGAN_2022Q3_10Q",
+      "document": "JPMORGAN_2021Q3_10Q",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 15,
-      "processing_time": 0.012287378311157227,
+      "segments_count": 29,
+      "processing_time": 0.009913206100463867,
       "error": null
     },
     {
-      "document": "JPMORGAN_2022Q2_10Q",
+      "document": "JPMORGAN_2021_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 26,
-      "processing_time": 0.019368886947631836,
+      "segments_count": 70,
+      "processing_time": 0.010035276412963867,
       "error": null
     },
     {
@@ -2127,27 +2107,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 60,
-      "processing_time": 0.016356706619262695,
+      "processing_time": 0.007939338684082031,
       "error": null
     },
     {
-      "document": "JPMORGAN_2023Q1_10Q",
+      "document": "JPMORGAN_2022Q3_10Q",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 48,
-      "processing_time": 0.020816802978515625,
+      "segments_count": 15,
+      "processing_time": 0.00834512710571289,
       "error": null
     },
     {
-      "document": "JPMORGAN_2023Q2_10Q",
+      "document": "JPMORGAN_2022Q2_10Q",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 69,
-      "processing_time": 0.02150726318359375,
+      "segments_count": 26,
+      "processing_time": 0.011140584945678711,
       "error": null
     },
     {
@@ -2157,7 +2137,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 22,
-      "processing_time": 0.01936626434326172,
+      "processing_time": 0.008571624755859375,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2023Q1_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 48,
+      "processing_time": 0.012359857559204102,
+      "error": null
+    },
+    {
+      "document": "JPMORGAN_2023Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 69,
+      "processing_time": 0.013241291046142578,
       "error": null
     },
     {
@@ -2167,7 +2167,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 11,
-      "processing_time": 0.010196924209594727,
+      "processing_time": 0.008785724639892578,
       "error": null
     },
     {
@@ -2177,17 +2177,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 29,
-      "processing_time": 0.016882658004760742,
-      "error": null
-    },
-    {
-      "document": "KRAFTHEINZ_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.02064061164855957,
+      "processing_time": 0.009159564971923828,
       "error": null
     },
     {
@@ -2197,7 +2187,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 51,
-      "processing_time": 0.024613380432128906,
+      "processing_time": 0.014266729354858398,
       "error": null
     },
     {
@@ -2207,17 +2197,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 15,
-      "processing_time": 0.01711440086364746,
+      "processing_time": 0.010963916778564453,
       "error": null
     },
     {
-      "document": "KRAFTHEINZ_2022_10K",
+      "document": "KRAFTHEINZ_2019_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 24,
-      "processing_time": 0.015611648559570312,
+      "segments_count": 19,
+      "processing_time": 0.01702260971069336,
       "error": null
     },
     {
@@ -2227,27 +2217,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.01958441734313965,
+      "processing_time": 0.010370731353759766,
       "error": null
     },
     {
-      "document": "LOCKHEEDMARTIN_2015_10K",
+      "document": "KRAFTHEINZ_2022_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 27,
-      "processing_time": 0.01765584945678711,
-      "error": null
-    },
-    {
-      "document": "LOCKHEEDMARTIN_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 12,
-      "processing_time": 0.013376951217651367,
+      "segments_count": 24,
+      "processing_time": 0.009428739547729492,
       "error": null
     },
     {
@@ -2257,7 +2237,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 33,
-      "processing_time": 0.01620197296142578,
+      "processing_time": 0.009307861328125,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 12,
+      "processing_time": 0.00926661491394043,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.017688274383544922,
       "error": null
     },
     {
@@ -2267,17 +2267,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 42,
-      "processing_time": 0.01593637466430664,
-      "error": null
-    },
-    {
-      "document": "LOCKHEEDMARTIN_2020_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 13,
-      "processing_time": 0.011312484741210938,
+      "processing_time": 0.010104179382324219,
       "error": null
     },
     {
@@ -2287,7 +2277,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 39,
-      "processing_time": 0.016152143478393555,
+      "processing_time": 0.010733366012573242,
       "error": null
     },
     {
@@ -2297,7 +2287,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 20,
-      "processing_time": 0.014410257339477539,
+      "processing_time": 0.009235620498657227,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 13,
+      "processing_time": 0.019467830657958984,
       "error": null
     },
     {
@@ -2307,37 +2307,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 16,
-      "processing_time": 0.014043807983398438,
-      "error": null
-    },
-    {
-      "document": "LOCKHEEDMARTIN_2022Q2_10Q",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 5,
-      "processing_time": 0.014043807983398438,
-      "error": null
-    },
-    {
-      "document": "LOCKHEEDMARTIN_2023Q1_10Q",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 4,
-      "processing_time": 0.014284849166870117,
-      "error": null
-    },
-    {
-      "document": "LOCKHEEDMARTIN_2023_8K_dated-2023-05-25",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 14,
-      "processing_time": 0.011909723281860352,
+      "processing_time": 0.009135246276855469,
       "error": null
     },
     {
@@ -2347,7 +2317,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 71,
-      "processing_time": 0.011909723281860352,
+      "processing_time": 0.009612798690795898,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2022Q2_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.023848772048950195,
+      "error": null
+    },
+    {
+      "document": "LOCKHEEDMARTIN_2023Q1_10Q",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.017929792404174805,
       "error": null
     },
     {
@@ -2357,17 +2347,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.012831687927246094,
+      "processing_time": 0.008803606033325195,
       "error": null
     },
     {
-      "document": "MCDONALDS_2022_10K",
+      "document": "LOCKHEEDMARTIN_2023_8K_dated-2023-05-25",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.010228157043457031,
+      "segments_count": 14,
+      "processing_time": 0.009419679641723633,
       "error": null
     },
     {
@@ -2377,7 +2367,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 28,
-      "processing_time": 0.010228157043457031,
+      "processing_time": 0.007998228073120117,
       "error": null
     },
     {
@@ -2387,7 +2377,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 4,
-      "processing_time": 0.013255119323730469,
+      "processing_time": 0.007906198501586914,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.008646965026855469,
       "error": null
     },
     {
@@ -2397,17 +2397,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 5,
-      "processing_time": 0.018807649612426758,
-      "error": null
-    },
-    {
-      "document": "MCDONALDS_8K_dated-2023-01-06",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 5,
-      "processing_time": 0.018807649612426758,
+      "processing_time": 0.009901046752929688,
       "error": null
     },
     {
@@ -2417,7 +2407,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 3,
-      "processing_time": 0.017266273498535156,
+      "processing_time": 0.008246660232543945,
+      "error": null
+    },
+    {
+      "document": "MCDONALDS_8K_dated-2023-01-06",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.009425640106201172,
       "error": null
     },
     {
@@ -2427,7 +2427,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 4,
-      "processing_time": 0.017711400985717773,
+      "processing_time": 0.00885462760925293,
       "error": null
     },
     {
@@ -2437,7 +2437,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 40,
-      "processing_time": 0.018869400024414062,
+      "processing_time": 0.008330106735229492,
       "error": null
     },
     {
@@ -2447,17 +2447,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 51,
-      "processing_time": 0.02269744873046875,
-      "error": null
-    },
-    {
-      "document": "MGMRESORTS_2018_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 37,
-      "processing_time": 0.012455463409423828,
+      "processing_time": 0.009180545806884766,
       "error": null
     },
     {
@@ -2467,17 +2457,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 33,
-      "processing_time": 0.018941164016723633,
+      "processing_time": 0.009594202041625977,
       "error": null
     },
     {
-      "document": "MGMRESORTS_2020_10K",
+      "document": "MGMRESORTS_2018_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 21,
-      "processing_time": 0.012221574783325195,
+      "segments_count": 37,
+      "processing_time": 0.009529829025268555,
       "error": null
     },
     {
@@ -2487,7 +2477,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 38,
-      "processing_time": 0.01373744010925293,
+      "processing_time": 0.00853586196899414,
       "error": null
     },
     {
@@ -2497,7 +2487,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.010503530502319336,
+      "processing_time": 0.0067784786224365234,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 21,
+      "processing_time": 0.009241819381713867,
       "error": null
     },
     {
@@ -2507,17 +2507,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 34,
-      "processing_time": 0.023160457611083984,
-      "error": null
-    },
-    {
-      "document": "MGMRESORTS_2022_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 49,
-      "processing_time": 0.016269922256469727,
+      "processing_time": 0.011330127716064453,
       "error": null
     },
     {
@@ -2527,17 +2517,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 11,
-      "processing_time": 0.015268564224243164,
+      "processing_time": 0.008460283279418945,
       "error": null
     },
     {
-      "document": "MGMRESORTS_2023_8K_dated-2023-09-12",
+      "document": "MGMRESORTS_2022_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 4,
-      "processing_time": 0.014028787612915039,
+      "segments_count": 49,
+      "processing_time": 0.0089874267578125,
       "error": null
     },
     {
@@ -2547,7 +2537,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 5,
-      "processing_time": 0.015547990798950195,
+      "processing_time": 0.007944583892822266,
+      "error": null
+    },
+    {
+      "document": "MGMRESORTS_2023_8K_dated-2023-09-12",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 4,
+      "processing_time": 0.007940292358398438,
       "error": null
     },
     {
@@ -2557,17 +2557,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 15,
-      "processing_time": 0.011974811553955078,
-      "error": null
-    },
-    {
-      "document": "MICROSOFT_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 3,
-      "processing_time": 0.011425256729125977,
+      "processing_time": 0.007866621017456055,
       "error": null
     },
     {
@@ -2577,7 +2567,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.012646675109863281,
+      "processing_time": 0.008831024169921875,
+      "error": null
+    },
+    {
+      "document": "MICROSOFT_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.007691383361816406,
       "error": null
     },
     {
@@ -2587,7 +2587,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 40,
-      "processing_time": 0.012762069702148438,
+      "processing_time": 0.008095502853393555,
       "error": null
     },
     {
@@ -2597,7 +2597,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 15,
-      "processing_time": 0.014639616012573242,
+      "processing_time": 0.007715702056884766,
       "error": null
     },
     {
@@ -2607,7 +2607,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 7,
-      "processing_time": 0.013418197631835938,
+      "processing_time": 0.007795572280883789,
       "error": null
     },
     {
@@ -2617,17 +2617,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 24,
-      "processing_time": 0.014289140701293945,
-      "error": null
-    },
-    {
-      "document": "MICROSOFT_2023_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 31,
-      "processing_time": 0.011774063110351562,
+      "processing_time": 0.007849693298339844,
       "error": null
     },
     {
@@ -2637,7 +2627,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.013535499572753906,
+      "processing_time": 0.008107662200927734,
       "error": null
     },
     {
@@ -2647,17 +2637,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 15,
-      "processing_time": 0.012798547744750977,
+      "processing_time": 0.008124589920043945,
       "error": null
     },
     {
-      "document": "NETFLIX_2017_10K",
+      "document": "MICROSOFT_2023_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 3,
-      "processing_time": 0.01043391227722168,
+      "segments_count": 31,
+      "processing_time": 0.008903741836547852,
       "error": null
     },
     {
@@ -2667,7 +2657,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 7,
-      "processing_time": 0.012195348739624023,
+      "processing_time": 0.007771492004394531,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.006836414337158203,
       "error": null
     },
     {
@@ -2677,7 +2677,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.014808893203735352,
+      "processing_time": 0.007027387619018555,
       "error": null
     },
     {
@@ -2687,17 +2687,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 25,
-      "processing_time": 0.015820980072021484,
-      "error": null
-    },
-    {
-      "document": "NETFLIX_2020_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.015820980072021484,
+      "processing_time": 0.00835275650024414,
       "error": null
     },
     {
@@ -2707,7 +2697,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 164,
-      "processing_time": 0.014793872833251953,
+      "processing_time": 0.0075836181640625,
+      "error": null
+    },
+    {
+      "document": "NETFLIX_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.008260726928710938,
       "error": null
     },
     {
@@ -2717,7 +2717,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 15,
-      "processing_time": 0.014835357666015625,
+      "processing_time": 0.008524417877197266,
       "error": null
     },
     {
@@ -2727,27 +2727,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.014835357666015625,
-      "error": null
-    },
-    {
-      "document": "NIKE_2016_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.011301517486572266,
-      "error": null
-    },
-    {
-      "document": "NIKE_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.012964963912963867,
+      "processing_time": 0.007684230804443359,
       "error": null
     },
     {
@@ -2757,7 +2737,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 29,
-      "processing_time": 0.01622176170349121,
+      "processing_time": 0.00776219367980957,
+      "error": null
+    },
+    {
+      "document": "NIKE_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.00817108154296875,
       "error": null
     },
     {
@@ -2767,7 +2757,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 13,
-      "processing_time": 0.012239456176757812,
+      "processing_time": 0.006801605224609375,
+      "error": null
+    },
+    {
+      "document": "NIKE_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 19,
+      "processing_time": 0.0074672698974609375,
       "error": null
     },
     {
@@ -2777,17 +2777,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 33,
-      "processing_time": 0.012239456176757812,
-      "error": null
-    },
-    {
-      "document": "NIKE_2019_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 24,
-      "processing_time": 0.012239456176757812,
+      "processing_time": 0.007737398147583008,
       "error": null
     },
     {
@@ -2797,17 +2787,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 7,
-      "processing_time": 0.014890193939208984,
+      "processing_time": 0.007588863372802734,
       "error": null
     },
     {
-      "document": "NIKE_2022_10K",
+      "document": "NIKE_2019_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 18,
-      "processing_time": 0.014890193939208984,
+      "segments_count": 24,
+      "processing_time": 0.009278535842895508,
       "error": null
     },
     {
@@ -2817,27 +2807,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.014890193939208984,
+      "processing_time": 0.009076595306396484,
       "error": null
     },
     {
-      "document": "ORACLE_2016_10K",
+      "document": "NIKE_2022_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 16,
-      "processing_time": 0.015096902847290039,
-      "error": null
-    },
-    {
-      "document": "ORACLE_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 20,
-      "processing_time": 0.011962890625,
+      "segments_count": 18,
+      "processing_time": 0.009473800659179688,
       "error": null
     },
     {
@@ -2847,27 +2827,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 13,
-      "processing_time": 0.01680278778076172,
+      "processing_time": 0.009333372116088867,
       "error": null
     },
     {
-      "document": "ORACLE_2020_10K",
-      "success": true,
-      "coverage": 100.7751937984496,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 27,
-      "processing_time": 0.012475728988647461,
-      "error": null
-    },
-    {
-      "document": "ORACLE_2019_10K",
+      "document": "ORACLE_2016_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 15,
-      "processing_time": 0.01418161392211914,
+      "segments_count": 16,
+      "processing_time": 0.009008646011352539,
       "error": null
     },
     {
@@ -2877,7 +2847,37 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 17,
-      "processing_time": 0.01418161392211914,
+      "processing_time": 0.008647918701171875,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 20,
+      "processing_time": 0.010729074478149414,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2020_10K",
+      "success": true,
+      "coverage": 100.7751937984496,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 27,
+      "processing_time": 0.008684158325195312,
+      "error": null
+    },
+    {
+      "document": "ORACLE_2019_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 15,
+      "processing_time": 0.008980035781860352,
       "error": null
     },
     {
@@ -2887,17 +2887,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 396,
-      "processing_time": 0.01579427719116211,
-      "error": null
-    },
-    {
-      "document": "ORACLE_2023_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 27,
-      "processing_time": 0.01579427719116211,
+      "processing_time": 0.013803958892822266,
       "error": null
     },
     {
@@ -2907,17 +2897,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 25,
-      "processing_time": 0.01579427719116211,
+      "processing_time": 0.00859832763671875,
       "error": null
     },
     {
-      "document": "PAYPAL_2022_10K",
+      "document": "ORACLE_2023_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 14,
-      "processing_time": 0.011837959289550781,
+      "segments_count": 27,
+      "processing_time": 0.008828401565551758,
       "error": null
     },
     {
@@ -2927,7 +2917,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 9,
-      "processing_time": 0.011837959289550781,
+      "processing_time": 0.0077588558197021484,
       "error": null
     },
     {
@@ -2937,7 +2927,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 34,
-      "processing_time": 0.011837959289550781,
+      "processing_time": 0.007758378982543945,
+      "error": null
+    },
+    {
+      "document": "PAYPAL_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 14,
+      "processing_time": 0.012299060821533203,
       "error": null
     },
     {
@@ -2947,7 +2947,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 67,
-      "processing_time": 0.013360738754272461,
+      "processing_time": 0.008551597595214844,
       "error": null
     },
     {
@@ -2957,7 +2957,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 67,
-      "processing_time": 0.013360738754272461,
+      "processing_time": 0.009184122085571289,
       "error": null
     },
     {
@@ -2967,7 +2967,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 59,
-      "processing_time": 0.013360738754272461,
+      "processing_time": 0.014200448989868164,
       "error": null
     },
     {
@@ -2977,17 +2977,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 63,
-      "processing_time": 0.009526252746582031,
-      "error": null
-    },
-    {
-      "document": "PEPSICO_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 132,
-      "processing_time": 0.009526252746582031,
+      "processing_time": 0.009226322174072266,
       "error": null
     },
     {
@@ -2997,27 +2987,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 86,
-      "processing_time": 0.011381149291992188,
+      "processing_time": 0.01062631607055664,
       "error": null
     },
     {
-      "document": "PEPSICO_2022Q4_EARNINGS",
+      "document": "PEPSICO_2021_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.009345054626464844,
-      "error": null
-    },
-    {
-      "document": "PEPSICO_2023Q1_EARNINGS",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 7,
-      "processing_time": 0.0074901580810546875,
+      "segments_count": 132,
+      "processing_time": 0.010696649551391602,
       "error": null
     },
     {
@@ -3027,17 +3007,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 70,
-      "processing_time": 0.010488271713256836,
+      "processing_time": 0.009292364120483398,
       "error": null
     },
     {
-      "document": "PEPSICO_2023Q2_EARNINGS",
+      "document": "PEPSICO_2022Q4_EARNINGS",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 3,
-      "processing_time": 0.009465217590332031,
+      "segments_count": 10,
+      "processing_time": 0.011352062225341797,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2023Q1_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 7,
+      "processing_time": 0.009744405746459961,
       "error": null
     },
     {
@@ -3047,7 +3037,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 5,
-      "processing_time": 0.010080814361572266,
+      "processing_time": 0.008311033248901367,
+      "error": null
+    },
+    {
+      "document": "PEPSICO_2023Q2_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 3,
+      "processing_time": 0.010925054550170898,
       "error": null
     },
     {
@@ -3057,27 +3057,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 10,
-      "processing_time": 0.008937597274780273,
-      "error": null
-    },
-    {
-      "document": "PFIZER_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 45,
-      "processing_time": 0.008160591125488281,
-      "error": null
-    },
-    {
-      "document": "PFIZER_2016_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 26,
-      "processing_time": 0.008160591125488281,
+      "processing_time": 0.009995460510253906,
       "error": null
     },
     {
@@ -3087,7 +3067,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 238,
-      "processing_time": 0.011549234390258789,
+      "processing_time": 0.010550498962402344,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2016_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 26,
+      "processing_time": 0.012462854385375977,
       "error": null
     },
     {
@@ -3097,17 +3087,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 465,
-      "processing_time": 0.00753331184387207,
+      "processing_time": 0.011577367782592773,
       "error": null
     },
     {
-      "document": "PFIZER_2020_10K",
+      "document": "PFIZER_2017_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 42,
-      "processing_time": 0.010088205337524414,
+      "segments_count": 45,
+      "processing_time": 0.013746500015258789,
       "error": null
     },
     {
@@ -3117,7 +3107,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 36,
-      "processing_time": 0.012861251831054688,
+      "processing_time": 0.009598255157470703,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 42,
+      "processing_time": 0.009423971176147461,
       "error": null
     },
     {
@@ -3127,17 +3127,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.005877971649169922,
-      "error": null
-    },
-    {
-      "document": "PFIZER_2023Q2_EARNINGS",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 7,
-      "processing_time": 0.009031295776367188,
+      "processing_time": 0.008057594299316406,
       "error": null
     },
     {
@@ -3147,27 +3137,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.014359235763549805,
-      "error": null
-    },
-    {
-      "document": "PG_E_2015_10K",
-      "success": true,
-      "coverage": 107.32758620689656,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 221,
-      "processing_time": 0.013183355331420898,
-      "error": null
-    },
-    {
-      "document": "PG_E_2017_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 18,
-      "processing_time": 0.010030031204223633,
+      "processing_time": 0.009015083312988281,
       "error": null
     },
     {
@@ -3177,17 +3147,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 42,
-      "processing_time": 0.010466814041137695,
+      "processing_time": 0.008837461471557617,
       "error": null
     },
     {
-      "document": "PG_E_2018_10K",
+      "document": "PG_E_2015_10K",
+      "success": true,
+      "coverage": 107.32758620689656,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 221,
+      "processing_time": 0.012028694152832031,
+      "error": null
+    },
+    {
+      "document": "PFIZER_2023Q2_EARNINGS",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 29,
-      "processing_time": 0.008493185043334961,
+      "segments_count": 7,
+      "processing_time": 0.012536287307739258,
       "error": null
     },
     {
@@ -3197,27 +3177,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 269,
-      "processing_time": 0.009599685668945312,
+      "processing_time": 0.00975489616394043,
       "error": null
     },
     {
-      "document": "PG_E_2020_10K",
+      "document": "PG_E_2017_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 37,
-      "processing_time": 0.011889219284057617,
+      "segments_count": 18,
+      "processing_time": 0.01330876350402832,
       "error": null
     },
     {
-      "document": "PG_E_2021_10K",
+      "document": "PG_E_2018_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 72,
-      "processing_time": 0.009492874145507812,
+      "segments_count": 29,
+      "processing_time": 0.01068878173828125,
       "error": null
     },
     {
@@ -3227,17 +3207,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 58,
-      "processing_time": 0.012363433837890625,
+      "processing_time": 0.008945226669311523,
       "error": null
     },
     {
-      "document": "PG_E_2023Q3_10Q",
+      "document": "PG_E_2021_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 41,
-      "processing_time": 0.009637117385864258,
+      "segments_count": 72,
+      "processing_time": 0.009809017181396484,
+      "error": null
+    },
+    {
+      "document": "PG_E_2020_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 37,
+      "processing_time": 0.01206207275390625,
       "error": null
     },
     {
@@ -3247,17 +3237,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 14,
-      "processing_time": 0.007881879806518555,
+      "processing_time": 0.007777214050292969,
       "error": null
     },
     {
-      "document": "PG_E_2023_EARNINGS_dated-2023-05-04",
+      "document": "PG_E_2023Q3_10Q",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 6,
-      "processing_time": 0.0039048194885253906,
+      "segments_count": 41,
+      "processing_time": 0.009369373321533203,
       "error": null
     },
     {
@@ -3267,17 +3257,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 8,
-      "processing_time": 0.008809328079223633,
+      "processing_time": 0.007208585739135742,
       "error": null
     },
     {
-      "document": "PG_E_2023_EARNINGS_dated-2023-05-31",
+      "document": "PG_E_2023_EARNINGS_dated-2023-05-04",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.009697198867797852,
+      "processing_time": 0.008820772171020508,
       "error": null
     },
     {
@@ -3287,7 +3277,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 12,
-      "processing_time": 0.013862371444702148,
+      "processing_time": 0.008092403411865234,
+      "error": null
+    },
+    {
+      "document": "PG_E_2023_EARNINGS_dated-2023-05-31",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 6,
+      "processing_time": 0.008716344833374023,
       "error": null
     },
     {
@@ -3297,17 +3297,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 7,
-      "processing_time": 0.010105609893798828,
-      "error": null
-    },
-    {
-      "document": "SALESFORCE_2021_8K_dated-2023-01-04",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 4,
-      "processing_time": 0.010446310043334961,
+      "processing_time": 0.008682012557983398,
       "error": null
     },
     {
@@ -3317,37 +3307,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 12,
-      "processing_time": 0.006281137466430664,
+      "processing_time": 0.008476734161376953,
       "error": null
     },
     {
-      "document": "SALESFORCE_2023_10K",
+      "document": "SALESFORCE_2021_8K_dated-2023-01-04",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 28,
-      "processing_time": 0.008296012878417969,
-      "error": null
-    },
-    {
-      "document": "SALESFORCE_2024Q1_EARNINGS",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 11,
-      "processing_time": 0.011518716812133789,
-      "error": null
-    },
-    {
-      "document": "ULTABEAUTY_2023Q4_EARNINGS",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 5,
-      "processing_time": 0.008356094360351562,
+      "segments_count": 4,
+      "processing_time": 0.008939266204833984,
       "error": null
     },
     {
@@ -3357,17 +3327,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 9,
-      "processing_time": 0.014041662216186523,
+      "processing_time": 0.008524179458618164,
       "error": null
     },
     {
-      "document": "ULTABEAUTY_2023_8K_dated-2023-09-18",
+      "document": "SALESFORCE_2024Q1_EARNINGS",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 5,
-      "processing_time": 0.01001882553100586,
+      "segments_count": 11,
+      "processing_time": 0.008877277374267578,
+      "error": null
+    },
+    {
+      "document": "SALESFORCE_2023_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 28,
+      "processing_time": 0.009579658508300781,
       "error": null
     },
     {
@@ -3377,7 +3357,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 7,
-      "processing_time": 0.013086318969726562,
+      "processing_time": 0.007962226867675781,
+      "error": null
+    },
+    {
+      "document": "ULTABEAUTY_2023Q4_EARNINGS",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 5,
+      "processing_time": 0.00896143913269043,
       "error": null
     },
     {
@@ -3387,17 +3377,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.013086318969726562,
-      "error": null
-    },
-    {
-      "document": "ULTABEAUTY_2024Q1_EARNINGS",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 1,
-      "processing_time": 0.005502462387084961,
+      "processing_time": 0.01033163070678711,
       "error": null
     },
     {
@@ -3407,27 +3387,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.01150965690612793,
+      "processing_time": 0.009397506713867188,
       "error": null
     },
     {
-      "document": "VERIZON_2015_10K",
+      "document": "ULTABEAUTY_2023_8K_dated-2023-09-18",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 9,
-      "processing_time": 0.012749195098876953,
+      "segments_count": 5,
+      "processing_time": 0.011605978012084961,
       "error": null
     },
     {
-      "document": "VERIZON_2016_10K",
+      "document": "ULTABEAUTY_2024Q1_EARNINGS",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 19,
-      "processing_time": 0.013877391815185547,
+      "segments_count": 1,
+      "processing_time": 0.011424064636230469,
       "error": null
     },
     {
@@ -3437,17 +3417,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 27,
-      "processing_time": 0.012663125991821289,
+      "processing_time": 0.009296894073486328,
       "error": null
     },
     {
-      "document": "VERIZON_2018_10K",
+      "document": "VERIZON_2016_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 28,
-      "processing_time": 0.01246333122253418,
+      "segments_count": 19,
+      "processing_time": 0.009891271591186523,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2015_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 9,
+      "processing_time": 0.010294198989868164,
       "error": null
     },
     {
@@ -3457,17 +3447,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 35,
-      "processing_time": 0.011117935180664062,
-      "error": null
-    },
-    {
-      "document": "VERIZON_2021_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 10,
-      "processing_time": 0.010209321975708008,
+      "processing_time": 0.008829355239868164,
       "error": null
     },
     {
@@ -3477,27 +3457,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 16,
-      "processing_time": 0.011249065399169922,
+      "processing_time": 0.00877237319946289,
       "error": null
     },
     {
-      "document": "VERIZON_2022_10K",
+      "document": "VERIZON_2018_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 17,
-      "processing_time": 0.012817621231079102,
-      "error": null
-    },
-    {
-      "document": "WALMART_2016_10K",
-      "success": true,
-      "coverage": 100.0,
-      "retries": 0,
-      "missing_pages": [],
-      "segments_count": 25,
-      "processing_time": 0.011306524276733398,
+      "segments_count": 28,
+      "processing_time": 0.009363174438476562,
       "error": null
     },
     {
@@ -3507,17 +3477,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 18,
-      "processing_time": 0.01618647575378418,
+      "processing_time": 0.009126663208007812,
       "error": null
     },
     {
-      "document": "WALMART_2017_10K",
+      "document": "VERIZON_2022_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 36,
-      "processing_time": 0.016031265258789062,
+      "segments_count": 17,
+      "processing_time": 0.009443998336791992,
+      "error": null
+    },
+    {
+      "document": "VERIZON_2021_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 10,
+      "processing_time": 0.00992584228515625,
       "error": null
     },
     {
@@ -3527,17 +3507,27 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 38,
-      "processing_time": 0.014630556106567383,
+      "processing_time": 0.008712053298950195,
       "error": null
     },
     {
-      "document": "WALMART_2019_10K",
+      "document": "WALMART_2016_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 16,
-      "processing_time": 0.01084446907043457,
+      "segments_count": 25,
+      "processing_time": 0.009475231170654297,
+      "error": null
+    },
+    {
+      "document": "WALMART_2017_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 36,
+      "processing_time": 0.009506702423095703,
       "error": null
     },
     {
@@ -3547,7 +3537,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 284,
-      "processing_time": 0.013383150100708008,
+      "processing_time": 0.009975194931030273,
       "error": null
     },
     {
@@ -3557,17 +3547,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.012972831726074219,
+      "processing_time": 0.010022401809692383,
       "error": null
     },
     {
-      "document": "WALMART_2022_10K",
+      "document": "WALMART_2019_10K",
       "success": true,
       "coverage": 100.0,
       "retries": 0,
       "missing_pages": [],
-      "segments_count": 31,
-      "processing_time": 0.012476205825805664,
+      "segments_count": 16,
+      "processing_time": 0.010631322860717773,
       "error": null
     },
     {
@@ -3577,7 +3567,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 9,
-      "processing_time": 0.010942935943603516,
+      "processing_time": 0.00881052017211914,
       "error": null
     },
     {
@@ -3587,7 +3577,17 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 19,
-      "processing_time": 0.012544870376586914,
+      "processing_time": 0.009177446365356445,
+      "error": null
+    },
+    {
+      "document": "WALMART_2022_10K",
+      "success": true,
+      "coverage": 100.0,
+      "retries": 0,
+      "missing_pages": [],
+      "segments_count": 31,
+      "processing_time": 0.009813070297241211,
       "error": null
     },
     {
@@ -3597,7 +3597,7 @@
       "retries": 0,
       "missing_pages": [],
       "segments_count": 6,
-      "processing_time": 0.014293670654296875,
+      "processing_time": 0.008448362350463867,
       "error": null
     }
   ],
@@ -3610,8 +3610,8 @@
     "retry_rate": 0.0,
     "perfect_coverage": 360,
     "perfect_coverage_rate": 100.0,
-    "total_processing_time": 4.757634162902832,
-    "average_processing_time": 0.013215650452507867,
+    "total_processing_time": 3.908902406692505,
+    "average_processing_time": 0.010858062240812514,
     "total_segments": 13515,
     "failed_documents": [],
     "retry_documents": []
