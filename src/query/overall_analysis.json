@@ -1,0 +1,1650 @@
+{
+  "overall_summary": {
+    "total_questions": 150,
+    "total_correct": 94,
+    "total_partial": 27,
+    "total_incorrect": 29,
+    "total_errors": 0,
+    "overall_accuracy_percentage": 71.66666666666667,
+    "total_cost_usd": 32.9403158,
+    "average_cost_per_question": 0.21960210533333333
+  },
+  "batch_summary": [
+    {
+      "batch_number": 1,
+      "questions_range": "1-25",
+      "accuracy_percentage": 72.0,
+      "total_cost": 5.994395
+    },
+    {
+      "batch_number": 2,
+      "questions_range": "26-50",
+      "accuracy_percentage": 74.0,
+      "total_cost": 4.561685199999999
+    },
+    {
+      "batch_number": 3,
+      "questions_range": "51-75",
+      "accuracy_percentage": 76.0,
+      "total_cost": 6.6930049
+    },
+    {
+      "batch_number": 4,
+      "questions_range": "76-100",
+      "accuracy_percentage": 72.0,
+      "total_cost": 5.450610650000001
+    },
+    {
+      "batch_number": 5,
+      "questions_range": "101-125",
+      "accuracy_percentage": 72.0,
+      "total_cost": 5.56332345
+    },
+    {
+      "batch_number": 6,
+      "questions_range": "126-150",
+      "accuracy_percentage": 64.0,
+      "total_cost": 4.677296599999999
+    }
+  ],
+  "question_type_analysis": {
+    "metrics-generated": {
+      "total": 50,
+      "correct": 29,
+      "partial": 9,
+      "incorrect": 12,
+      "errors": 0,
+      "accuracy_percentage": 67.0
+    },
+    "domain-relevant": {
+      "total": 50,
+      "correct": 37,
+      "partial": 8,
+      "incorrect": 5,
+      "errors": 0,
+      "accuracy_percentage": 82.0
+    },
+    "novel-generated": {
+      "total": 50,
+      "correct": 28,
+      "partial": 10,
+      "incorrect": 12,
+      "errors": 0,
+      "accuracy_percentage": 66.0
+    }
+  },
+  "top_companies": {
+    "PepsiCo": {
+      "total": 11,
+      "correct": 7,
+      "partial": 2,
+      "incorrect": 2,
+      "accuracy_percentage": 72.72727272727273
+    },
+    "Amcor": {
+      "total": 9,
+      "correct": 4,
+      "partial": 3,
+      "incorrect": 2,
+      "accuracy_percentage": 61.111111111111114
+    },
+    "Johnson & Johnson": {
+      "total": 9,
+      "correct": 7,
+      "partial": 2,
+      "incorrect": 0,
+      "accuracy_percentage": 88.88888888888889
+    },
+    "3M": {
+      "total": 8,
+      "correct": 7,
+      "partial": 0,
+      "incorrect": 1,
+      "accuracy_percentage": 87.5
+    },
+    "AMD": {
+      "total": 8,
+      "correct": 4,
+      "partial": 3,
+      "incorrect": 1,
+      "accuracy_percentage": 68.75
+    },
+    "Best Buy": {
+      "total": 8,
+      "correct": 5,
+      "partial": 1,
+      "incorrect": 2,
+      "accuracy_percentage": 68.75
+    },
+    "Boeing": {
+      "total": 8,
+      "correct": 6,
+      "partial": 2,
+      "incorrect": 0,
+      "accuracy_percentage": 87.5
+    },
+    "American Express": {
+      "total": 7,
+      "correct": 5,
+      "partial": 1,
+      "incorrect": 1,
+      "accuracy_percentage": 78.57142857142857
+    },
+    "MGM Resorts": {
+      "total": 7,
+      "correct": 3,
+      "partial": 1,
+      "incorrect": 3,
+      "accuracy_percentage": 50.0
+    },
+    "Pfizer": {
+      "total": 6,
+      "correct": 2,
+      "partial": 1,
+      "incorrect": 3,
+      "accuracy_percentage": 41.66666666666667
+    }
+  },
+  "detailed_results": [
+    {
+      "question_number": 1,
+      "financebench_id": "financebench_id_03029",
+      "company": "3M",
+      "question_type": "metrics-generated",
+      "expected_answer": "$1577.00",
+      "actual_answer_summary": "I'll help you find the FY2018 capital expenditure amount for 3M by searching through their cash flow statement in the processed documents. **ANSWER: $1,577 million**\n\nCONTEXT:\nFrom the Consolidated St...",
+      "accuracy": "correct",
+      "cost": 0.14182235
+    },
+    {
+      "question_number": 2,
+      "financebench_id": "financebench_id_04672",
+      "company": "3M",
+      "question_type": "metrics-generated",
+      "expected_answer": "$8.70",
+      "actual_answer_summary": "I'll help you find the year-end FY2018 net Property, Plant & Equipment (PPNE) for 3M by searching through their financial documents. Now let me search more specifically for the balance sheet section t...",
+      "accuracy": "incorrect",
+      "cost": 0.16652745
+    },
+    {
+      "question_number": 3,
+      "financebench_id": "financebench_id_00499",
+      "company": "3M",
+      "question_type": "domain-relevant",
+      "expected_answer": "No, the company is managing its CAPEX and Fixed Assets pretty efficiently, which is evident from below key metrics:\nCAPEX/Revenue Ratio: 5.1%\nFixed assets/Total Assets: 20%\nReturn on Assets= 12.4%",
+      "actual_answer_summary": "I'll analyze 3M's capital intensity using their FY2022 financial data. Let me search for their relevant financial documents and key metrics. Now let me search for total capital expenditures data to ge...",
+      "accuracy": "correct",
+      "cost": 0.23305004999999998
+    },
+    {
+      "question_number": 4,
+      "financebench_id": "financebench_id_01226",
+      "company": "3M",
+      "question_type": "domain-relevant",
+      "expected_answer": "Operating Margin for 3M in FY2022 has decreased by 1.7% primarily due to: \n-Decrease in gross Margin\n-mostly one-off charges including Combat Arms Earplugs litigation, impairment related to exiting PFAS manufacturing, costs related to exiting Russia and divestiture-related restructuring\ncharges",
+      "actual_answer_summary": "I'll help you analyze 3M's operating margin changes for FY2022. Let me search for 3M's financial documents from 2022 and related years to understand what drove the changes. Now let me search for speci...",
+      "accuracy": "correct",
+      "cost": 0.32210625000000004
+    },
+    {
+      "question_number": 5,
+      "financebench_id": "financebench_id_01865",
+      "company": "3M",
+      "question_type": "novel-generated",
+      "expected_answer": "The consumer segment shrunk by 0.9% organically.",
+      "actual_answer_summary": "I'll help you find which segment dragged down 3M's overall growth in 2022, excluding M&A impacts. Let me search for 3M's 2022 financial documents and segment performance data. **ANSWER: The Consumer s...",
+      "accuracy": "correct",
+      "cost": 0.20804165000000002
+    },
+    {
+      "question_number": 6,
+      "financebench_id": "financebench_id_00807",
+      "company": "3M",
+      "question_type": "domain-relevant",
+      "expected_answer": "No. The quick ratio for 3M was 0.96 by Jun'23 close, which needs a bit of an improvement to touch the 1x mark",
+      "actual_answer_summary": "I'll help you analyze 3M's liquidity profile for Q2 FY2023 by finding their quick ratio. Let me search for 3M's financial documents from 2023. Perfect! I found 3M's Q2 2023 10-Q filing. Now let me sea...",
+      "accuracy": "correct",
+      "cost": 0.07303545
+    },
+    {
+      "question_number": 7,
+      "financebench_id": "financebench_id_00941",
+      "company": "3M",
+      "question_type": "domain-relevant",
+      "expected_answer": "Following debt securities registered under 3M's name are listed to trade on the New York Stock Exchange:\n-1.500% Notes due 2026 (Trading Symbol: MMM26)\n-1.750% Notes due 2030 (Trading Symbol: MMM30)\n-1.500% Notes due 2031 (Trading Symbol: MMM31)",
+      "actual_answer_summary": "I'll help you find information about 3M's debt securities registered to trade on national securities exchanges as of Q2 2023. Let me search through the financial documents. Let me search more specific...",
+      "accuracy": "correct",
+      "cost": 0.15968739999999998
+    },
+    {
+      "question_number": 8,
+      "financebench_id": "financebench_id_01858",
+      "company": "3M",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, not only they distribute the dividends on a routine basis, 3M has also been increasing the per share dividend for consecutive 65 years",
+      "actual_answer_summary": "I'll analyze 3M's dividend distribution trends by searching through their financial documents in the FinanceBench dataset. Now I'll search for dividend-related information across these 3M documents: L...",
+      "accuracy": "correct",
+      "cost": 0.1710714
+    },
+    {
+      "question_number": 9,
+      "financebench_id": "financebench_id_02987",
+      "company": "Activision Blizzard",
+      "question_type": "metrics-generated",
+      "expected_answer": "24.26",
+      "actual_answer_summary": "I'll help you find the FY2019 fixed asset turnover ratio for Activision Blizzard. Let me search for their financial documents and extract the necessary data. Now I'll search for the FY2019 revenue in ...",
+      "accuracy": "partial",
+      "cost": 0.4373386
+    },
+    {
+      "question_number": 10,
+      "financebench_id": "financebench_id_07966",
+      "company": "Activision Blizzard",
+      "question_type": "metrics-generated",
+      "expected_answer": "1.9%",
+      "actual_answer_summary": "I'll help you find the capex as a percentage of revenue for Activision Blizzard over FY2017-FY2019. Let me search for the relevant financial documents and extract the needed data. Now let me search fo...",
+      "accuracy": "correct",
+      "cost": 0.29318685
+    },
+    {
+      "question_number": 11,
+      "financebench_id": "financebench_id_04735",
+      "company": "Adobe",
+      "question_type": "metrics-generated",
+      "expected_answer": "0.66",
+      "actual_answer_summary": "I'll help you find Adobe's FY2015 operating cash flow ratio. Let me search for Adobe's financial documents from 2015. Now let me search for the cash flow statement and operating cash flow information:...",
+      "accuracy": "correct",
+      "cost": 0.18962579999999998
+    },
+    {
+      "question_number": 12,
+      "financebench_id": "financebench_id_07507",
+      "company": "Adobe",
+      "question_type": "metrics-generated",
+      "expected_answer": "65.4%",
+      "actual_answer_summary": "I'll help you find Adobe's year-over-year change in unadjusted operating income from FY2015 to FY2016. Let me search for Adobe's financial documents and examine their income statements. Now let me sea...",
+      "accuracy": "correct",
+      "cost": 0.09703470000000002
+    },
+    {
+      "question_number": 13,
+      "financebench_id": "financebench_id_03856",
+      "company": "Adobe",
+      "question_type": "metrics-generated",
+      "expected_answer": "0.83",
+      "actual_answer_summary": "I'll help you find Adobe's FY2017 operating cash flow ratio. Let me search for Adobe's 2017 financial documents and extract the necessary information from the balance sheet and cash flow statement. No...",
+      "accuracy": "correct",
+      "cost": 0.2545071
+    },
+    {
+      "question_number": 14,
+      "financebench_id": "financebench_id_00438",
+      "company": "Adobe",
+      "question_type": "domain-relevant",
+      "expected_answer": "No the operating margins of Adobe have recently declined from 36.8% in FY 2021 to 34.6% in FY2022. A drop by 2.2% in a year.",
+      "actual_answer_summary": "I'll help you analyze Adobe's operating margin profile through FY2022. Let me search for Adobe's financial documents and examine their operating margin trends. Let me search for the specific consolida...",
+      "accuracy": "correct",
+      "cost": 0.30744150000000003
+    },
+    {
+      "question_number": 15,
+      "financebench_id": "financebench_id_00591",
+      "company": "Adobe",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, the FCF conversion (using net income as the denominator) for Adobe has improved by ~13% from 143% in 2021 to 156% in 2022",
+      "actual_answer_summary": "I'll help you analyze Adobe's free cash flow conversion for FY2022. Let me search for Adobe's financial documents and examine their cash flow metrics. Let me read the Adobe 2022 10-K document directly...",
+      "accuracy": "correct",
+      "cost": 0.2489003
+    },
+    {
+      "question_number": 16,
+      "financebench_id": "financebench_id_01319",
+      "company": "AES Corporation",
+      "question_type": "domain-relevant",
+      "expected_answer": "0",
+      "actual_answer_summary": "I'll help you find the restructuring costs for AES Corporation's FY2022 income statement. Let me search for their 2022 financial documents. Now let me search for restructuring costs in the AES 2022 10...",
+      "accuracy": "incorrect",
+      "cost": 0.33619214999999997
+    },
+    {
+      "question_number": 17,
+      "financebench_id": "financebench_id_00540",
+      "company": "AES Corporation",
+      "question_type": "domain-relevant",
+      "expected_answer": "AES has converted inventory 9.5 times in FY 2022.",
+      "actual_answer_summary": "I'll help you calculate the inventory turnover ratio for AES Corporation in FY2022. Let me search for their financial documents and relevant inventory data. Now let me search for the actual consolidat...",
+      "accuracy": "partial",
+      "cost": 0.5233435000000001
+    },
+    {
+      "question_number": 18,
+      "financebench_id": "financebench_id_10420",
+      "company": "AES Corporation",
+      "question_type": "metrics-generated",
+      "expected_answer": "-0.02",
+      "actual_answer_summary": "I'll help you calculate AES's FY2022 return on assets (ROA). Let me search for AES financial documents and find the required data. Let me search for balance sheet information specifically: Perfect! I ...",
+      "accuracy": "incorrect",
+      "cost": 0.17303639999999998
+    },
+    {
+      "question_number": 19,
+      "financebench_id": "financebench_id_06655",
+      "company": "Amazon",
+      "question_type": "metrics-generated",
+      "expected_answer": "93.86",
+      "actual_answer_summary": "I'll help you find Amazon's FY2017 days payable outstanding (DPO). Let me search for Amazon's financial documents from 2016 and 2017 to get the required information. Now let me search for accounts pay...",
+      "accuracy": "incorrect",
+      "cost": 0.6429234000000001
+    },
+    {
+      "question_number": 20,
+      "financebench_id": "financebench_id_08135",
+      "company": "Amazon",
+      "question_type": "metrics-generated",
+      "expected_answer": "30.8%",
+      "actual_answer_summary": "I'll help you find Amazon's year-over-year revenue change from FY2016 to FY2017 using their financial statements. Let me search for Amazon's documents and locate the revenue information. Now let me se...",
+      "accuracy": "correct",
+      "cost": 0.15493679999999999
+    },
+    {
+      "question_number": 21,
+      "financebench_id": "financebench_id_08286",
+      "company": "Amazon",
+      "question_type": "metrics-generated",
+      "expected_answer": "$11588.00",
+      "actual_answer_summary": "I'll help you find Amazon's FY2019 net income attributable to shareholders from their income statement. Let me search through the financial documents. Let me search more specifically for the consolida...",
+      "accuracy": "correct",
+      "cost": 0.18238010000000002
+    },
+    {
+      "question_number": 22,
+      "financebench_id": "financebench_id_03882",
+      "company": "Amcor",
+      "question_type": "metrics-generated",
+      "expected_answer": "$1616.00",
+      "actual_answer_summary": "I'll help you find Amcor's year-end FY2020 net accounts receivable from their balance sheet. Let me search for the relevant financial documents. Now let me search specifically for the balance sheet se...",
+      "accuracy": "correct",
+      "cost": 0.10631969999999999
+    },
+    {
+      "question_number": 23,
+      "financebench_id": "financebench_id_01935",
+      "company": "Amcor",
+      "question_type": "novel-generated",
+      "expected_answer": "Amcor Finance (USA), Inc. and Amcor Flexibles North America, Inc., entered into supplemental indentures relating to Guaranteed Senior Notes due 2026 and 2028. This involved the substitution of the Substitute Issuer (Amcor Flexibles North America) for the Former Issuer (Amcor Finance) and the assumption of covenants under the indentures. (In essence a novation agreement)",
+      "actual_answer_summary": "I'll help you find information about AMCOR's 8-K filing dated July 1st, 2022. Let me search for this document in the FinanceBench dataset. Perfect! I found the AMCOR 8-K filing dated July 1, 2022. Let...",
+      "accuracy": "partial",
+      "cost": 0.07655685
+    },
+    {
+      "question_number": 24,
+      "financebench_id": "financebench_id_00799",
+      "company": "Amcor",
+      "question_type": "domain-relevant",
+      "expected_answer": "The quick ratio has slightly improved from 0.67 times to 0.69 times between FY 2023 and FY 2022.(3.4% jump)",
+      "actual_answer_summary": "I'll help you find AMCOR's quick ratio for FY2023 and FY2022 to determine if it improved or declined. Let me search for AMCOR's financial documents first. Now let me search for balance sheet informati...",
+      "accuracy": "incorrect",
+      "cost": 0.15183315000000003
+    },
+    {
+      "question_number": 25,
+      "financebench_id": "financebench_id_01079",
+      "company": "Amcor",
+      "question_type": "domain-relevant",
+      "expected_answer": "Amcor completed these acquisitions during FY2023:\n-100% equity interest of a flexibles manufacturing company in the Czech Republic\n- 100% equity interest in a medical device packaging manufacturing site in\nShanghai, China.\n-acquisition of a New Zealand-based leading manufacturer of state-of-the-art, automated protein\npackaging machines.",
+      "actual_answer_summary": "I'll help you find information about AMCOR's major acquisitions for the years FY2021, FY2022, and FY2023. Let me search through the financial documents. **ANSWER: AMCOR did not complete any major acqu...",
+      "accuracy": "partial",
+      "cost": 0.34349609999999997
+    },
+    {
+      "question_number": 26,
+      "financebench_id": "financebench_id_01148",
+      "company": "Amcor",
+      "question_type": "domain-relevant",
+      "expected_answer": "Amcor is a global leader in packaging production for various use cases.",
+      "actual_answer_summary": "I'll search for AMCOR documents to find information about their primary industry. **ANSWER: Packaging industry**\n\nAMCOR primarily operates in the **packaging industry**, specifically as a global leade...",
+      "accuracy": "incorrect",
+      "cost": 0.0480195
+    },
+    {
+      "question_number": 27,
+      "financebench_id": "financebench_id_00684",
+      "company": "Amcor",
+      "question_type": "domain-relevant",
+      "expected_answer": "No. For AMCOR there has been a slight decline in gross margins by 0.8%.",
+      "actual_answer_summary": "I'll help you analyze AMCOR's gross margin profile for FY2023. Let me search for AMCOR's financial documents and examine their margin trends. **ANSWER: No, AMCOR does not have an improving gross margi...",
+      "accuracy": "correct",
+      "cost": 0.17704199999999998
+    },
+    {
+      "question_number": 28,
+      "financebench_id": "financebench_id_01936",
+      "company": "Amcor",
+      "question_type": "novel-generated",
+      "expected_answer": "87% of the total restructuring liability is related Employee liabilities.",
+      "actual_answer_summary": "I'll search for information about AMCOR's restructuring liability in their Q2 FY2023 financial documents. Now let me search for restructuring liability information in the Q2 2023 10-Q filing: Let me s...",
+      "accuracy": "correct",
+      "cost": 0.11636400000000001
+    },
+    {
+      "question_number": 29,
+      "financebench_id": "financebench_id_01928",
+      "company": "Amcor",
+      "question_type": "novel-generated",
+      "expected_answer": "AMCOR's Adj. EBITDA was $2,018mn in FY 2023",
+      "actual_answer_summary": "I'll help you find AMCOR's Adjusted Non-GAAP EBITDA for FY 2023. Let me search through the financial documents. Perfect! I found the Adjusted EBITDA information. Let me extract more details from the r...",
+      "accuracy": "partial",
+      "cost": 0.10800115
+    },
+    {
+      "question_number": 30,
+      "financebench_id": "financebench_id_01930",
+      "company": "Amcor",
+      "question_type": "novel-generated",
+      "expected_answer": "The Real Growth was flat in FY 2023 vs FY 2022.",
+      "actual_answer_summary": "I'll help you find the real change in sales for AMCOR between FY 2023 and FY 2022, excluding FX movement, passthrough costs, and one-off items. Let me search for AMCOR's financial documents. Now let m...",
+      "accuracy": "correct",
+      "cost": 0.1672227
+    },
+    {
+      "question_number": 31,
+      "financebench_id": "financebench_id_03069",
+      "company": "AMD",
+      "question_type": "metrics-generated",
+      "expected_answer": "4.2%",
+      "actual_answer_summary": "I'll help you find AMD's FY2015 depreciation and amortization margin from their cash flow statement. Let me search for AMD's 2015 financial documents. Now let me search for the cash flow statement and...",
+      "accuracy": "correct",
+      "cost": 0.23540924999999996
+    },
+    {
+      "question_number": 32,
+      "financebench_id": "financebench_id_00222",
+      "company": "AMD",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes. The quick ratio is 1.57, calculated as (cash and cash equivalents+Short term investments+Accounts receivable, net+receivables from related parties)/ (current liabilities).",
+      "actual_answer_summary": "I'll help you analyze AMD's liquidity profile by finding their quick ratio for FY22. Let me search for AMD's financial documents and relevant liquidity metrics. Now let me search for specific balance ...",
+      "accuracy": "correct",
+      "cost": 0.16448685
+    },
+    {
+      "question_number": 33,
+      "financebench_id": "financebench_id_00995",
+      "company": "AMD",
+      "question_type": "domain-relevant",
+      "expected_answer": "AMD sells server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers; CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers; discrete GPUs, and semi-custom SoC products and development services; and embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products.",
+      "actual_answer_summary": "I'll help you find information about AMD's major products and services from their FY22 financial documents. Let me search through the FinanceBench markdown documents for AMD's 2022 filings. Now let me...",
+      "accuracy": "correct",
+      "cost": 0.17561894999999997
+    },
+    {
+      "question_number": 34,
+      "financebench_id": "financebench_id_01198",
+      "company": "AMD",
+      "question_type": "domain-relevant",
+      "expected_answer": "In 2022, AMD reported Higher sales of their EPYC server processors, higher semi-custom product sales, and the inclusion of Xilinx embedded product sales",
+      "actual_answer_summary": "I'll help you find what drove AMD's revenue change in FY22. Let me search for AMD's financial documents and analyze their revenue drivers. Now let me search for revenue information and drivers in thes...",
+      "accuracy": "partial",
+      "cost": 0.2167791
+    },
+    {
+      "question_number": 35,
+      "financebench_id": "financebench_id_00917",
+      "company": "AMD",
+      "question_type": "domain-relevant",
+      "expected_answer": "The decrease in AMD's operating income was primarily driven by amortization of intangible assets associated with the Xilinx acquisition",
+      "actual_answer_summary": "I'll analyze AMD's FY22 operating margin changes by searching their financial documents in the FinanceBench dataset. Now let me search for the consolidated statements of operations table to get the ex...",
+      "accuracy": "partial",
+      "cost": 0.18767820000000004
+    },
+    {
+      "question_number": 36,
+      "financebench_id": "financebench_id_01279",
+      "company": "AMD",
+      "question_type": "domain-relevant",
+      "expected_answer": "In 2022, AMD brought in the most cashflow from Operations",
+      "actual_answer_summary": "I'll help you find AMD's cash flow information for FY22 by searching through the financial documents. **ANSWER: Operating activities brought in the most cash flow for AMD in FY22 with $3.565 billion.*...",
+      "accuracy": "incorrect",
+      "cost": 0.09668279999999999
+    },
+    {
+      "question_number": 37,
+      "financebench_id": "financebench_id_00563",
+      "company": "AMD",
+      "question_type": "novel-generated",
+      "expected_answer": "Data Center",
+      "actual_answer_summary": "I'll help you find information about AMD's sales by reporting segment from FY21 to FY22, excluding Embedded. Let me search for AMD financial documents first. Now let me search for segment revenue data...",
+      "accuracy": "partial",
+      "cost": 0.24372230000000003
+    },
+    {
+      "question_number": 38,
+      "financebench_id": "financebench_id_00757",
+      "company": "AMD",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, one customer accounted for 16% of consolidated net revenue",
+      "actual_answer_summary": "I'll help you find information about AMD's customer concentration reporting in FY22. Let me search through the AMD financial documents. Now let me read the specific section with the customer concentra...",
+      "accuracy": "correct",
+      "cost": 0.1199034
+    },
+    {
+      "question_number": 39,
+      "financebench_id": "financebench_id_00476",
+      "company": "American Express",
+      "question_type": "domain-relevant",
+      "expected_answer": "There are none",
+      "actual_answer_summary": "I'll help you find information about American Express' debt securities registered to trade on a national securities exchange as of 2022. Let me search through the financial documents. I can see the do...",
+      "accuracy": "correct",
+      "cost": 0.19302584999999997
+    },
+    {
+      "question_number": 40,
+      "financebench_id": "financebench_id_01028",
+      "company": "American Express",
+      "question_type": "domain-relevant",
+      "expected_answer": "United States, EMEA, APAC, and LACC",
+      "actual_answer_summary": "I'll help you find information about American Express's geographic operations as of 2022. Let me search through the financial documents to find this information. Now let me search for geographic infor...",
+      "accuracy": "incorrect",
+      "cost": 0.3500232
+    },
+    {
+      "question_number": 41,
+      "financebench_id": "financebench_id_00723",
+      "company": "American Express",
+      "question_type": "domain-relevant",
+      "expected_answer": "Performance is not measured through operating margin",
+      "actual_answer_summary": "I'll help you analyze American Express's operating margin profile as of 2022. Let me search for their financial documents and examine their operating performance. Let me search more specifically for f...",
+      "accuracy": "correct",
+      "cost": 0.2202872
+    },
+    {
+      "question_number": 42,
+      "financebench_id": "financebench_id_00720",
+      "company": "American Express",
+      "question_type": "domain-relevant",
+      "expected_answer": "Performance is not measured through gross margin",
+      "actual_answer_summary": "I'll help you analyze American Express's gross margin for FY2022. Let me search for their financial documents and examine the relevant information. Let me search more specifically for financial statem...",
+      "accuracy": "correct",
+      "cost": 0.16359089999999998
+    },
+    {
+      "question_number": 43,
+      "financebench_id": "financebench_id_01351",
+      "company": "American Express",
+      "question_type": "domain-relevant",
+      "expected_answer": "The effective tax rate for American Express has changed/dropped from 24.6% in FY 2021 to 21.6% in FY 2022.",
+      "actual_answer_summary": "I'll help you find the effective tax rate change for American Express between FY2021 and FY2022. Let me search for their financial documents and tax information. Let me search more broadly for America...",
+      "accuracy": "correct",
+      "cost": 0.15874225
+    },
+    {
+      "question_number": 44,
+      "financebench_id": "financebench_id_01964",
+      "company": "American Express",
+      "question_type": "novel-generated",
+      "expected_answer": "Customer deposits",
+      "actual_answer_summary": "I'll help you find the largest liability in American Express's Balance Sheet for 2022. Let me search through the financial documents. Let me search more specifically for balance sheet information: Now...",
+      "accuracy": "partial",
+      "cost": 0.2240583
+    },
+    {
+      "question_number": 45,
+      "financebench_id": "financebench_id_01981",
+      "company": "American Express",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes",
+      "actual_answer_summary": "I'll help you find information about American Express's card member retention during 2022. Let me search through the financial documents to find relevant data. Now let me search for more specific card...",
+      "accuracy": "correct",
+      "cost": 0.22193769999999996
+    },
+    {
+      "question_number": 46,
+      "financebench_id": "financebench_id_05718",
+      "company": "American Water Works",
+      "question_type": "metrics-generated",
+      "expected_answer": "$0.40",
+      "actual_answer_summary": "I'll help you find the cash dividends paid by American Water Works for FY2020 from their statement of cash flows. Let me search for their financial documents first. Now let me search for cash dividend...",
+      "accuracy": "correct",
+      "cost": 0.22244535
+    },
+    {
+      "question_number": 47,
+      "financebench_id": "financebench_id_04254",
+      "company": "American Water Works",
+      "question_type": "metrics-generated",
+      "expected_answer": "$1832.00",
+      "actual_answer_summary": "I'll help you find American Water Works's FY2021 unadjusted EBITDA by analyzing their cash flow statement and income statement. Let me search for their 2021 financial documents. Now let me search for ...",
+      "accuracy": "correct",
+      "cost": 0.11823655
+    },
+    {
+      "question_number": 48,
+      "financebench_id": "financebench_id_00070",
+      "company": "American Water Works",
+      "question_type": "domain-relevant",
+      "expected_answer": "No, American Water Works had negative working capital of -$1561M in FY 2022.",
+      "actual_answer_summary": "I'll help you find information about American Water Works' working capital for FY2022. Let me search for their financial documents and analyze their balance sheet data. **ANSWER: No, American Water Wo...",
+      "accuracy": "correct",
+      "cost": 0.20909385
+    },
+    {
+      "question_number": 49,
+      "financebench_id": "financebench_id_02608",
+      "company": "Best Buy",
+      "question_type": "metrics-generated",
+      "expected_answer": "2.8%",
+      "actual_answer_summary": "I'll help you find Best Buy's net profit margin for FY2015-FY2017. Let me search for Best Buy's financial documents and income statement data. Let me search more broadly for documents that might conta...",
+      "accuracy": "incorrect",
+      "cost": 0.29641759999999995
+    },
+    {
+      "question_number": 50,
+      "financebench_id": "financebench_id_04417",
+      "company": "Best Buy",
+      "question_type": "metrics-generated",
+      "expected_answer": "$5409.00",
+      "actual_answer_summary": "I'll help you find Best Buy's year-end FY2019 total inventories from their balance sheet. Let me search for the relevant documents and financial information. **ANSWER: $5,409 million**\n\nCONTEXT:\nFrom ...",
+      "accuracy": "correct",
+      "cost": 0.12689625000000002
+    },
+    {
+      "question_number": 51,
+      "financebench_id": "financebench_id_00685",
+      "company": "Best Buy",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes, the margins have been consistent, there has been a minor decline of 1.1% in gross margins between FY2022 and FY2023.",
+      "actual_answer_summary": "I'll help you analyze Best Buy's gross margins over time to determine their historical consistency. Let me search for Best Buy's financial documents and examine their gross margin trends. Now let me s...",
+      "accuracy": "correct",
+      "cost": 0.44944449999999997
+    },
+    {
+      "question_number": 52,
+      "financebench_id": "financebench_id_01077",
+      "company": "Best Buy",
+      "question_type": "domain-relevant",
+      "expected_answer": "Best Buy closed two acquisitions, both these companies were already partially owned by Best Buy, but Best Buy acquired all outstanding shares of these two companies during FY 2022: (1) Current Health Ltd and (2) Two Peaks, LLC d/b/a Yardbird Furniture",
+      "actual_answer_summary": "I'll help you find information about Best Buy's major acquisitions in FY2023, FY2022, and FY2021. Let me search through the financial documents for this information. Now let me search for acquisition-...",
+      "accuracy": "partial",
+      "cost": 0.24130245
+    },
+    {
+      "question_number": 53,
+      "financebench_id": "financebench_id_01275",
+      "company": "Best Buy",
+      "question_type": "domain-relevant",
+      "expected_answer": "Best Buy generated the most cash flow from operating activities in FY 2023 ($1.8 bn)",
+      "actual_answer_summary": "I'll help you find which cash flow activity brought in the most cash for Best Buy in FY2023. Let me search for Best Buy's cash flow statement from their 2023 financial documents. Now let me search for...",
+      "accuracy": "correct",
+      "cost": 0.11696514999999999
+    },
+    {
+      "question_number": 54,
+      "financebench_id": "financebench_id_00288",
+      "company": "Best Buy",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, there was a decline of ~42% between FY2023 and Q2 of FY 2024.",
+      "actual_answer_summary": "I'll help you find information about Cash & Cash equivalents changes between FY 2023 and Q2 of FY2024. Let me search for relevant financial documents first. I can see several companies have both FY 20...",
+      "accuracy": "correct",
+      "cost": 0.1357467
+    },
+    {
+      "question_number": 55,
+      "financebench_id": "financebench_id_00460",
+      "company": "Best Buy",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, there is decline in number stores by 1.32% from 982 stores in Q2 FY 2023 to 969 by the end of Q2 FY2024.",
+      "actual_answer_summary": "I'll help you find information about Best Buy store count changes between Q2 FY2024 and FY2023. Let me search for Best Buy documents and relevant store count information. Now let me search for store c...",
+      "accuracy": "correct",
+      "cost": 0.12914605
+    },
+    {
+      "question_number": 56,
+      "financebench_id": "financebench_id_01902",
+      "company": "Best Buy",
+      "question_type": "novel-generated",
+      "expected_answer": "The entertainment segment experienced the highest growth of 9% during Q2 FY2024, primarily from gaming division.",
+      "actual_answer_summary": "I'll help you find information about Best Buy's product category performance in the domestic USA market during Q2 FY2024. Let me search for Best Buy's financial documents and analyze their segment per...",
+      "accuracy": "incorrect",
+      "cost": 0.11078355000000001
+    },
+    {
+      "question_number": 57,
+      "financebench_id": "financebench_id_04660",
+      "company": "Block",
+      "question_type": "metrics-generated",
+      "expected_answer": "1.73",
+      "actual_answer_summary": "I'll help you find Block's (formerly Square) FY2016 working capital ratio from their balance sheet. Let me search for their financial documents. Perfect! I found the balance sheet data. Let me search ...",
+      "accuracy": "correct",
+      "cost": 0.1009958
+    },
+    {
+      "question_number": 58,
+      "financebench_id": "financebench_id_03838",
+      "company": "Block",
+      "question_type": "metrics-generated",
+      "expected_answer": "101.5%",
+      "actual_answer_summary": "I'll help you find Block's total revenue growth rate from FY2019 to FY2020. Let me search for Block/Square's financial documents and analyze their income statements. Great! I found Block's financial d...",
+      "accuracy": "correct",
+      "cost": 0.10868415000000001
+    },
+    {
+      "question_number": 59,
+      "financebench_id": "financebench_id_07661",
+      "company": "Block",
+      "question_type": "metrics-generated",
+      "expected_answer": "$382.00",
+      "actual_answer_summary": "I'll search for Block's (formerly Square) cash flow statement for FY2020 to find their operating cash flow. Let me search for the cash flow statement more broadly: Let me search more specifically for ...",
+      "accuracy": "partial",
+      "cost": 0.11297875
+    },
+    {
+      "question_number": 60,
+      "financebench_id": "financebench_id_10285",
+      "company": "Boeing",
+      "question_type": "metrics-generated",
+      "expected_answer": "$12645.00",
+      "actual_answer_summary": "I'll help you find Boeing's year-end FY2018 net property, plant, and equipment from their balance sheet. Let me search for the relevant documents and extract this information. Let me search more speci...",
+      "accuracy": "correct",
+      "cost": 0.417321
+    },
+    {
+      "question_number": 61,
+      "financebench_id": "financebench_id_00517",
+      "company": "Boeing",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes. Boeing has product and service categories that represent more than 20% of Boeing's revenue for FY2022. These categories are Commercial Airplanes which comprises 39% of total revenue, Defence which comprises 35% of total revenue and Services which comprises 26% of total revenue.",
+      "actual_answer_summary": "I'll help you find information about Boeing's revenue by product/service categories for FY2022. Let me search through the financial documents. **ANSWER: Yes, Commercial Airplanes (BCA) represents 38.8...",
+      "accuracy": "correct",
+      "cost": 0.24050465000000001
+    },
+    {
+      "question_number": 62,
+      "financebench_id": "financebench_id_01091",
+      "company": "Boeing",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes. Multiple lawsuits have been filed against Boeing resulting from a 2018 Lion Air crash and a 2019 Ethiopian Airlines crash.",
+      "actual_answer_summary": "I'll help you find information about Boeing's materially important ongoing legal battles from FY2022. Let me search through the financial documents. Let me search specifically for the Note 21 - Legal ...",
+      "accuracy": "partial",
+      "cost": 0.13080209999999998
+    },
+    {
+      "question_number": 63,
+      "financebench_id": "financebench_id_00678",
+      "company": "Boeing",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes. Boeing has an improving gross margin profile as of FY2022. Gross profit improved from $3,017 million in FY2021 to $3,502 million in FY2022. Gross margin % improved from 4.8% in FY2021 to 5.3% in FY2022.",
+      "actual_answer_summary": "I'll help you analyze Boeing's gross margin profile through FY2022. Let me search for Boeing's financial documents and examine their margin trends. Now let me search for gross margin related informati...",
+      "accuracy": "correct",
+      "cost": 0.3901955999999999
+    },
+    {
+      "question_number": 64,
+      "financebench_id": "financebench_id_01290",
+      "company": "Boeing",
+      "question_type": "domain-relevant",
+      "expected_answer": "Boeing's primary customers as of FY2022 are a limited number of commercial airlines and the US government. The US government accounted for 40% of Boeing's total revenues in FY2022.",
+      "actual_answer_summary": "I'll help you find information about Boeing's primary customers in FY2022. Let me search through the financial documents to find this information. Let me search more specifically for information about...",
+      "accuracy": "correct",
+      "cost": 0.2291322
+    },
+    {
+      "question_number": 65,
+      "financebench_id": "financebench_id_00464",
+      "company": "Boeing",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, Boeing's business is subject to cyclicality due to its exposure to the airline industry which is a cyclical industry.",
+      "actual_answer_summary": "I'll help you find information about Boeing's business cyclicality by searching through the financial documents. Let me start by looking for Boeing-related documents and then search for information ab...",
+      "accuracy": "correct",
+      "cost": 0.16756045
+    },
+    {
+      "question_number": 66,
+      "financebench_id": "financebench_id_00494",
+      "company": "Boeing",
+      "question_type": "novel-generated",
+      "expected_answer": "Boeing forecasts an increase in the production rates for the 737, 777X and 787 aircrafts in 2023.",
+      "actual_answer_summary": "I'll help you find Boeing's production rate forecasts for FY2023 from their financial documents. Let me search through the available documents. Let me search for Boeing's 2022 10-K document, which wou...",
+      "accuracy": "partial",
+      "cost": 0.11835074999999999
+    },
+    {
+      "question_number": 67,
+      "financebench_id": "financebench_id_00585",
+      "company": "Boeing",
+      "question_type": "novel-generated",
+      "expected_answer": "Effective tax rate in FY2022 was 0.62%, compared to  -14.76% in FY2021.",
+      "actual_answer_summary": "I'll help you find Boeing's effective tax rate for FY2022 and FY2021 to make the comparison. Let me search for Boeing's tax information in the financial documents. Let me search more specifically for ...",
+      "accuracy": "correct",
+      "cost": 0.13985245000000002
+    },
+    {
+      "question_number": 68,
+      "financebench_id": "financebench_id_03473",
+      "company": "Coca-Cola",
+      "question_type": "metrics-generated",
+      "expected_answer": "0.01",
+      "actual_answer_summary": "I'll help you find Coca Cola's FY2017 return on assets (ROA). Let me search for the relevant financial documents and extract the necessary data. Let me search more specifically for the balance sheet a...",
+      "accuracy": "partial",
+      "cost": 0.21767085000000003
+    },
+    {
+      "question_number": 69,
+      "financebench_id": "financebench_id_09724",
+      "company": "Coca-Cola",
+      "question_type": "metrics-generated",
+      "expected_answer": "39.7%",
+      "actual_answer_summary": "I'll help you find Coca Cola's FY2021 COGS % margin by searching for their income statement data in the FinanceBench documents. **ANSWER: 39.7%**\n\nCONTEXT:\nFrom Coca Cola's 2021 Consolidated Statement...",
+      "accuracy": "correct",
+      "cost": 0.09722344999999999
+    },
+    {
+      "question_number": 70,
+      "financebench_id": "financebench_id_06272",
+      "company": "Coca-Cola",
+      "question_type": "metrics-generated",
+      "expected_answer": "0.8",
+      "actual_answer_summary": "I'll help you find Coca Cola's FY2022 dividend payout ratio. Let me search for their 2022 financial documents and locate the cash flow statement and income statement. Now let me search for cash divide...",
+      "accuracy": "incorrect",
+      "cost": 0.3756157500000001
+    },
+    {
+      "question_number": 71,
+      "financebench_id": "financebench_id_10130",
+      "company": "Corning",
+      "question_type": "metrics-generated",
+      "expected_answer": "63.86",
+      "actual_answer_summary": "I'll help you calculate the FY2020 days payable outstanding (DPO) for Corning. Let me search for Corning's financial documents and extract the necessary data. Now I'll search for accounts payable in b...",
+      "accuracy": "incorrect",
+      "cost": 0.35615145000000004
+    },
+    {
+      "question_number": 72,
+      "financebench_id": "financebench_id_02981",
+      "company": "Corning",
+      "question_type": "metrics-generated",
+      "expected_answer": "10.3%",
+      "actual_answer_summary": "I'll help you find Corning's operating income margin for FY2019-FY2021. Let me search for Corning's financial documents and income statement data. Now let me search for income statement data in the 20...",
+      "accuracy": "correct",
+      "cost": 1.2180030000000002
+    },
+    {
+      "question_number": 73,
+      "financebench_id": "financebench_id_01346",
+      "company": "Corning",
+      "question_type": "domain-relevant",
+      "expected_answer": "The effective tax rate of Corning has changed from 20% in FY2021 to 23% in FY 2022.",
+      "actual_answer_summary": "I'll help you find information about Corning's effective tax rate changes between FY2021 and FY2022. Let me search for Corning's financial documents and tax rate information. Let me try broader search...",
+      "accuracy": "partial",
+      "cost": 0.71192445
+    },
+    {
+      "question_number": 74,
+      "financebench_id": "financebench_id_00005",
+      "company": "Corning",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes. Corning had a positive working capital amount of $831 million by FY 2022 close. This answer considers only operating current assets and current liabilities that were clearly shown in the balance sheet.",
+      "actual_answer_summary": "I'll help you find Corning's working capital information from their FY2022 financial data. Let me search for Corning's 2022 financial documents. Now let me search for balance sheet information and cur...",
+      "accuracy": "correct",
+      "cost": 0.2987601
+    },
+    {
+      "question_number": 75,
+      "financebench_id": "financebench_id_04209",
+      "company": "Costco",
+      "question_type": "metrics-generated",
+      "expected_answer": "$59268.00",
+      "actual_answer_summary": "I'll help you find Costco's total assets at the end of FY2021 from their balance sheet. Let me search for the relevant documents and information. **ANSWER: $59,268 million**\n\nCONTEXT:\nFrom Costco's Co...",
+      "accuracy": "correct",
+      "cost": 0.07788955
+    },
+    {
+      "question_number": 76,
+      "financebench_id": "financebench_id_05915",
+      "company": "CVS Health",
+      "question_type": "metrics-generated",
+      "expected_answer": "17.98",
+      "actual_answer_summary": "I'll help you calculate the FY2018 fixed asset turnover ratio for CVS Health. Let me search for CVS Health's financial documents from 2017 and 2018. Now let me search for the revenue information in th...",
+      "accuracy": "partial",
+      "cost": 0.3369279
+    },
+    {
+      "question_number": 77,
+      "financebench_id": "financebench_id_00790",
+      "company": "CVS Health",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes, CVS Health requires an extensive asset base to operate, which is evident from its ROA of only 1.82% in 2022 and 3.39% in 2021, though it should be noted that a significant portion of this asset base is goodwill, and CVS's fixed assets/total assets ratio is on the lower side of 5.6%.",
+      "actual_answer_summary": "I'll analyze CVS Health's capital intensity using their FY2022 financial data. Let me search for their financial documents and examine their capital expenditures and asset base. Now let me search for ...",
+      "accuracy": "correct",
+      "cost": 0.20988645
+    },
+    {
+      "question_number": 78,
+      "financebench_id": "financebench_id_01107",
+      "company": "CVS Health",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes, CVS Health has been involved in multiple ongoing legal battles. Some notable legal dispute areas for CVS are: (1) usual and customary pricing litigation: where it's claimed that CVS\u00c3\u00a2\u00c2\u20ac\u00c2\u2122s retail pharmacies overcharged for prescription drugs; (2) PBM litigation and investigations: where it's claimed that that rebate agreements between the drug manufacturers and PBMs caused inflated prices for certain drug products; and (3) controlled substances litigation: legal matters around opioids for which CVS has agreed to pay up to $4.3 billion to claimants in remediation and $625 million to attorneys and fees",
+      "actual_answer_summary": "I'll help you find information about CVS Health's materially important ongoing legal battles from 2020-2022. Let me search through their SEC filings. Now let me search for legal proceedings and litiga...",
+      "accuracy": "correct",
+      "cost": 0.4528914
+    },
+    {
+      "question_number": 79,
+      "financebench_id": "financebench_id_01244",
+      "company": "CVS Health",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes, CVS paid a $ 0.55 dividend per share every quarter in FY2022",
+      "actual_answer_summary": "I'll help you find information about CVS Health's dividend payments to common shareholders in Q2 of FY2022. Let me search through the financial documents. **ANSWER: Yes, CVS Health paid dividends to c...",
+      "accuracy": "correct",
+      "cost": 0.11525355000000001
+    },
+    {
+      "question_number": 80,
+      "financebench_id": "financebench_id_00839",
+      "company": "Foot Locker",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes. She was previous CEO of Ulta Beauty which means she had to manage a large retail company that has brick and mortar + online business. So yes she was a CEO in a similar company to Foot Locker before this.",
+      "actual_answer_summary": "I'll help you find information about Foot Locker's new CEO and their previous experience. Let me search through the financial documents to find this information. Let me search more specifically for in...",
+      "accuracy": "correct",
+      "cost": 0.16316640000000002
+    },
+    {
+      "question_number": 81,
+      "financebench_id": "financebench_id_00822",
+      "company": "Foot Locker",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, his name is Richard A. Johnson",
+      "actual_answer_summary": "I'll help you find information about board member nominees and their voting results. Let me search through the financial documents for proxy statements or voting information. Now let me search for spe...",
+      "accuracy": "correct",
+      "cost": 0.2809923
+    },
+    {
+      "question_number": 82,
+      "financebench_id": "financebench_id_04103",
+      "company": "General Mills",
+      "question_type": "metrics-generated",
+      "expected_answer": "-3.7",
+      "actual_answer_summary": "I'll help you calculate General Mills' FY2019 cash conversion cycle. Let me start by searching for General Mills' financial documents. Perfect! I found the General Mills documents. I need the 2018 and...",
+      "accuracy": "incorrect",
+      "cost": 0.32229915
+    },
+    {
+      "question_number": 83,
+      "financebench_id": "financebench_id_03471",
+      "company": "General Mills",
+      "question_type": "metrics-generated",
+      "expected_answer": "0.68",
+      "actual_answer_summary": "I'll help you find General Mills's FY2020 working capital ratio from their financial statements. Let me search for the relevant documents and financial data. Perfect! I found the consolidated balance ...",
+      "accuracy": "correct",
+      "cost": 0.11381175
+    },
+    {
+      "question_number": 84,
+      "financebench_id": "financebench_id_04854",
+      "company": "General Mills",
+      "question_type": "metrics-generated",
+      "expected_answer": "$3215.00",
+      "actual_answer_summary": "I'll help you find the FY2020 free cash flow for General Mills. Let me search for their financial documents and locate the cash flow statement. Perfect! I found the General Mills 2020 10-K document. N...",
+      "accuracy": "partial",
+      "cost": 0.14283165
+    },
+    {
+      "question_number": 85,
+      "financebench_id": "financebench_id_10136",
+      "company": "General Mills",
+      "question_type": "metrics-generated",
+      "expected_answer": "0.54",
+      "actual_answer_summary": "I'll help you calculate the retention ratio for General Mills in FY2022. The retention ratio is calculated as: (Net Income - Dividends Paid) / Net Income, or equivalently: 1 - (Dividends Paid / Net In...",
+      "accuracy": "incorrect",
+      "cost": 0.1238137
+    },
+    {
+      "question_number": 86,
+      "financebench_id": "financebench_id_00956",
+      "company": "Johnson & Johnson",
+      "question_type": "domain-relevant",
+      "expected_answer": "No, JnJ's FY2022 financials are not of a high growth company as sales grew by 1.3% in FY2022.",
+      "actual_answer_summary": "I'll analyze Johnson & Johnson's FY2022 financials to determine if they exhibit characteristics of a high growth company. Let me search for their financial documents and key growth metrics. Let me sea...",
+      "accuracy": "correct",
+      "cost": 0.2702835
+    },
+    {
+      "question_number": 87,
+      "financebench_id": "financebench_id_00669",
+      "company": "Johnson & Johnson",
+      "question_type": "domain-relevant",
+      "expected_answer": "For FY22, JnJ had changes in gross margin due to: One-time COVID-19 vaccine manufacturing exit related costs, Currency impacts in the Pharmaceutical segment, Commodity inflation in the MedTech and Consumer Health segments, partially offset by Supply chain benefits in the Consumer Health segment.",
+      "actual_answer_summary": "I'll analyze Johnson & Johnson's gross margin change for FY2022. Let me search for their financial documents first. Now let me search for gross margin information in these documents: Let me search for...",
+      "accuracy": "partial",
+      "cost": 0.37464600000000003
+    },
+    {
+      "question_number": 88,
+      "financebench_id": "financebench_id_00711",
+      "company": "Johnson & Johnson",
+      "question_type": "domain-relevant",
+      "expected_answer": "JnJ sold its inventory 2.7 times in FY2022.",
+      "actual_answer_summary": "I'll help you calculate Johnson & Johnson's inventory turnover ratio for FY2022. Let me search for their relevant financial documents and data. Great! I found Johnson & Johnson's 2022 documents. Let m...",
+      "accuracy": "correct",
+      "cost": 0.13637985
+    },
+    {
+      "question_number": 89,
+      "financebench_id": "financebench_id_00651",
+      "company": "Johnson & Johnson",
+      "question_type": "novel-generated",
+      "expected_answer": "No, rate of growth in adjusted EPS is expected to decelerate slightly from 3.6% in FY2022 to 3.5% in FY2023.",
+      "actual_answer_summary": "I'll help you find information about Johnson & Johnson's adjusted EPS growth expectations for FY2023. Let me search through the financial documents. Now let me search for more specific information abo...",
+      "accuracy": "correct",
+      "cost": 0.19281890000000002
+    },
+    {
+      "question_number": 90,
+      "financebench_id": "financebench_id_01484",
+      "company": "Johnson & Johnson",
+      "question_type": "novel-generated",
+      "expected_answer": "US sales increased 3.0% vs international sales decline of 0.6%.",
+      "actual_answer_summary": "I'll help you find Johnson & Johnson's US vs international sales growth data for FY2022. Let me search for their financial documents and analyze the sales performance by geography. Now let me search m...",
+      "accuracy": "correct",
+      "cost": 0.28535594999999997
+    },
+    {
+      "question_number": 91,
+      "financebench_id": "financebench_id_01488",
+      "company": "Johnson & Johnson",
+      "question_type": "novel-generated",
+      "expected_answer": "The Consumer Health business segment will be treated as a discontinued operation from August 30, 2023 onward.",
+      "actual_answer_summary": "I'll help you find information about Johnson & Johnson's discontinued operations. Let me search through the financial documents for this information. Perfect! I found several Johnson & Johnson documen...",
+      "accuracy": "correct",
+      "cost": 0.08240315000000001
+    },
+    {
+      "question_number": 92,
+      "financebench_id": "financebench_id_01490",
+      "company": "Johnson & Johnson",
+      "question_type": "novel-generated",
+      "expected_answer": "JnJ will make a gain of approximately $20 billion from the separation of its Consumer Health business segment.",
+      "actual_answer_summary": "I'll help you find information about Johnson & Johnson's gain from the separation of its Consumer Health business segment as of August 30, 2023. Let me search through the financial documents. Great! I...",
+      "accuracy": "partial",
+      "cost": 0.15783734999999996
+    },
+    {
+      "question_number": 93,
+      "financebench_id": "financebench_id_01491",
+      "company": "Johnson & Johnson",
+      "question_type": "novel-generated",
+      "expected_answer": "JnJ realised $13.2 billion in cash proceeds from the separation of Kenvue.",
+      "actual_answer_summary": "I'll help you find the cash proceeds that Johnson & Johnson (J&J) realized from the separation of Kenvue. Let me search through the financial documents for this information. **ANSWER: $13.2 billion**\n...",
+      "accuracy": "correct",
+      "cost": 0.122971
+    },
+    {
+      "question_number": 94,
+      "financebench_id": "financebench_id_01487",
+      "company": "Johnson & Johnson",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, net earnings as a percent of sales increased from 20% in Q2 of FY2022 to 20.1% in Q2 of FY2023.",
+      "actual_answer_summary": "I'll help you find Johnson & Johnson's net earnings as a percent of sales for Q2 FY2023 and Q2 FY2022 to compare them. Let me also search for Q2 2022 earnings documents: Let me search more broadly for...",
+      "accuracy": "correct",
+      "cost": 0.25244465000000005
+    },
+    {
+      "question_number": 95,
+      "financebench_id": "financebench_id_00299",
+      "company": "JPMorgan",
+      "question_type": "novel-generated",
+      "expected_answer": "Corporate. Its net revenue was -$473 million.",
+      "actual_answer_summary": "I'll help you find which JPMorgan Chase business segment had the lowest net revenue in Q1 2021. Let me search for JPM's quarterly financial documents. Perfect! I found the JPM Q1 2021 document. Now le...",
+      "accuracy": "incorrect",
+      "cost": 0.11399590000000001
+    },
+    {
+      "question_number": 96,
+      "financebench_id": "financebench_id_02119",
+      "company": "JPMorgan",
+      "question_type": "novel-generated",
+      "expected_answer": "They could receive $66.56 per share.",
+      "actual_answer_summary": "I'll help you find information about JPMorgan Chase's financial position in Q1 2021 to calculate the potential liquidation value per share. Let me search for JPM's relevant financial documents. Perfec...",
+      "accuracy": "incorrect",
+      "cost": 0.28278254999999997
+    },
+    {
+      "question_number": 97,
+      "financebench_id": "financebench_id_00206",
+      "company": "JPMorgan",
+      "question_type": "domain-relevant",
+      "expected_answer": "Since JPM is a financial institution, gross margin is not a relevant metric.",
+      "actual_answer_summary": "I'll help you analyze JPMorgan Chase's gross margins to determine their historical consistency. Let me start by searching for JPM financial documents and then examine their margin data. Now let me sea...",
+      "accuracy": "correct",
+      "cost": 0.3087248
+    },
+    {
+      "question_number": 98,
+      "financebench_id": "financebench_id_00394",
+      "company": "JPMorgan",
+      "question_type": "novel-generated",
+      "expected_answer": "Corporate & Investment Bank. Its net income was $3725 million.",
+      "actual_answer_summary": "I'll help you find which JPM business segment had the highest net income in Q2 2022. Let me search for JPMorgan Chase documents from 2022 and look for segment information. Perfect! I found the JPMorga...",
+      "accuracy": "incorrect",
+      "cost": 0.20910600000000001
+    },
+    {
+      "question_number": 99,
+      "financebench_id": "financebench_id_02049",
+      "company": "JPMorgan",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes. It decreased.",
+      "actual_answer_summary": "I'll help you find information about JPMorgan's VaR (Value at Risk) for Q2 2023 compared to Q2 2022. Let me search through the financial documents. Now let me search for VaR (Value at Risk) informatio...",
+      "accuracy": "correct",
+      "cost": 0.12586935
+    },
+    {
+      "question_number": 100,
+      "financebench_id": "financebench_id_10499",
+      "company": "Kraft Heinz",
+      "question_type": "metrics-generated",
+      "expected_answer": "6.25",
+      "actual_answer_summary": "I'll help you find Kraft Heinz's FY2019 inventory turnover ratio. Let me search for their financial documents and extract the required information. Now let me search for COGS (Cost of Goods Sold) in t...",
+      "accuracy": "correct",
+      "cost": 0.27311745
+    },
+    {
+      "question_number": 101,
+      "financebench_id": "financebench_id_04412",
+      "company": "Lockheed Martin",
+      "question_type": "metrics-generated",
+      "expected_answer": "1.33",
+      "actual_answer_summary": "I'll help you calculate Lockheed Martin's FY2020 asset turnover ratio. I need to find their 2020 revenue and total assets for both 2019 and 2020 from their financial statements. Perfect! I found the r...",
+      "accuracy": "partial",
+      "cost": 0.3115035
+    },
+    {
+      "question_number": 102,
+      "financebench_id": "financebench_id_03031",
+      "company": "Lockheed Martin",
+      "question_type": "metrics-generated",
+      "expected_answer": "$5818.00",
+      "actual_answer_summary": "I'll help you find Lockheed Martin's FY2021 net working capital by searching through their financial documents. Perfect! I found the balance sheet data in the search results. Let me extract the specif...",
+      "accuracy": "correct",
+      "cost": 0.1096749
+    },
+    {
+      "question_number": 103,
+      "financebench_id": "financebench_id_03718",
+      "company": "Lockheed Martin",
+      "question_type": "metrics-generated",
+      "expected_answer": "0.4%",
+      "actual_answer_summary": "I'll help you find Lockheed Martin's 2-year total revenue CAGR from FY2020 to FY2022. Let me search for their financial documents and income statements. Perfect! I found Lockheed Martin documents for ...",
+      "accuracy": "incorrect",
+      "cost": 0.2620106
+    },
+    {
+      "question_number": 104,
+      "financebench_id": "financebench_id_04171",
+      "company": "MGM Resorts",
+      "question_type": "metrics-generated",
+      "expected_answer": "$303.00",
+      "actual_answer_summary": "I'll help you find the accounts payable information for MGM Resorts from their FY2018 balance sheet. Let me search for their financial documents and locate the specific information. Now let me search ...",
+      "accuracy": "partial",
+      "cost": 0.15582030000000002
+    },
+    {
+      "question_number": 105,
+      "financebench_id": "financebench_id_03849",
+      "company": "MGM Resorts",
+      "question_type": "metrics-generated",
+      "expected_answer": "7.9%",
+      "actual_answer_summary": "I'll help you find MGM Resorts' capital expenditures as a percentage of revenue for FY2018-FY2020. Let me search for their financial documents and extract the relevant information from their cash flow...",
+      "accuracy": "incorrect",
+      "cost": 0.48947229999999997
+    },
+    {
+      "question_number": 106,
+      "financebench_id": "financebench_id_01254",
+      "company": "MGM Resorts",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes. MGM maintained 0.01$ per share annual dividend through out FY 2022.",
+      "actual_answer_summary": "I'll help you find information about MGM Resorts' dividend payments to common shareholders in FY2022. Let me search through the financial documents. **ANSWER: Yes, MGM Resorts paid $4,048 thousand in ...",
+      "accuracy": "correct",
+      "cost": 0.1965276
+    },
+    {
+      "question_number": 107,
+      "financebench_id": "financebench_id_00382",
+      "company": "MGM Resorts",
+      "question_type": "novel-generated",
+      "expected_answer": "Las Vegas resorts contributed ~90% of company level EBITDAR during FY2022.",
+      "actual_answer_summary": "I'll help you find the region with the highest EBITDAR contribution for MGM during FY2022. Let me search through the financial documents. Now let me search for more detailed regional EBITDAR breakdown...",
+      "accuracy": "incorrect",
+      "cost": 0.1427076
+    },
+    {
+      "question_number": 108,
+      "financebench_id": "financebench_id_01911",
+      "company": "MGM Resorts",
+      "question_type": "novel-generated",
+      "expected_answer": "As adjusted EBIT is negative, coverage ratio is zero",
+      "actual_answer_summary": "I'll help you find MGM's interest coverage ratio for FY2022. Let me search for MGM's financial documents and locate the relevant financial data. Let me search for more specific information about Adjus...",
+      "accuracy": "incorrect",
+      "cost": 0.30715125000000004
+    },
+    {
+      "question_number": 109,
+      "financebench_id": "financebench_id_01912",
+      "company": "MGM Resorts",
+      "question_type": "novel-generated",
+      "expected_answer": "MGM China experienced the worst topline performance amongst the other regions presented. Its revenue declined 44% in FY2022 whereas the other regions presented increased their revenues.",
+      "actual_answer_summary": "I'll help you find information about MGM's regional performance during FY2022. Let me search through the financial documents. **ANSWER: MGM China had the worst topline performance during FY2022**\n\nCON...",
+      "accuracy": "correct",
+      "cost": 0.18236540000000004
+    },
+    {
+      "question_number": 110,
+      "financebench_id": "financebench_id_00407",
+      "company": "MGM Resorts",
+      "question_type": "novel-generated",
+      "expected_answer": "the biggest short term investment is in corporate bonds (almost 82% of the total investment)",
+      "actual_answer_summary": "I'll help you find information about MGM's short-term investments and debt types for H1 FY2023. Let me search through the financial documents. Perfect! I found the short-term investments table. Let me...",
+      "accuracy": "correct",
+      "cost": 0.09701295
+    },
+    {
+      "question_number": 111,
+      "financebench_id": "financebench_id_04700",
+      "company": "Microsoft",
+      "question_type": "metrics-generated",
+      "expected_answer": "$32780.00",
+      "actual_answer_summary": "I'll help you find Microsoft's FY2016 Cost of Goods Sold (COGS) from their statement of income. Let me search for the relevant Microsoft documents and financial statements. Now let me search more spec...",
+      "accuracy": "correct",
+      "cost": 0.15097825
+    },
+    {
+      "question_number": 112,
+      "financebench_id": "financebench_id_00552",
+      "company": "Microsoft",
+      "question_type": "domain-relevant",
+      "expected_answer": "No. Microsoft decreased its debt by $2.5bn in FY 2023 vs FY 2022.",
+      "actual_answer_summary": "I'll help you find information about Microsoft's debt changes between FY2022 and FY2023. Let me search for Microsoft's financial documents and examine their balance sheet data. Now let me search speci...",
+      "accuracy": "correct",
+      "cost": 0.2064702
+    },
+    {
+      "question_number": 113,
+      "financebench_id": "financebench_id_04458",
+      "company": "Netflix",
+      "question_type": "metrics-generated",
+      "expected_answer": "5.4%",
+      "actual_answer_summary": "I'll help you calculate the FY2015 unadjusted EBITDA % margin for Netflix. Let me start by finding Netflix's financial documents for 2015. Now let me search for the income statement and operating inco...",
+      "accuracy": "correct",
+      "cost": 0.16612625
+    },
+    {
+      "question_number": 114,
+      "financebench_id": "financebench_id_03282",
+      "company": "Netflix",
+      "question_type": "metrics-generated",
+      "expected_answer": "$5466.00",
+      "actual_answer_summary": "I'll help you find Netflix's total current liabilities for FY2017. Let me search for Netflix's 2017 financial documents and locate the balance sheet information. Now let me search more specifically fo...",
+      "accuracy": "partial",
+      "cost": 0.2397849
+    },
+    {
+      "question_number": 115,
+      "financebench_id": "financebench_id_04302",
+      "company": "Nike",
+      "question_type": "metrics-generated",
+      "expected_answer": "55.1%",
+      "actual_answer_summary": "I'll help you find Nike's cost of goods sold as a percentage of revenue for FY2016-FY2018. Let me search for Nike's financial documents from those years. Great! I found Nike's 10-K documents. Now let ...",
+      "accuracy": "correct",
+      "cost": 0.46568094999999987
+    },
+    {
+      "question_number": 116,
+      "financebench_id": "financebench_id_03531",
+      "company": "Nike",
+      "question_type": "metrics-generated",
+      "expected_answer": "$16525.00",
+      "actual_answer_summary": "I'll help you find Nike's total current assets at the end of FY2019. Let me search for Nike's financial documents from that period. Perfect! I found the balance sheet. Let me mark the current task as ...",
+      "accuracy": "correct",
+      "cost": 0.1021065
+    },
+    {
+      "question_number": 117,
+      "financebench_id": "financebench_id_04080",
+      "company": "Nike",
+      "question_type": "metrics-generated",
+      "expected_answer": "3.46",
+      "actual_answer_summary": "I'll help you find Nike's FY2021 inventory turnover ratio. Let me search for Nike's financial documents and locate the relevant financial statement information. Now let me search for Cost of Goods Sol...",
+      "accuracy": "partial",
+      "cost": 0.28869544999999996
+    },
+    {
+      "question_number": 118,
+      "financebench_id": "financebench_id_01163",
+      "company": "Nike",
+      "question_type": "domain-relevant",
+      "expected_answer": "Among the three, cash flow from operations was the highest for Nike in FY2023.",
+      "actual_answer_summary": "I'll help you find Nike's cash flow information for FY2023. Let me search for Nike's financial documents and analyze their cash flow statement. Let me search specifically for the cash flow statement t...",
+      "accuracy": "correct",
+      "cost": 0.1148733
+    },
+    {
+      "question_number": 119,
+      "financebench_id": "financebench_id_00080",
+      "company": "Paypal",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes. Paypal has a positive working capital of $ 1.6Bn as of FY2022 end.",
+      "actual_answer_summary": "I'll help you find PayPal's working capital data for FY2022. Let me search for PayPal's financial documents first. Now let me search for working capital, current assets, and current liabilities inform...",
+      "accuracy": "correct",
+      "cost": 0.0584748
+    },
+    {
+      "question_number": 120,
+      "financebench_id": "financebench_id_04980",
+      "company": "PepsiCo",
+      "question_type": "metrics-generated",
+      "expected_answer": "$4.60",
+      "actual_answer_summary": "I'll search for PepsiCo's 2021 financial documents to find the capital expenditure amount from their statement of cash flows. Now let me search for capital expenditure information in PepsiCo's 2021 10...",
+      "accuracy": "correct",
+      "cost": 0.1879182
+    },
+    {
+      "question_number": 121,
+      "financebench_id": "financebench_id_01009",
+      "company": "PepsiCo",
+      "question_type": "domain-relevant",
+      "expected_answer": "As of FY2022, Pepsico primarily operates in the following geographies: North America, Latin America, Europe, Africa, Middle East, South Asia, Asia Pacific, Australia, New Zealand and China.",
+      "actual_answer_summary": "I'll help you find information about PepsiCo's primary operating geographies as of FY2022. Let me search through the financial documents for this information. Let me try a broader search and read the ...",
+      "accuracy": "correct",
+      "cost": 0.1417113
+    },
+    {
+      "question_number": 122,
+      "financebench_id": "financebench_id_00735",
+      "company": "PepsiCo",
+      "question_type": "domain-relevant",
+      "expected_answer": "No, Pepsico is not involved in material legal battles.",
+      "actual_answer_summary": "I'll help you find information about PepsiCo's materially important ongoing legal battles from FY2022 and FY2021. Let me search through the financial documents. Now let me search for legal proceedings...",
+      "accuracy": "correct",
+      "cost": 0.45478949999999996
+    },
+    {
+      "question_number": 123,
+      "financebench_id": "financebench_id_01328",
+      "company": "PepsiCo",
+      "question_type": "domain-relevant",
+      "expected_answer": "Pepsico's restructuring costs in FY2022 amounted to $411 million .",
+      "actual_answer_summary": "I'll help you find the restructuring costs in PepsiCo's income statements for FY2022. Let me search through the financial documents. Let me search specifically for the Consolidated Statements of Incom...",
+      "accuracy": "correct",
+      "cost": 0.38211245
+    },
+    {
+      "question_number": 124,
+      "financebench_id": "financebench_id_03620",
+      "company": "PepsiCo",
+      "question_type": "metrics-generated",
+      "expected_answer": "$9068.00",
+      "actual_answer_summary": "I'll help you find PepsiCo's FY2022 unadjusted EBITDA less capex. Let me search for PepsiCo's 2022 financial documents and extract the required information. Now let me search for the income statement ...",
+      "accuracy": "incorrect",
+      "cost": 0.21756075
+    },
+    {
+      "question_number": 125,
+      "financebench_id": "financebench_id_04481",
+      "company": "PepsiCo",
+      "question_type": "metrics-generated",
+      "expected_answer": "16.5%",
+      "actual_answer_summary": "I'll help you find PepsiCo's FY2022 unadjusted EBITDA % margin by searching for their financial statements and calculating it using operating income and D&A from the cash flow statement. Now let me se...",
+      "accuracy": "correct",
+      "cost": 0.13179425
+    },
+    {
+      "question_number": 126,
+      "financebench_id": "financebench_id_01482",
+      "company": "PepsiCo",
+      "question_type": "novel-generated",
+      "expected_answer": "The shareholder proposal for a congruency report by Pepsico on net-zero emissions policies was defeated.",
+      "actual_answer_summary": "I'll help you find information about the PepsiCo AGM shareholder vote on May 3, 2023 regarding the net-zero emissions congruency report proposal. Let me search through the financial documents. The 8K ...",
+      "accuracy": "partial",
+      "cost": 0.0704433
+    },
+    {
+      "question_number": 127,
+      "financebench_id": "financebench_id_00705",
+      "company": "PepsiCo",
+      "question_type": "novel-generated",
+      "expected_answer": "$400,000,000 increase.",
+      "actual_answer_summary": "I'll help you find information about PepsiCo's unsecured five year revolving credit agreement increase on May 26, 2023. Let me search through the financial documents. **ANSWER: $400 million**\n\nCONTEXT...",
+      "accuracy": "incorrect",
+      "cost": 0.12070525
+    },
+    {
+      "question_number": 128,
+      "financebench_id": "financebench_id_00882",
+      "company": "PepsiCo",
+      "question_type": "novel-generated",
+      "expected_answer": "Total amount Pepsico may borrow under unsecured revolving credit agreements = $8,400,000,000.",
+      "actual_answer_summary": "I'll help you find information about PepsiCo's unsecured revolving credit agreements as of May 26, 2023. Let me search through the financial documents. Let me check the Q1 2023 earnings report specifi...",
+      "accuracy": "partial",
+      "cost": 0.2012688
+    },
+    {
+      "question_number": 129,
+      "financebench_id": "financebench_id_01474",
+      "company": "PepsiCo",
+      "question_type": "novel-generated",
+      "expected_answer": "Pepsico experienced a strong start to FY2023.",
+      "actual_answer_summary": "I'll help you find information about PepsiCo's full year guidance raise for FY2023. Let me search through the financial documents to find the relevant information. **ANSWER: PepsiCo raised full year 2...",
+      "accuracy": "correct",
+      "cost": 0.09909019999999999
+    },
+    {
+      "question_number": 130,
+      "financebench_id": "financebench_id_01476",
+      "company": "PepsiCo",
+      "question_type": "novel-generated",
+      "expected_answer": "Pepsico raised full year guidance in respect of core constant currency EPS growth by 1 percentage point.",
+      "actual_answer_summary": "I'll help you find information about PepsiCo's full year guidance adjustment for core constant currency EPS growth in FY2023Q1. Let me search through the financial documents. **ANSWER: PepsiCo raised ...",
+      "accuracy": "correct",
+      "cost": 0.06964575
+    },
+    {
+      "question_number": 131,
+      "financebench_id": "financebench_id_00302",
+      "company": "Pfizer",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, change in PPNE was positive year over year",
+      "actual_answer_summary": "I'll help you find information about Pfizer's Property, Plant, and Equipment (PPE) growth between FY20 and FY21. Let me search through the financial documents. **ANSWER: Yes, Pfizer grew its Property,...",
+      "accuracy": "correct",
+      "cost": 0.0938399
+    },
+    {
+      "question_number": 132,
+      "financebench_id": "financebench_id_00702",
+      "company": "Pfizer",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, the gain on completion of Consumer Healthcare JV Transaction",
+      "actual_answer_summary": "I'll help you find information about potential non-standard events that substantially increased Pfizer's net income in 2019. Let me search through the financial documents. **ANSWER: Yes, Pfizer had a ...",
+      "accuracy": "correct",
+      "cost": 0.21647639999999999
+    },
+    {
+      "question_number": 133,
+      "financebench_id": "financebench_id_02416",
+      "company": "Pfizer",
+      "question_type": "novel-generated",
+      "expected_answer": "Trillium, Array, and Therachon",
+      "actual_answer_summary": "I'll help you find the three main companies acquired by Pfizer mentioned in their 10-K report. Let me search through the financial documents. Let me try a more targeted search for company acquisitions...",
+      "accuracy": "incorrect",
+      "cost": 0.17850239999999998
+    },
+    {
+      "question_number": 134,
+      "financebench_id": "financebench_id_00283",
+      "company": "Pfizer",
+      "question_type": "novel-generated",
+      "expected_answer": "77.78",
+      "actual_answer_summary": "I'll help you find information about Pfizer's expected costs for spinning off Upjohn. Let me search through the financial documents. Perfect! I found the specific information about Pfizer's expected c...",
+      "accuracy": "incorrect",
+      "cost": 0.10473570000000001
+    },
+    {
+      "question_number": 135,
+      "financebench_id": "financebench_id_00724",
+      "company": "Pfizer",
+      "question_type": "novel-generated",
+      "expected_answer": "Developed Rest of the World",
+      "actual_answer_summary": "I'll help you find information about Pfizer's geographic revenue changes in Q2 2023. Let me search for Pfizer's Q2 2023 financial documents and analyze the geographic revenue data. Let me search more ...",
+      "accuracy": "partial",
+      "cost": 0.1951768
+    },
+    {
+      "question_number": 136,
+      "financebench_id": "financebench_id_02419",
+      "company": "Pfizer",
+      "question_type": "novel-generated",
+      "expected_answer": "Yes, it's spinning off Upjohn.",
+      "actual_answer_summary": "I'll help you find information about Pfizer's business segment spin-offs as of Q2 2023. Let me search through the financial documents for relevant information. **ANSWER: No, Pfizer is not spinning off...",
+      "accuracy": "incorrect",
+      "cost": 0.1701144
+    },
+    {
+      "question_number": 137,
+      "financebench_id": "financebench_id_00746",
+      "company": "Ulta Beauty",
+      "question_type": "domain-relevant",
+      "expected_answer": "There are none",
+      "actual_answer_summary": "I'll help you find information about Ulta Beauty's debt securities registered to trade on national securities exchanges as of FY2023. Let me search through the financial documents. Let me check the 10...",
+      "accuracy": "correct",
+      "cost": 0.1316788
+    },
+    {
+      "question_number": 138,
+      "financebench_id": "financebench_id_00521",
+      "company": "Ulta Beauty",
+      "question_type": "domain-relevant",
+      "expected_answer": "Ulta Beauty did not make any acquisitions in FY2023 and FY2022.",
+      "actual_answer_summary": "I'll help you find information about Ulta Beauty's major acquisitions in FY2023 and FY2022. Let me search through the financial documents. Let me search for more specific terms related to business com...",
+      "accuracy": "correct",
+      "cost": 0.21444209999999997
+    },
+    {
+      "question_number": 139,
+      "financebench_id": "financebench_id_00601",
+      "company": "Ulta Beauty",
+      "question_type": "novel-generated",
+      "expected_answer": "Lower marketing expenses and leverage of incentive compensation due to higher sales. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+      "actual_answer_summary": "I'll help you find information about the reduction in SG&A expense as a percent of net sales in FY2023. Let me search for relevant documents and data. Now let me search for SG&A expense information ac...",
+      "accuracy": "correct",
+      "cost": 0.2143447
+    },
+    {
+      "question_number": 140,
+      "financebench_id": "financebench_id_00603",
+      "company": "Ulta Beauty",
+      "question_type": "novel-generated",
+      "expected_answer": "Increase in Merchandise inventories balance was driven by the opening of 47 new stores. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+      "actual_answer_summary": "I'll help you find information about Ulta Beauty's merchandise inventories increase in FY2023. Let me search for their financial documents and analyze the inventory changes. Let me search more specifi...",
+      "accuracy": "incorrect",
+      "cost": 0.40962
+    },
+    {
+      "question_number": 141,
+      "financebench_id": "financebench_id_00605",
+      "company": "Ulta Beauty",
+      "question_type": "novel-generated",
+      "expected_answer": "36%. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+      "actual_answer_summary": "I'll help you find information about Ulta Beauty's stock repurchases in FY 2023. Let me search for their financial documents first. Now let me search for stock repurchase information across these docu...",
+      "accuracy": "incorrect",
+      "cost": 0.23807974999999998
+    },
+    {
+      "question_number": 142,
+      "financebench_id": "financebench_id_00606",
+      "company": "Ulta Beauty",
+      "question_type": "novel-generated",
+      "expected_answer": "Wages expense as a percent of net sales increased in FY2023. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+      "actual_answer_summary": "I'll help you find information about Ulta Beauty's wages expense as a percent of net sales for FY2023. Let me search for Ulta Beauty's financial documents. Now let me search for wages expense informat...",
+      "accuracy": "correct",
+      "cost": 0.2202906
+    },
+    {
+      "question_number": 143,
+      "financebench_id": "financebench_id_00859",
+      "company": "Verizon",
+      "question_type": "novel-generated",
+      "expected_answer": "Cross currency swaps. Its notional value was $32,502 million.",
+      "actual_answer_summary": "I'll help you find information about Verizon's derivative instruments and their notional values in FY 2021. Let me search through the financial documents. **ANSWER: Cross currency swaps had the highes...",
+      "accuracy": "correct",
+      "cost": 0.09973915
+    },
+    {
+      "question_number": 144,
+      "financebench_id": "financebench_id_02024",
+      "company": "Verizon",
+      "question_type": "novel-generated",
+      "expected_answer": "The estimated pension benefits were $1097 million, and the estimated health care and life insurance benefits were $862 million.",
+      "actual_answer_summary": "I'll help you find information about Verizon's expected retiree payments for 2024 as disclosed in their FY 2021 filings. Let me search for relevant documents and data. Now let me search for retiree be...",
+      "accuracy": "partial",
+      "cost": 0.27325425000000003
+    },
+    {
+      "question_number": 145,
+      "financebench_id": "financebench_id_00216",
+      "company": "Verizon",
+      "question_type": "domain-relevant",
+      "expected_answer": "No. The quick ratio was approximately 0.54 for Verizon. It indicated that Verizon does not have a healthy liquidity profile.",
+      "actual_answer_summary": "I'll help you analyze Verizon's liquidity profile by finding their quick ratio for FY 2022. Let me search for Verizon's financial documents and examine their balance sheet data. Now let me search for ...",
+      "accuracy": "correct",
+      "cost": 0.1540376
+    },
+    {
+      "question_number": 146,
+      "financebench_id": "financebench_id_00215",
+      "company": "Verizon",
+      "question_type": "domain-relevant",
+      "expected_answer": "Yes. Verizon's capital intensity ratio was approximately 2.774729. This means that it took approximately $2.77 of assets to generate $1 of revenue and thus, Verizon can be considered capital intensive.",
+      "actual_answer_summary": "I'll analyze Verizon's capital intensity using their FY 2022 financial data. Let me search for their SEC filings and examine their capital expenditures relative to revenue. Now let me search for capit...",
+      "accuracy": "correct",
+      "cost": 0.11050755
+    },
+    {
+      "question_number": 147,
+      "financebench_id": "financebench_id_00566",
+      "company": "Verizon",
+      "question_type": "domain-relevant",
+      "expected_answer": "No. Verizon's debt decreased by $229 million.",
+      "actual_answer_summary": "I'll help you find information about Verizon's debt changes between 2021 and 2022. Let me search for Verizon's financial documents in the markdown directory. Perfect! I found Verizon's 2021 and 2022 1...",
+      "accuracy": "correct",
+      "cost": 0.18517965
+    },
+    {
+      "question_number": 148,
+      "financebench_id": "financebench_id_06247",
+      "company": "Walmart",
+      "question_type": "metrics-generated",
+      "expected_answer": "42.69",
+      "actual_answer_summary": "I'll help you find Walmart's FY2018 days payable outstanding (DPO). Let me search for Walmart's financial documents and extract the necessary data. Now let me calculate the DPO using the data I found....",
+      "accuracy": "incorrect",
+      "cost": 0.13938750000000003
+    },
+    {
+      "question_number": 149,
+      "financebench_id": "financebench_id_04784",
+      "company": "Walmart",
+      "question_type": "metrics-generated",
+      "expected_answer": "0.2%",
+      "actual_answer_summary": "I'll help you find Walmart's operating income margin change between FY2018 and FY2019. Let me search for Walmart's financial documents and locate the relevant income statement data. Now let me search ...",
+      "accuracy": "correct",
+      "cost": 0.49499740000000003
+    },
+    {
+      "question_number": 150,
+      "financebench_id": "financebench_id_06741",
+      "company": "Walmart",
+      "question_type": "metrics-generated",
+      "expected_answer": "6.2%",
+      "actual_answer_summary": "I'll help you find the 3-year average unadjusted EBITDA margin for Walmart from FY2018-2020. Let me search for Walmart's financial documents and extract the required data. Perfect! I found Walmart doc...",
+      "accuracy": "correct",
+      "cost": 0.27173865
+    }
+  ]
+}

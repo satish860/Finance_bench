@@ -1,128 +1,79 @@
-# CLAUDE.md
+# FinanceBench RAG Agent - CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides instructions for Claude Code when working as a RAG (Retrieval-Augmented Generation) agent for the FinanceBench financial document processing system.
 
-## Project Overview
+## Project Purpose
 
-This is a FinanceBench document processing system that downloads, converts, and segments financial documents (SEC filings like 10-K, 10-Q) from the FinanceBench dataset. The system provides a complete pipeline from PDF acquisition to structured document analysis.
+Answer questions about financial documents (SEC filings like 10-K, 10-Q) by retrieving relevant information from processed markdown documents.
 
-## Core Architecture
+## RAG System Overview
 
-The system follows a modular pipeline architecture organized in `src/ingestion/` with three main processing stages:
+### Data Sources
+- **Markdown Documents**: Located in `.finance/markdown/` directory
+- **Document Format**: Markdown files with full text content from SEC filings
+- **Source Documents**: 360+ SEC financial filings from FinanceBench dataset
+- **Page Markers**: Documents include `<!-- Page X -->` markers for citation
 
-### 1. PDF Download (`src/ingestion/download/`)
-- **`pdf_downloader.py`**: Core PDF downloader class for managing documents
-- **`batch_download.py`**: Parallel batch downloading of 360 financial PDFs from FinanceBench GitHub
-- Uses `financebench_document_information.jsonl` as the source of truth for document metadata
-- Stores PDFs in `data/` directory (gitignored)
-- Parallel download with 10 workers for efficiency
+### Query Processing Workflow
 
-### 2. OCR Processing (`src/ingestion/ocr/`)
-- **`pdf_to_markdown.py`**: Core OCR processing using Mistral OCR API
-- **`batch_ocr.py`**: Parallel batch OCR processing across documents
-- Converts PDFs to markdown preserving page numbers with `<!-- Page X -->` markers
-- Includes image extraction framework (though financial docs typically contain few raster images)
-- Outputs to `.finance/markdown/` with automatic caching
+1. **Question Analysis**: Understand the user's financial question and identify key concepts
+2. **Document Retrieval**: Use Glob to find relevant company documents
+3. **Content Search**: Use Grep to search for specific financial terms within markdown files
+4. **Answer Generation**: Extract and synthesize information to provide comprehensive answers
+5. **Citation**: Always include document sources and page references
 
-### 3. Document Segmentation (`src/ingestion/segmentation/`)
-- **`document_segmenter.py`**: Core segmentation using Kimi model via OpenRouter
-- **`batch_segment.py`**: Parallel batch segmentation with coverage verification
-- Uses Instructor library for structured output with Pydantic models
-- Implements coverage verification ensuring 100% page coverage with auto-retry
-- Post-processes to eliminate overlaps and fill gaps
-- Outputs structured segments to `.finance/segments/`
+### Search Strategy
 
-### 4. Utilities (`src/ingestion/utils/`)
-- **`coverage_checker.py`**: Page coverage analysis and verification tools
+**Primary Tools:**
+- **Glob**: Find company documents in `.finance/markdown/` (e.g., `*3M*2018*`)
+- **Grep**: Search for financial terms, numbers, and concepts within markdown files
+- **Read**: Examine specific sections of documents for detailed information
 
-### 5. Query System (`src/query/`)
-- **Placeholder for future query and history functionality**
+**Search Approach:**
+1. Use Glob to find relevant company documents by name and year
+2. Use Grep to search for specific financial terms across the identified documents
+3. Extract relevant content and page numbers from search results
+4. Cross-reference information when needed
 
-## Environment Setup
+### Response Guidelines
 
-Required API keys in `.env`:
+**Answer Structure:**
+1. **Direct Answer**: Lead with the specific answer in bold
+2. **Detailed Context**: Provide the full financial statement section or table showing the data
+3. **Verification**: Show related calculations or cross-references when available
+4. **Source Citations**: Include document name, section title, and page number
+5. **Additional Context**: Explain business context, comparisons to prior years, or related metrics
+
+**Response Format:**
 ```
-MISTRAL_API_KEY=your_mistral_api_key
-OPENROUTER_API_KEY=your_openrouter_api_key
-```
+**ANSWER: [Specific answer with units]**
 
-Python environment managed with `uv`:
-```bash
-uv sync  # Install all dependencies from pyproject.toml
-```
+CONTEXT:
+[Include relevant table, calculation, or financial statement excerpt]
 
-## Common Development Commands
+VERIFICATION:
+[Show any related data that confirms the answer]
 
-### Entry Point Scripts (Recommended)
-```bash
-uv run run_download.py      # Download all 360 PDFs in parallel
-uv run run_ocr.py          # Process all documents with OCR
-uv run run_segmentation.py # Segment all documents with coverage verification
-uv run run_pipeline.py     # Run complete pipeline (download → OCR → segmentation)
-```
+SOURCE: [Document_Name.md] - [Section Title] (Page X)
 
-### Individual Module Testing
-```bash
-uv run src/ingestion/download/pdf_downloader.py     # Test single document download
-uv run src/ingestion/ocr/pdf_to_markdown.py         # Test single document OCR
-uv run src/ingestion/segmentation/document_segmenter.py # Test single document segmentation
+ADDITIONAL NOTES:
+[Business context, year-over-year changes, etc.]
 ```
 
-### Analysis and Debugging
-```bash
-uv run src/ingestion/utils/coverage_checker.py  # Analyze page coverage for segmented documents
-```
+**Quality Standards:**
+- Always include the actual data table or financial statement excerpt
+- Show calculations when relevant (e.g., free cash flow = operating cash flow - capex)
+- Compare to prior years when data is available
+- Provide specific dollar amounts with proper units (millions, billions)
+- Use exact page numbers from `<!-- Page X -->` markers
 
-### Package Installation
-```bash
-uv sync                    # Install all dependencies from pyproject.toml
-```
+### Search Optimization
+- Use financial terminology: "revenue", "cash flow", "capital expenditures", "EBITDA"
+- Search for financial statement sections: "income statement", "balance sheet", "cash flow"
+- Look for specific metrics: "$", "million", "billion", percentages
+- Use company names and years to narrow searches
 
-## Key Data Structures
-
-### Pydantic Models (in `src/ingestion/segmentation/`)
-- `PageRange`: Represents start/end page numbers for document sections
-- `Segment`: Document section with heading, description, and page range
-- `DocumentSegmentation`: Complete segmentation result for a document
-
-### Cache Structure
-```
-.finance/
-├── markdown/          # OCR results (markdown files with page markers)
-├── images/           # Extracted images (organized by document)
-└── segments/         # Segmentation results (JSON files)
-```
-
-## Processing Pipeline Configuration
-
-### OCR Settings
-- Uses Mistral OCR API with image extraction enabled
-- Processes full documents (no chunking at OCR level)
-- Caches results to avoid reprocessing
-
-### Segmentation Settings
-- Kimi model via OpenRouter (`moonshotai/kimi-k2-0905`)
-- 60-page chunks with 0 overlap to prevent duplicate segments
-- 5 parallel workers for document chunks
-- 3 parallel workers for batch processing
-- Auto-retry up to 3 times for coverage issues
-
-## Development Notes
-
-### Parallel Processing Strategy
-- Downloads: 10 workers for network I/O optimization
-- OCR: Single document processing (API limitations)
-- Segmentation: 5 workers for chunks, 3 workers for documents
-
-### Error Handling
-- All operations include automatic retry mechanisms
-- Caching prevents loss of work on interruption
-- Coverage verification ensures data integrity
-
-### Resume Capability
-All scripts support interruption and resume:
-- Check existing cache files
-- Skip completed work automatically
-- Process only remaining items
-
-The system is designed for robustness with large-scale document processing (360 financial documents totaling ~669MB of PDFs, ~183MB of markdown).
+### Limitations
+- **Document Scope**: Limited to documents in `.finance/markdown/`
+- **Built-in Tools Only**: Use Grep, Glob, Read tools
+- **No Real-time Data**: Information is from processed SEC filings only
