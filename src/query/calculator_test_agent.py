@@ -5,7 +5,7 @@ import os
 from financial_calculators import (
     calculate_dpo, calculate_roa, calculate_inventory_turnover,
     calculate_quick_ratio, calculate_margins, calculate_effective_tax_rate,
-    calculate_working_capital, calculate_capex_metrics, find_company_documents
+    calculate_working_capital, calculate_capex_metrics
 )
 
 
@@ -61,13 +61,13 @@ async def main():
         tools=[
             calculate_dpo, calculate_roa, calculate_inventory_turnover,
             calculate_quick_ratio, calculate_margins, calculate_effective_tax_rate,
-            calculate_working_capital, calculate_capex_metrics, find_company_documents
+            calculate_working_capital, calculate_capex_metrics
         ]
     )
 
     options = ClaudeCodeOptions(
         cwd = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-        mcp_servers={"financebench-calculators": financial_server},
+        mcp_servers=[financial_server],
         allowed_tools=[
             "Read", "Write", "Glob", "Grep", "Bash",
             "mcp__financebench-calculators__calculate_dpo",
@@ -77,35 +77,57 @@ async def main():
             "mcp__financebench-calculators__calculate_margins",
             "mcp__financebench-calculators__calculate_effective_tax_rate",
             "mcp__financebench-calculators__calculate_working_capital",
-            "mcp__financebench-calculators__calculate_capex_metrics",
-            "mcp__financebench-calculators__find_company_documents"
-        ]
+            "mcp__financebench-calculators__calculate_capex_metrics"
+        ],
+        system_prompt="""You are a financial analysis expert with access to specialized financial calculation tools.
+
+When answering questions that involve financial calculations, you should:
+1. Use the appropriate calculator tools for complex financial metrics (DPO, ROA, inventory turnover, quick ratio, margins, tax rates, working capital, capex)
+2. For simple arithmetic, you can calculate manually
+3. Always validate results using the tool's built-in sanity checks
+4. Use the standardized interpretations provided by the tools
+
+Available financial calculator tools:
+- calculate_dpo: For Days Payable Outstanding calculations
+- calculate_roa: For Return on Assets calculations
+- calculate_inventory_turnover: For inventory turnover ratios
+- calculate_quick_ratio: For liquidity analysis with health assessment
+- calculate_margins: For margin trend analysis
+- calculate_effective_tax_rate: For tax rate calculations handling negative income
+- calculate_working_capital: For working capital analysis
+- calculate_capex_metrics: For capital expenditure analysis and averages
+
+Use these tools when the question involves these specific metrics to ensure accuracy and consistency."""
     )
 
-    # Load questions from JSONL file - use all 45 problematic tests (27 incorrect + 18 partial)
-    questions_file = os.path.join(os.path.dirname(__file__), "problematic_tests_all45.jsonl")
-    questions = []
-
-    with open(questions_file, 'r', encoding='utf-8') as f:
-        for line in f:
-            question_data = json.loads(line.strip())
-            questions.append(question_data)
+    # Test specific calculation questions
+    test_questions = [
+        {
+            "financebench_id": "test_amazon_dpo",
+            "company": "Amazon",
+            "question": "What is Amazon's FY2017 days payable outstanding (DPO)? DPO is defined as: 365 * (average accounts payable between FY2016 and FY2017) / (FY2017 COGS + change in inventory between FY2016 and FY2017). Round your answer to two decimal places.",
+            "expected_answer": "93.86"
+        },
+        {
+            "financebench_id": "test_3m_quick_ratio",
+            "company": "3M",
+            "question": "Does 3M have a reasonably healthy liquidity profile based on its quick ratio for Q2 of FY2023?",
+            "expected_answer": "No. The quick ratio for 3M was 0.96 by Jun'23 close, which needs a bit of an improvement to touch the 1x mark"
+        }
+    ]
 
     # Initialize results storage
     results = []
     total_cost = 0.0
 
-    # Process all questions
-    total_questions = len(questions)
-    print(f"Found {total_questions} questions to process...")
-
-    for i, question_data in enumerate(questions):
+    # Process test questions
+    for i, question_data in enumerate(test_questions):
         try:
             print(f"\n{'='*80}")
-            print(f"PROCESSING QUESTION {i+1}/{total_questions}")
+            print(f"TESTING QUESTION {i+1}/{len(test_questions)}")
             print(f"Company: {question_data['company']}")
             print(f"Question: {question_data['question']}")
-            print(f"Expected Answer: {question_data['answer']}")
+            print(f"Expected Answer: {question_data['expected_answer']}")
             print('='*80)
 
             # Collect Claude's response
@@ -129,83 +151,43 @@ async def main():
                         question_cost = msg.total_cost_usd
                         total_cost += question_cost
 
-            # Store result for evaluation
+            # Store result
             result = {
-                "financebench_id": question_data.get("financebench_id", f"question_{i+1}"),
+                "financebench_id": question_data["financebench_id"],
                 "company": question_data["company"],
                 "question": question_data["question"],
-                "expected_answer": question_data["answer"],
+                "expected_answer": question_data["expected_answer"],
                 "actual_answer": actual_answer.strip(),
                 "question_cost_usd": question_cost,
-                "question_type": question_data.get("question_type", "unknown"),
-                "doc_name": question_data.get("doc_name", "unknown"),
                 "status": "completed"
             }
             results.append(result)
 
-            # Progress update and save every 10 questions
-            if (i + 1) % 10 == 0:
-                print(f"\n[PROGRESS] Completed {i+1}/{total_questions} questions. Running cost: ${total_cost:.4f}")
-
-                # Save intermediate results
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                intermediate_file = os.path.join(os.path.dirname(__file__), f"evaluation_results_intermediate_{timestamp}.json")
-
-                intermediate_data = {
-                    "timestamp": timestamp,
-                    "status": "in_progress",
-                    "completed_questions": i + 1,
-                    "total_questions": total_questions,
-                    "total_cost_usd": total_cost,
-                    "results": results
-                }
-
-                with open(intermediate_file, 'w', encoding='utf-8') as f:
-                    json.dump(intermediate_data, f, indent=2, ensure_ascii=False)
-
-                print(f"[BACKUP] Intermediate results saved to: {intermediate_file}")
-
         except Exception as e:
             print(f"\n[ERROR] Question {i+1} failed: {str(e)}")
-            # Store error result
-            error_result = {
-                "financebench_id": question_data.get("financebench_id", f"question_{i+1}"),
-                "company": question_data["company"],
-                "question": question_data["question"],
-                "expected_answer": question_data["answer"],
-                "actual_answer": f"ERROR: {str(e)}",
-                "question_cost_usd": 0.0,
-                "question_type": question_data.get("question_type", "unknown"),
-                "doc_name": question_data.get("doc_name", "unknown"),
-                "status": "error"
-            }
-            results.append(error_result)
             continue
 
-    # Save results to JSON file
+    # Save results
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    results_file = os.path.join(os.path.dirname(__file__), f"evaluation_results_{timestamp}.json")
+    results_file = os.path.join(os.path.dirname(__file__), f"calculator_test_results_{timestamp}.json")
 
-    evaluation_data = {
+    test_data = {
         "timestamp": timestamp,
         "status": "completed",
         "total_questions": len(results),
-        "completed_questions": len([r for r in results if r.get("status") == "completed"]),
-        "error_questions": len([r for r in results if r.get("status") == "error"]),
         "total_cost_usd": total_cost,
         "results": results
     }
 
     with open(results_file, 'w', encoding='utf-8') as f:
-        json.dump(evaluation_data, f, indent=2, ensure_ascii=False)
+        json.dump(test_data, f, indent=2, ensure_ascii=False)
 
     print(f"\n{'='*80}")
-    print(f"EVALUATION COMPLETE")
+    print(f"CALCULATOR TOOL TEST COMPLETE")
     print(f"Results saved to: {results_file}")
-    print(f"Total questions processed: {len(results)}")
+    print(f"Total questions tested: {len(results)}")
     print(f"Total cost: ${total_cost:.6f}")
     print('='*80)
-
 
 
 if __name__ == "__main__":
