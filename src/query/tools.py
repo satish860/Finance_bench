@@ -9,7 +9,7 @@ This module provides custom tools that Claude can use to:
 - Extract content from specific page ranges
 """
 
-from claude_code_sdk import tool
+from claude_agent_sdk import tool
 from typing import Dict, List, Any, Optional
 import json
 from pathlib import Path

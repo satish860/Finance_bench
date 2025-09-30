@@ -2,12 +2,17 @@ import asyncio
 from typing import Any
 from claude_agent_sdk import ClaudeSDKClient, ClaudeAgentOptions, create_sdk_mcp_server
 import os
+import json
+from datetime import datetime
+
+# Import financial calculators
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src', 'query'))
 from financial_calculators import (
     calculate_dpo, calculate_roa, calculate_inventory_turnover,
     calculate_quick_ratio, calculate_margins, calculate_effective_tax_rate,
     calculate_working_capital, calculate_capex_metrics, find_company_documents
 )
-
 
 def display_message(msg):
     """Display message content in a clean format."""
@@ -50,10 +55,7 @@ def display_message(msg):
             print(f"Cost: ${msg.total_cost_usd:.6f}")
         print("="*60 + "\n")
 
-async def main():
-    import json
-    from datetime import datetime
-
+async def test_thinking_mode():
     # Create financial calculator MCP server
     financial_server = create_sdk_mcp_server(
         name="financebench-calculators",
@@ -66,8 +68,9 @@ async def main():
     )
 
     options = ClaudeAgentOptions(
-        cwd = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+        cwd=os.path.dirname(os.path.abspath(__file__)),
         mcp_servers={"financebench-calculators": financial_server},
+        thinking_mode="auto",  # Enable thinking mode for complex financial reasoning
         allowed_tools=[
             "Read", "Write", "Glob", "Grep", "Bash",
             "mcp__financebench-calculators__calculate_dpo",
@@ -82,27 +85,46 @@ async def main():
         ]
     )
 
-    # Load questions from JSONL file - use incorrect questions for focused improvement
-    questions_file = os.path.join(os.path.dirname(__file__), "financebench_open_source.jsonl")
-    questions = []
+    # Load first 3 questions from the dataset
+    questions_file = os.path.join("src", "query", "financebench_open_source.jsonl")
+    test_questions = []
 
     with open(questions_file, 'r', encoding='utf-8') as f:
-        for line in f:
+        for i, line in enumerate(f):
+            if i >= 3:  # Only take first 3 questions
+                break
             question_data = json.loads(line.strip())
-            questions.append(question_data)
+            test_questions.append(question_data)
 
-    # Initialize results storage
+    # Process each test question
     results = []
     total_cost = 0.0
 
-    # Process all questions
-    total_questions = len(questions)
-    print(f"Found {total_questions} questions to process...")
+    PROMPT = """
+You are a financial document analysis expert using a RAG system. Before answering the question, please think through your approach systematically.
 
-    for i, question_data in enumerate(questions):
+**QUESTION:** {question}
+
+**THINKING PROCESS:**
+Please work through this step by step:
+
+1. **Question Analysis**: What type of financial information is being requested? What specific metrics, calculations, or data points do I need to find?
+
+2. **Search Strategy**: What documents should I search for? What financial terms, company names, years, or sections should I look for?
+
+3. **Data Requirements**: What specific financial statement items, numbers, or calculations will I need to extract?
+
+4. **Approach Planning**: What tools should I use (Glob for finding documents, Grep for searching content, financial calculators for computations)?
+
+5. **Execution Plan**: In what order should I perform the searches and calculations to get the most accurate answer?
+
+Now please execute your plan and provide a comprehensive answer with proper citations.
+    """
+
+    for i, question_data in enumerate(test_questions):
         try:
             print(f"\n{'='*80}")
-            print(f"PROCESSING QUESTION {i+1}/{total_questions}")
+            print(f"TESTING QUESTION {i+1}/3 WITH THINKING MODE")
             print(f"Company: {question_data['company']}")
             print(f"Question: {question_data['question']}")
             print(f"Expected Answer: {question_data['answer']}")
@@ -111,17 +133,10 @@ async def main():
             # Collect Claude's response
             actual_answer = ""
             question_cost = 0.0
-           
-            PROMPT = """
-**IMPORTANT**: All financial documents are located in the `.finance/markdown/` directory (note the dot prefix).
-Use paths like `.finance/markdown/AMAZON_2017_10K.md` when searching for or reading documents.
 
-**QUESTION:** {question}
-
-            """
+            enhanced_prompt = PROMPT.format(question=question_data['question'])
 
             async with ClaudeSDKClient(options) as client:
-                enhanced_prompt = PROMPT.format(question=question_data['question'])
                 await client.query(enhanced_prompt)
 
                 async for msg in client.receive_response():
@@ -138,84 +153,50 @@ Use paths like `.finance/markdown/AMAZON_2017_10K.md` when searching for or read
                         question_cost = msg.total_cost_usd
                         total_cost += question_cost
 
-            # Store result for evaluation
+            # Store result for comparison
             result = {
-                "financebench_id": question_data.get("financebench_id", f"question_{i+1}"),
+                "question_num": i + 1,
                 "company": question_data["company"],
                 "question": question_data["question"],
                 "expected_answer": question_data["answer"],
                 "actual_answer": actual_answer.strip(),
                 "question_cost_usd": question_cost,
-                "question_type": question_data.get("question_type", "unknown"),
-                "doc_name": question_data.get("doc_name", "unknown"),
-                "status": "completed"
+                "question_type": question_data.get("question_type", "unknown")
             }
             results.append(result)
 
-            # Progress update and save every 10 questions
-            if (i + 1) % 10 == 0:
-                print(f"\n[PROGRESS] Completed {i+1}/{total_questions} questions. Running cost: ${total_cost:.4f}")
-
-                # Save intermediate results
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                intermediate_file = os.path.join(os.path.dirname(__file__), f"evaluation_results_intermediate_{timestamp}.json")
-
-                intermediate_data = {
-                    "timestamp": timestamp,
-                    "status": "in_progress",
-                    "completed_questions": i + 1,
-                    "total_questions": total_questions,
-                    "total_cost_usd": total_cost,
-                    "results": results
-                }
-
-                with open(intermediate_file, 'w', encoding='utf-8') as f:
-                    json.dump(intermediate_data, f, indent=2, ensure_ascii=False)
-
-                print(f"[BACKUP] Intermediate results saved to: {intermediate_file}")
+            print(f"\n[RESULT {i+1}] Cost: ${question_cost:.4f}")
+            print(f"Expected: {question_data['answer']}")
+            print(f"Actual: {actual_answer.strip()[:200]}...")
 
         except Exception as e:
             print(f"\n[ERROR] Question {i+1} failed: {str(e)}")
-            # Store error result
-            error_result = {
-                "financebench_id": question_data.get("financebench_id", f"question_{i+1}"),
-                "company": question_data["company"],
-                "question": question_data["question"],
-                "expected_answer": question_data["answer"],
-                "actual_answer": f"ERROR: {str(e)}",
-                "question_cost_usd": 0.0,
-                "question_type": question_data.get("question_type", "unknown"),
-                "doc_name": question_data.get("doc_name", "unknown"),
-                "status": "error"
-            }
-            results.append(error_result)
             continue
 
-    # Save results to JSON file
+    # Save test results
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    results_file = os.path.join(os.path.dirname(__file__), f"evaluation_results_{timestamp}.json")
+    results_file = f"thinking_mode_test_results_{timestamp}.json"
 
-    evaluation_data = {
+    test_data = {
         "timestamp": timestamp,
-        "status": "completed",
-        "total_questions": len(results),
-        "completed_questions": len([r for r in results if r.get("status") == "completed"]),
-        "error_questions": len([r for r in results if r.get("status") == "error"]),
+        "thinking_mode_enabled": True,
+        "total_questions": len(test_questions),
+        "completed_questions": len(results),
         "total_cost_usd": total_cost,
+        "average_cost_per_question": total_cost / len(results) if results else 0,
         "results": results
     }
 
     with open(results_file, 'w', encoding='utf-8') as f:
-        json.dump(evaluation_data, f, indent=2, ensure_ascii=False)
+        json.dump(test_data, f, indent=2, ensure_ascii=False)
 
     print(f"\n{'='*80}")
-    print(f"EVALUATION COMPLETE")
+    print(f"THINKING MODE TEST COMPLETE")
     print(f"Results saved to: {results_file}")
-    print(f"Total questions processed: {len(results)}")
+    print(f"Total questions tested: {len(results)}")
     print(f"Total cost: ${total_cost:.6f}")
+    print(f"Average cost per question: ${total_cost / len(results) if results else 0:.6f}")
     print('='*80)
 
-
-
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(test_thinking_mode())

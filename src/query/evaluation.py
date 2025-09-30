@@ -1,12 +1,12 @@
 import asyncio
 from cmd import PROMPT
 from typing import Any
-from claude_code_sdk import ClaudeSDKClient, ClaudeCodeOptions
+from claude_agent_sdk import ClaudeSDKClient, ClaudeAgentOptions
 import os
 
 def display_message(msg):
     """Display message content in a clean format."""
-    from claude_code_sdk import (
+    from claude_agent_sdk import (
         AssistantMessage,
         ResultMessage,
         SystemMessage,
@@ -49,8 +49,8 @@ def display_message(msg):
 async def main():
     import json
 
-    # Load the latest evaluation JSON - now using the new results from failed tests
-    with open('src/query/evaluation_results_20250922_173925.json', 'r', encoding='utf-8') as f:
+    # Load the latest evaluation JSON
+    with open('evaluation_results_20250930_094944.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     results = data['results']
@@ -98,7 +98,7 @@ async def main():
             await client.query(PROMPT)
             async for message in client.receive_response():
                 display_message(message)
-                from claude_code_sdk import AssistantMessage, TextBlock
+                from claude_agent_sdk import AssistantMessage, TextBlock
                 if isinstance(message, AssistantMessage):
                     for block in message.content:
                         if isinstance(block, TextBlock):
@@ -128,7 +128,7 @@ async def main():
         print(f"Progress: {total_evaluated}/{len(results)} total evaluated ({evaluated_count} new this session)")
 
         # Save updated data back to JSON after each evaluation
-        with open('src/query/evaluation_results_20250922_173925.json', 'w', encoding='utf-8') as f:
+        with open('evaluation_results_20250930_094944.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         print("Saved to JSON file")
 

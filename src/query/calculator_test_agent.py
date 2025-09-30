@@ -1,6 +1,6 @@
 import asyncio
 from typing import Any
-from claude_code_sdk import ClaudeSDKClient, ClaudeCodeOptions, create_sdk_mcp_server
+from claude_agent_sdk import ClaudeSDKClient, ClaudeAgentOptions, create_sdk_mcp_server
 import os
 from financial_calculators import (
     calculate_dpo, calculate_roa, calculate_inventory_turnover,
@@ -11,7 +11,7 @@ from financial_calculators import (
 
 def display_message(msg):
     """Display message content in a clean format."""
-    from claude_code_sdk import (
+    from claude_agent_sdk import (
         AssistantMessage,
         ResultMessage,
         SystemMessage,
@@ -65,7 +65,7 @@ async def main():
         ]
     )
 
-    options = ClaudeCodeOptions(
+    options = ClaudeAgentOptions(
         cwd = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
         mcp_servers=[financial_server],
         allowed_tools=[

@@ -7,7 +7,7 @@ to ensure accuracy and consistency in financial metric calculations.
 
 import json
 import os
-from claude_code_sdk import tool
+from claude_agent_sdk import tool
 
 
 @tool("calculate_dpo", "Calculate Days Payable Outstanding with validation", {
@@ -440,9 +440,27 @@ async def find_company_documents(args):
                     result_text += f"  - {doc_name} ({doc_type_info})\n"
                 result_text += "\n"
 
-            result_text += "**MARKDOWN FILE SEARCH:**\n"
-            result_text += f"Use Glob pattern: .finance/markdown/*{args['company'].replace(' ', '*')}*{year if year else '*'}*\n"
-            result_text += f"Example: .finance/markdown/{documents[0].get('doc_name', 'COMPANY_YEAR_TYPE')}.md\n"
+            # Build markdown file paths
+            markdown_dir = os.path.join(
+                os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
+                ".finance", "markdown"
+            )
+
+            result_text += "**MARKDOWN FILE PATHS:**\n"
+            for year_key in sorted(by_year.keys(), reverse=True):
+                year_docs = by_year[year_key]
+                result_text += f"\n{year_key}:\n"
+                for doc in year_docs:
+                    doc_name = doc.get("doc_name", "Unknown")
+                    md_path = f".finance/markdown/{doc_name}.md"
+                    # Check if file exists
+                    full_path = os.path.join(markdown_dir, f"{doc_name}.md")
+                    if os.path.exists(full_path):
+                        result_text += f"  - {md_path} [EXISTS]\n"
+                    else:
+                        result_text += f"  - {md_path} [NOT FOUND]\n"
+
+            result_text += f"\n**GLOB PATTERN:** .finance/markdown/*{args['company'].replace(' ', '*')}*{year if year else '*'}*.md\n"
 
         return {
             "content": [{"type": "text", "text": result_text}]
